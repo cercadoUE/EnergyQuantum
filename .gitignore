@@ -12,5 +12,13 @@ data/cache/
 # artefactos locales
 output/
 results/*.log
+.playwright-mcp/
 .DS_Store
 Thumbs.db
+
+# frontend
+node_modules/
+dist/
+*.tsbuildinfo
+frontend/.env
+frontend/.env.local
