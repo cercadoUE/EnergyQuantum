@@ -214,9 +214,9 @@ export default function NetworkPage() {
             ))}
           </div>
           <div className="quality-note">
-            <Badge tone="cyan">618 verificadas</Badge>
-            <Badge tone="slate">359 no verificadas</Badge>
-            <Badge tone="rose">0 COES</Badge>
+            <Badge tone="cyan">{int(summary.counts.lines_verified)} verificadas</Badge>
+            <Badge tone="slate">{int(summary.counts.lines_unverified)} no verificadas</Badge>
+            <Badge tone="rose">{int(summary.counts.coes_validated_edges)} COES</Badge>
           </div>
         </Panel>
 

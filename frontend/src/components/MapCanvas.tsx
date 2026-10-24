@@ -29,6 +29,7 @@ interface MapCanvasProps {
   failedEdgeIds?: string[];
   focus?: MapFocus | null;
   resetKey?: number;
+  fitPadding?: { top: number; right: number; bottom: number; left: number };
   onStationSelect?: (station: Record<string, any>) => void;
   onLineSelect?: (line: Record<string, any>) => void;
   onCursor?: (coords: { lon: number; lat: number } | null) => void;
@@ -148,6 +149,7 @@ export default function MapCanvas({
   failedEdgeIds = [],
   focus = null,
   resetKey = 0,
+  fitPadding = { top: 40, right: 40, bottom: 60, left: 40 },
   onStationSelect,
   onLineSelect,
   onCursor,
@@ -175,13 +177,22 @@ export default function MapCanvas({
           basemap: {
             type: "raster",
             tiles: [
-              "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
-              "https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
-              "https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+              "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
             ],
             tileSize: 256,
+            minzoom: 0,
+            maxzoom: 16,
             attribution:
-              '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+              '&copy; <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          },
+          "basemap-labels": {
+            type: "raster",
+            tiles: [
+              "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
+            ],
+            tileSize: 256,
+            minzoom: 0,
+            maxzoom: 16,
           },
         },
         layers: [
@@ -189,7 +200,13 @@ export default function MapCanvas({
             id: "basemap",
             type: "raster",
             source: "basemap",
-            paint: { "raster-opacity": 0.92 },
+            paint: { "raster-opacity": 1 },
+          },
+          {
+            id: "basemap-labels",
+            type: "raster",
+            source: "basemap-labels",
+            paint: { "raster-opacity": 0.72 },
           },
         ],
       },
@@ -344,7 +361,7 @@ export default function MapCanvas({
           filter: ["all", ["==", ["get", "in_graph"], true], [">=", ["get", "kv"], 220]],
           layout: {
             "text-field": ["get", "name"],
-            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+            "text-font": ["Open Sans Semibold"],
             "text-size": ["interpolate", ["linear"], ["zoom"], 5, 8, 9, 11],
             "text-offset": [0, 1.25],
             "text-anchor": "top",
@@ -380,7 +397,6 @@ export default function MapCanvas({
             "line-color": ["case", ["get", "failed"], "#fb7185", "#0891b2"],
             "line-width": ["interpolate", ["linear"], ["zoom"], 5, 2.2, 10, 4.8],
             "line-opacity": 0.98,
-            "line-dasharray": ["case", ["get", "failed"], ["literal", [1.5, 1.2]], ["literal", [1, 0]]],
           },
         });
         map.addLayer({
@@ -420,7 +436,7 @@ export default function MapCanvas({
           source: "subnet-nodes",
           layout: {
             "text-field": ["get", "name"],
-            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+            "text-font": ["Open Sans Semibold"],
             "text-size": 11,
             "text-offset": [0, 1.5],
             "text-anchor": "top",
@@ -511,6 +527,9 @@ export default function MapCanvas({
             .addTo(map);
         });
 
+        if (mode === "national") {
+          map.fitBounds(PERU_BOUNDS, { padding: fitPadding, duration: 0 });
+        }
         setReady(true);
       } catch (err) {
         console.error(err);
@@ -543,11 +562,13 @@ export default function MapCanvas({
 
     const lineFilter = filterExpression(voltages, departments);
     for (const id of ["lines-verified", "lines-halo", "lines-unverified"]) {
+      if (!map.getLayer(id)) continue;
       const base = id === "lines-unverified" ? ["==", ["get", "verified"], false] : ["==", ["get", "verified"], true];
       map.setFilter(id, (lineFilter ? ["all", base, lineFilter] : base) as any);
     }
     const stationsFilter = stationFilter(voltages, departments);
     for (const id of ["stations", "stations-isolated", "station-labels"]) {
+      if (!map.getLayer(id)) continue;
       const base = id === "stations-isolated" ? ["==", ["get", "in_graph"], false] : ["==", ["get", "in_graph"], true];
       const extra = id === "station-labels" ? [">=", ["get", "kv"], 220] : true;
       const filter = stationsFilter
@@ -609,7 +630,7 @@ export default function MapCanvas({
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !ready || resetKey === 0) return;
-    map.fitBounds(PERU_BOUNDS, { padding: 24, duration: 900 });
+    map.fitBounds(PERU_BOUNDS, { padding: fitPadding, duration: 900 });
   }, [ready, resetKey]);
 
   return (

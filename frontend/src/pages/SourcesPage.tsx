@@ -290,9 +290,9 @@ export default function SourcesPage() {
             </li>
           </ul>
           <div className="quality-note">
-            <Badge tone="cyan">0 aristas COES</Badge>
-            <Badge tone="blue">618 líneas verificadas</Badge>
-            <Badge tone="amber">359 no verificadas</Badge>
+            <Badge tone="cyan">{int(summary.counts.coes_validated_edges)} aristas COES</Badge>
+            <Badge tone="blue">{int(summary.counts.lines_verified)} líneas verificadas</Badge>
+            <Badge tone="amber">{int(summary.counts.lines_unverified)} no verificadas</Badge>
           </div>
         </Panel>
 

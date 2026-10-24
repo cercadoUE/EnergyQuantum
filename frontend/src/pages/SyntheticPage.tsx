@@ -67,6 +67,26 @@ export default function SyntheticPage() {
       .sort((a, b) => Number(a[1].objective) - Number(b[1].objective))[0];
   }, [result]);
 
+  // Las posiciones sintéticas usan una escala arbitraria (0, 2, 4…).
+  // Se normalizan a un lienzo 0..100 para que el SVG siempre las contenga.
+  const project = useMemo(() => {
+    if (!network || !network.nodes.length) {
+      return (position: [number, number]) => position;
+    }
+    const xs = network.nodes.map((node) => node.position[0]);
+    const ys = network.nodes.map((node) => node.position[1]);
+    const minX = Math.min(...xs);
+    const maxX = Math.max(...xs);
+    const minY = Math.min(...ys);
+    const maxY = Math.max(...ys);
+    const spanX = maxX - minX || 1;
+    const spanY = maxY - minY || 1;
+    return ([x, y]: [number, number]): [number, number] => [
+      8 + ((x - minX) / spanX) * 84,
+      8 + (1 - (y - minY) / spanY) * 84,
+    ];
+  }, [network]);
+
   async function run() {
     setLoading(true);
     setError(null);
@@ -137,8 +157,8 @@ export default function SyntheticPage() {
                 const a = network.nodes[edge.source];
                 const b = network.nodes[edge.target];
                 if (!a || !b) return null;
-                const [x1, y1] = a.position;
-                const [x2, y2] = b.position;
+                const [x1, y1] = project(a.position);
+                const [x2, y2] = project(b.position);
                 const cut =
                   partition &&
                   partition[String(edge.source)] !== undefined &&
@@ -146,10 +166,10 @@ export default function SyntheticPage() {
                 return (
                   <line
                     key={index}
-                    x1={x1 * 100}
-                    y1={100 - y1 * 100}
-                    x2={x2 * 100}
-                    y2={100 - y2 * 100}
+                    x1={x1}
+                    y1={y1}
+                    x2={x2}
+                    y2={y2}
                     stroke={cut ? "#f97316" : "#94a3b8"}
                     strokeWidth={cut ? 1.8 : 1}
                     strokeOpacity={cut ? 0.9 : 0.45}
@@ -158,25 +178,25 @@ export default function SyntheticPage() {
                 );
               })}
               {network.nodes.map((node) => {
-                const [x, y] = node.position;
+                const [x, y] = project(node.position);
                 const group = partition?.[String(node.id)];
                 const fill = group === 0 ? "#0ea5e9" : group === 1 ? "#f97316" : "#0f766e";
                 return (
                   <g key={node.id}>
                     <circle
-                      cx={x * 100}
-                      cy={100 - y * 100}
+                      cx={x}
+                      cy={y}
                       r={3.8}
                       fill={fill}
                       stroke="#ffffff"
                       strokeWidth={1.2}
                     />
                     <text
-                      x={x * 100}
-                      y={100 - y * 100 + 7.5}
+                      x={x}
+                      y={y + 7.5}
                       textAnchor="middle"
                       fontSize={3.2}
-                      fill="#0f172a"
+                      fill="#cbd5e1"
                       fontWeight={600}
                     >
                       {node.name}

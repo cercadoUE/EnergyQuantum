@@ -17,5 +17,14 @@ export default defineConfig({
     outDir: "dist",
     sourcemap: false,
     chunkSizeWarningLimit: 1400,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          maplibre: ["maplibre-gl"],
+          charts: ["recharts"],
+          react: ["react", "react-dom", "react-router-dom"],
+        },
+      },
+    },
   },
 });

@@ -12,21 +12,28 @@ export const VOLTAGE_COLORS: Record<string, string> = {
   "44": "#0d9488",
   "72.5": "#db2777",
   "145": "#be123c",
+  "33.5": "#65a30d",
+  "22.9": "#0f766e",
 };
 
-export const VOLTAGE_ORDER = [500, 220, 138, 66, 60, 50, 33, 30, 145, 72.5, 69, 44, 34.5];
+export const VOLTAGE_ORDER = [500, 220, 138, 66, 60, 50, 33, 33.5, 30, 145, 72.5, 69, 44, 34.5, 22.9];
 
 export function voltageColor(value: number | null | undefined): string {
   if (value === null || value === undefined) return "#64748b";
   return VOLTAGE_COLORS[String(value)] ?? "#64748b";
 }
 
+/**
+ * MapLibre exige etiquetas enteras cuando el `match` recibe un número.
+ * Las tensiones del SEIN incluyen 34.5 kV y 72.5 kV, así que comparamos
+ * contra la representación textual del atributo para no perder esos casos.
+ */
 export function voltageMatchExpression(property: string) {
   const pairs: (string | number)[] = [];
   for (const [key, color] of Object.entries(VOLTAGE_COLORS)) {
-    pairs.push(Number(key), color);
+    pairs.push(key, color);
   }
-  return ["match", ["get", property], ...pairs, "#64748b"];
+  return ["match", ["to-string", ["get", property]], ...pairs, "#64748b"];
 }
 
 export const STATUS_COLORS: Record<string, string> = {

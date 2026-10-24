@@ -14,6 +14,8 @@ import {
   Sparkles,
   X,
   Zap,
+  ChevronDown,
+  ChevronUp,
 } from "lucide-react";
 import MapCanvas, { type LayerState, type MapFocus } from "../components/MapCanvas";
 import { Badge, ErrorState, Panel, Spinner, StatCard, Toggle } from "../components/ui";
@@ -44,6 +46,30 @@ export default function MapPage() {
   const [selected, setSelected] = useState<Station | null>(null);
   const [focus, setFocus] = useState<MapFocus | null>(null);
   const [resetKey, setResetKey] = useState(0);
+  const [layersOpen, setLayersOpen] = useState(false);
+  const [heroOpen, setHeroOpen] = useState(
+    () => typeof window === "undefined" || window.innerWidth > 720,
+  );
+
+  function computeFitPadding(heroVisible: boolean) {
+    const width = typeof window === "undefined" ? 1440 : window.innerWidth;
+    if (width >= 1320) return { top: 40, right: 350, bottom: 70, left: 510 };
+    if (width >= 1120) return { top: 40, right: 320, bottom: 70, left: 470 };
+    if (width >= 980) return { top: 40, right: 300, bottom: 70, left: 440 };
+    if (width < 720) return { top: 24, right: 20, bottom: 56, left: 20 };
+    return heroVisible
+      ? { top: 24, right: 20, bottom: 56, left: Math.min(470, Math.round(width * 0.52)) }
+      : { top: 24, right: 20, bottom: 56, left: 20 };
+  }
+
+  const [fitPadding, setFitPadding] = useState(() => computeFitPadding(heroOpen));
+
+  function toggleHero() {
+    const next = !heroOpen;
+    setHeroOpen(next);
+    setFitPadding(computeFitPadding(next));
+    setResetKey((value) => value + 1);
+  }
 
   useEffect(() => {
     Promise.all([api.summary(), api.stations()])
@@ -111,6 +137,7 @@ export default function MapPage() {
         departments={activeDepartment}
         focus={focus}
         resetKey={resetKey}
+        fitPadding={fitPadding}
         onStationSelect={(station) => {
           const match = stations.find((row) => row.id === station.id);
           setSelected(match ?? (station as unknown as Station));
@@ -120,7 +147,15 @@ export default function MapPage() {
         onZoom={setZoom}
       />
 
-      <section className="map-hero">
+      <section className={`map-hero ${heroOpen ? "" : "is-hidden"}`} aria-hidden={!heroOpen}>
+        <button
+          className="map-hero__collapse"
+          onClick={toggleHero}
+          aria-label="Ocultar resumen"
+          title="Ocultar resumen"
+        >
+          <ChevronUp size={15} />
+        </button>
         <div className="map-hero__eyebrow">
           <span className="status-dot" />
           SEIN · SISTEMA ELÉCTRICO INTERCONECTADO NACIONAL
@@ -185,15 +220,49 @@ export default function MapPage() {
         </div>
       </section>
 
-      <aside className="map-layers">
+      {!heroOpen && (
+        <button className="map-hero-pill" onClick={toggleHero} aria-label="Mostrar resumen del SEIN">
+          <span className="status-dot" />
+          SEIN · Resumen de la red
+          <ChevronDown size={14} />
+        </button>
+      )}
+
+      <button
+        className="map-layers-toggle"
+        onClick={() => setLayersOpen(true)}
+        aria-label="Abrir control de capas"
+      >
+        <Layers3 size={16} /> Capas
+      </button>
+
+      {layersOpen && (
+        <button
+          className="map-layers-backdrop"
+          aria-label="Cerrar control de capas"
+          onClick={() => setLayersOpen(false)}
+        />
+      )}
+
+      <aside className={`map-layers ${layersOpen ? "is-open" : ""}`}>
         <div className="map-layers__head">
           <div>
             <div className="eyebrow">Control de capas</div>
             <h3>Mapa nacional</h3>
           </div>
-          <button className="icon-button" onClick={resetView} title="Restablecer vista">
-            <RotateCcw size={16} />
-          </button>
+          <div className="map-layers__head-actions">
+            <button className="icon-button" onClick={resetView} title="Restablecer vista">
+              <RotateCcw size={16} />
+            </button>
+            <button
+              className="icon-button map-layers__close"
+              onClick={() => setLayersOpen(false)}
+              title="Cerrar"
+              aria-label="Cerrar control de capas"
+            >
+              <X size={16} />
+            </button>
+          </div>
         </div>
 
         <div className="map-layers__section">
@@ -380,7 +449,7 @@ export default function MapPage() {
       </div>
 
       <div className="map-attribution-note">
-        <Layers3 size={13} /> Geometrías OSINERGMIN · fondo OpenStreetMap/CARTO
+        <Layers3 size={13} /> Geometrías OSINERGMIN · fondo Esri / OpenStreetMap
       </div>
     </div>
   );
