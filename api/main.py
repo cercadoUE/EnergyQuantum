@@ -96,8 +96,14 @@ def _node_index() -> dict[str, dict[str, Any]]:
     return {node["id"]: node for node in network().get("nodes", [])}
 
 
+def _count_key(value: Any) -> str:
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
+    return str(value)
+
+
 def _counts(values: Iterable[Any]) -> dict[str, int]:
-    counter = Counter(str(value) for value in values if value is not None)
+    counter = Counter(_count_key(value) for value in values if value is not None)
     return dict(sorted(counter.items(), key=lambda item: (-item[1], item[0])))
 
 
@@ -600,6 +606,12 @@ def synthetic_optimize(request: SyntheticRequest) -> dict[str, Any]:
             )
         else:
             raise HTTPException(status_code=400, detail=f"Algoritmo no soportado: {name}")
+
+    # Igual que en la red real, la UI necesita una partición legible por nodo.
+    id_map = {str(node["id"]): index for index, node in enumerate(data["nodes"])}
+    for run in runs.values():
+        run["partition"] = _partition_from_bits(run.get("bits"), id_map)
+
     return _json_safe(
         {
             "network": data,

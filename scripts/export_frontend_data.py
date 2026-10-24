@@ -54,8 +54,26 @@ def _write_json(path: Path, payload: Any, *, pretty: bool = False) -> None:
     path.write_text(text, encoding="utf-8")
 
 
+def _kv(value: Any) -> float | None:
+    """Redondea tensiones a 2 decimales para eliminar ruido tipo 22.89999962."""
+    if value is None:
+        return None
+    try:
+        return round(float(value), 2)
+    except (TypeError, ValueError):
+        return None
+
+
+def _count_key(value: Any) -> str:
+    """Normaliza 500.0 -> "500" para que la UI compare tensiones sin ambigüedad."""
+    if isinstance(value, (int, float)):
+        number = round(float(value), 2)
+        return str(int(number)) if number.is_integer() else str(number)
+    return str(value)
+
+
 def _counts(values: Any) -> dict[str, int]:
-    counter = Counter(str(value) for value in values if value is not None)
+    counter = Counter(_count_key(value) for value in values if value is not None)
     return dict(sorted(counter.items(), key=lambda item: (-item[1], item[0])))
 
 
@@ -147,7 +165,7 @@ def build(network: dict[str, Any]) -> dict[str, Any]:
             {
                 "id": node["id"],
                 "name": node.get("name"),
-                "voltage_kv": node.get("voltage_kv"),
+                "voltage_kv": _kv(node.get("voltage_kv")),
                 "department": node.get("department"),
                 "degree": node.get("verified_degree", 0),
                 "lon": node.get("lon"),
@@ -166,7 +184,7 @@ def build(network: dict[str, Any]) -> dict[str, Any]:
                 {
                     "id": node["id"],
                     "name": node.get("name"),
-                    "voltage_kv": node.get("voltage_kv"),
+                    "voltage_kv": _kv(node.get("voltage_kv")),
                     "department": node.get("department"),
                     "company": node.get("company"),
                     "degree": node.get("verified_degree", 0),
@@ -189,8 +207,10 @@ def build(network: dict[str, Any]) -> dict[str, Any]:
                 {
                     "id": node["id"],
                     "name": node.get("name"),
-                    "kv": node.get("voltage_kv"),
-                    "voltages": node.get("voltages_kv", []),
+                    "lon": node.get("lon"),
+                    "lat": node.get("lat"),
+                    "kv": _kv(node.get("voltage_kv")),
+                    "voltages": [_kv(value) for value in node.get("voltages_kv", [])],
                     "department": node.get("department"),
                     "province": node.get("province"),
                     "company": node.get("company"),
@@ -231,7 +251,7 @@ def build(network: dict[str, Any]) -> dict[str, Any]:
                 {
                     "id": line.get("source_id"),
                     "name": line.get("name"),
-                    "kv": line.get("voltage_kv"),
+                    "kv": _kv(line.get("voltage_kv")),
                     "status": line.get("connectivity_status"),
                     "verified": line.get("connectivity_status") == "verified",
                     "from_name": line.get("from_name"),
@@ -278,7 +298,7 @@ def build(network: dict[str, Any]) -> dict[str, Any]:
                     "target": edge["target"],
                     "source_name": edge.get("source_name"),
                     "target_name": edge.get("target_name"),
-                    "kv": edge.get("voltage_kv"),
+                    "kv": _kv(edge.get("voltage_kv")),
                     "length_km": edge.get("length_km"),
                     "line_count": edge.get("line_count"),
                     "parallel": edge.get("parallel"),
@@ -305,7 +325,7 @@ def build(network: dict[str, Any]) -> dict[str, Any]:
                 {
                     "id": plant.get("source_id"),
                     "name": plant.get("name"),
-                    "kv": plant.get("voltage_kv"),
+                    "kv": _kv(plant.get("voltage_kv")),
                     "technology": plant.get("technology"),
                     "capacity_installed_mw": plant.get("capacity_installed_mw"),
                     "capacity_effective_mw": plant.get("capacity_effective_mw"),
