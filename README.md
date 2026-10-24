@@ -36,7 +36,7 @@ nuevo no reemplaza el código de algoritmos ni los artefactos del proyecto.
 # 2) Frontend (Vite) — en otra terminal
 cd frontend
 npm install
-npm run dev        # http://127.0.0.1:5173
+npm run dev        # http://localhost:3001
 
 # 3) Activos estáticos del mapa (si cambian los datos procesados)
 cd ..

@@ -203,7 +203,7 @@ Desde la raíz `D:\PROYECTOS\IBM\quantumgrid-peru`:
 # Frontend (otra terminal)
 cd frontend
 npm install
-npm run dev        # http://127.0.0.1:5173
+npm run dev        # http://localhost:3001
 
 # Activos estáticos (si cambian los datos procesados)
 cd ..
