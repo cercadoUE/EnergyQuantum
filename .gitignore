@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+.opencode/
+
+# cache de descargas: se regenera con scripts/download_sein.py
+data/cache/
+
+# artefactos locales
+output/
+results/*.log
+.DS_Store
+Thumbs.db
