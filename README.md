@@ -4,7 +4,7 @@
 
 Plataforma académica para el reto 5.2 del Qiskit Fall Fest 2026: partición binaria de una red sintética, simulación de fallas, comparación exacta/heurística/QAOA y trazabilidad experimental. Incluye además una capa de **datos reales del SEIN peruano** derivada de OSINERGMIN, separada de la red sintética y con procedencia explícita. No recomienda maniobras eléctricas.
 
-## Ejecutar
+## Ejecutar la app Streamlit
 
 Python 3.11 recomendado. Desde esta carpeta:
 
