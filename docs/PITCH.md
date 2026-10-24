@@ -1,7 +1,7 @@
 # Guion de exposición: 2:55 aproximadamente
 
 ## 1 · Problema (0:00–0:20)
-En el norte peruano, una interrupción de conexiones puede aislar localidades y servicios. Para estudiar ese problema necesitamos distinguir conectividad de suministro real. QuantumGrid Perú es un laboratorio reproducible sobre una red sintética de doce localidades; no pretende representar líneas reales.
+En el norte peruano, una interrupción de conexiones puede aislar localidades y servicios. Para estudiar ese problema necesitamos distinguir conectividad de suministro real. EnergyQuantum es un laboratorio reproducible sobre una red sintética de doce localidades; no pretende representar líneas reales.
 
 ## 2 · Solución (0:20–0:40)
 La plataforma permite inspeccionar conexiones, simular fallas y comparar particiones clásicas con QAOA. Cada resultado conserva datos, parámetros, semilla y validadores. Podemos exportarlo y reproducirlo, en lugar de presentar únicamente un gráfico atractivo.

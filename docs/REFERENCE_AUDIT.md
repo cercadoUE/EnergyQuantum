@@ -25,7 +25,7 @@ Implementación original modular, validación de entrada, separación entre obje
 
 El reto solicita representar variables/costos y explorar/visualizar/comparar enfoques clásicos y cuánticos. Pitch: entre 2:30 y 3 minutos. Entregables: nombre del equipo, cuatro integrantes, enlace GitHub (Drive ZIP es opción secundaria), demo o video cuando corresponda, descripción breve y PPT, por el portal designado. Evaluación: innovación/validación 25%, Qiskit/presentación 25%, formulación del reto 20%, rigor/reproducibilidad 15%, arquitectura 15%. El guion dura aproximadamente 175 segundos y prioriza estas evidencias. No se envía al portal ni se inventan integrantes.
 
-Las bases también piden reconocer fuentes/herramientas y evitar falsificación. Se declara la asistencia de Codex; cualquier restricción adicional de IA anunciada por los organizadores debe ser revisada por el equipo.
+Las bases también piden reconocer fuentes/herramientas y evitar falsificación. Se declaran las bibliotecas, servicios y fuentes de datos usados; cualquier restricción adicional de IA anunciada por los organizadores debe ser revisada por el equipo.
 
 ## APIs verificadas
 

@@ -86,7 +86,7 @@ descarga el PBF nacional automáticamente.
 | `SIMULADO` | Supuesto de escenario, no dato de la fuente | demanda uniforme, generación fijada en 0, pesos sintéticos, fallas |
 
 La UI muestra estas etiquetas en «Fuentes y metodología» y en cada exportación.
-Un resultado calculado por QuantumGrid **no** es un dato oficial.
+Un resultado calculado por EnergyQuantum **no** es un dato oficial.
 
 ## 5. Reproducibilidad y caché
 

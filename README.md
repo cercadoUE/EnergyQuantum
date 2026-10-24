@@ -1,4 +1,4 @@
-# QuantumGrid Perú
+# EnergyQuantum
 
 **Conectando decisiones inteligentes para construir redes más resilientes.**
 
@@ -125,6 +125,6 @@ Se estudian dos etiquetas; sus componentes pueden ser más de dos. No se impleme
 
 ## Atribución
 
-Implementación original; repositorio conceptual examinado: https://github.com/soemacero/hackathon-qiskit-conexiones-qaoa, commit `1eedcc556be21f333b6cf2524f8e0e4e64c583c1`. No se incorporó su código ni sus resultados. Herramientas: Python, Qiskit/Aer, NumPy, SciPy, NetworkX, Streamlit, Plotly, Pytest y asistencia de OpenAI Codex. Las bibliotecas conservan sus licencias respectivas.
+Implementación original; repositorio conceptual examinado: https://github.com/soemacero/hackathon-qiskit-conexiones-qaoa, commit `1eedcc556be21f333b6cf2524f8e0e4e64c583c1`. No se incorporó su código ni sus resultados. Herramientas: Python, Qiskit/Aer, NumPy, SciPy, NetworkX, Streamlit, Plotly y Pytest. Las bibliotecas conservan sus licencias respectivas.
 
 La entrega al portal requiere completar nombre del equipo, cuatro integrantes y URL pública del repositorio/demo. Estos datos no fueron proporcionados; no se creó ni publicó una entrega externa.
