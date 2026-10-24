@@ -25,6 +25,7 @@ def fail_edges(subnet: dict[str, Any] | Any, edge_ids: Iterable[str]) -> dict[st
     for edge in payload.get("edges", []):
         if str(edge["id"]) in requested:
             edge["failed"] = True
+            edge["available"] = False
     payload["scenario"] = {
         "failed_edge_ids": sorted(requested),
         "applied_at_utc": utc_now(),

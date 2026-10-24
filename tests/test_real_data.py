@@ -584,6 +584,8 @@ def test_real_failures_and_comparison() -> None:
         if {edge["source"], edge["target"]} == {a, b}
     )
     failed = fail_edges(payload, [edge_id])
+    failed_edge = next(edge for edge in failed["edges"] if edge["id"] == edge_id)
+    assert failed_edge["failed"] and not failed_edge["available"]
     after = subnet_metrics(failed, include_failed=False)
     assert after["edges_failed"] == 1
     assert after["edges_active"] == before["edges_active"] - 1
