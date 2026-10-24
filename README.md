@@ -23,6 +23,48 @@ En el entorno ya preparado de esta entrega, use `..\.venv\Scripts\python.exe` en
 
 El benchmark genera JSON completo, CSV y `docs/RESULTS.md`; sobrescribe esos tres artefactos al reproducirse. Los tiempos cambian según máquina/carga. `requirements.txt` congela las versiones instaladas de todo el entorno; `results/benchmark.json` guarda versiones, Python, sistema, semillas, parámetros, red, conteos y presupuestos.
 
+## Plataforma web (React + MapLibre)
+
+La entrega incluye una plataforma web nueva que conserva los solvers y la capa
+real existentes. Streamlit sigue disponible como aplicación legada; el frontend
+nuevo no reemplaza el código de algoritmos ni los artefactos del proyecto.
+
+```powershell
+# 1) API local (FastAPI) — desde la raíz
+..\.venv\Scripts\python.exe -m uvicorn api.main:app --host 127.0.0.1 --port 8000
+
+# 2) Frontend (Vite) — en otra terminal
+cd frontend
+npm install
+npm run dev        # http://127.0.0.1:5173
+
+# 3) Activos estáticos del mapa (si cambian los datos procesados)
+cd ..
+..\.venv\Scripts\python.exe -m scripts.export_frontend_data
+```
+
+El primer acceso (`/mapa`) muestra el mapa real del Perú: fondo claro, líneas
+coloreadas por tensión, líneas no verificadas discontinuas, subestaciones,
+centrales y etiquetas. La barra superior indica el estado de la API y el
+manifiesto; la barra inferior muestra coordenadas y zoom.
+
+Páginas: **Mapa nacional** (`/mapa`), **Explorador de red** (`/red`),
+**Subredes verificadas** (`/subredes`), **Optimización** (`/optimizacion`),
+**Simulador de fallas** (`/fallas`), **Comparación** (`/comparacion`),
+**Red sintética** (`/sintetico`) y **Fuentes y metodología** (`/fuentes`).
+
+La API expone `/api/health`, `/api/network/summary`, `/api/network/components`,
+`/api/network/stations`, `/api/network/edges`, `/api/subnet`, `/api/optimize`,
+`/api/failure`, `/api/failure/network`, `/api/experiment`, `/api/synthetic/network`,
+`/api/synthetic/optimize` y `/api/sources`. Los activos GeoJSON/JSON se generan
+con `scripts/export_frontend_data.py` y se sirven desde `frontend/public/data`;
+las páginas de comparación y fuentes funcionan incluso si la API no está activa.
+
+El frontend usa TypeScript, React 19, Vite 6, MapLibre GL JS, React Router,
+Recharts y Lucide. El fondo del mapa es Esri World Light Gray Base + Reference
+(sin API key) y las etiquetas usan la fuente de demotiles de MapLibre. El build
+se valida con `npm run typecheck` y `npm run build` dentro de `frontend`.
+
 ## Datos reales del SEIN
 
 La red real se descarga de OSINERGMIN y se procesa en un snapshot local. La UI
