@@ -254,7 +254,7 @@ export default function FailuresPage() {
                   <div className="eyebrow">Antes / después</div>
                   <h3>Impacto topológico</h3>
                 </div>
-                <button className="icon-button" onClick={() => downloadJson(`quantumgrid-falla-${componentIndex}-${size}.json`, result)} title="Exportar JSON">
+                <button className="icon-button" onClick={() => downloadJson(`energyquantum-falla-${componentIndex}-${size}.json`, result)} title="Exportar JSON">
                   <Download size={15} />
                 </button>
               </div>

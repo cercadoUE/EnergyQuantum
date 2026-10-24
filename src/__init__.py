@@ -1,1 +1,1 @@
-"""QuantumGrid Peru: reproducible synthetic network experiments."""
+"""EnergyQuantum Peru: reproducible synthetic network experiments."""

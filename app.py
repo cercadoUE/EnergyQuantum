@@ -14,13 +14,13 @@ from src.utils.export import bundle
 from app_pages import PAGES
 from src.ui.real_pages import REAL_PAGES, render_real_page
 
-st.set_page_config(page_title='QuantumGrid Perú',page_icon='◈',layout='wide')
+st.set_page_config(page_title='EnergyQuantum Perú',page_icon='◈',layout='wide')
 st.markdown('''<style>.stApp{background:#08111f}h1,h2,h3{letter-spacing:-.035em}h1{font-weight:750!important}
 [data-testid="stSidebar"]{background:#0c1729} [data-testid="stMetric"]{background:#11213a;border:1px solid #24364e;border-radius:14px;padding:18px}
 .eyebrow{color:#62d9f2;letter-spacing:.18em;font-size:12px;margin-bottom:12px}.subtitle{color:#9aafc9;font-size:18px;max-width:850px}
 </style>''',unsafe_allow_html=True)
 with st.sidebar:
-    st.markdown('## ◈ QuantumGrid\n**PERÚ / LABORATORIO**')
+    st.markdown('## ◈ EnergyQuantum\n**PERÚ / LABORATORIO**')
     page=st.radio('Navegación',PAGES,label_visibility='collapsed')
     st.divider()
     size=st.select_slider('Tamaño de instancia',options=[4,6,8,10,12],value=12)
@@ -37,7 +37,7 @@ if st.session_state.get('input_hash')!=key:
     st.session_state.update(input_hash=key,runs={})
 runs=st.session_state.runs
 st.markdown('<div class="eyebrow">QISKIT FALL FEST 2026 / RETO 5.2</div>',unsafe_allow_html=True)
-st.title('QuantumGrid Perú' if page=='Inicio' else page)
+st.title('EnergyQuantum Perú' if page=='Inicio' else page)
 st.markdown('<p class="subtitle">Conectando decisiones inteligentes para construir redes más resilientes.</p>',unsafe_allow_html=True)
 st.caption('Prototipo académico. Conectividad, balance agregado y operación eléctrica segura son conceptos diferentes.')
 m=metrics(data)
@@ -146,7 +146,7 @@ elif page=='Quantum Explain':
         counts=runs['QAOA']['counts']; top=sorted(counts,key=counts.get,reverse=True)[:24]
         st.plotly_chart(px.bar(x=top,y=[counts[x] for x in top],labels={'x':'Bitstring Qiskit (qubit 0 a la derecha)','y':'Conteos'},title='24 resultados más frecuentes; exportación incluye todos'),width='stretch')
 elif page=='Resultados':
-    st.download_button('Descargar escenario y ejecuciones JSON',bundle(data,obj,runs),'quantumgrid-run.json','application/json')
+    st.download_button('Descargar escenario y ejecuciones JSON',bundle(data,obj,runs),'energyquantum-run.json','application/json')
     if runs:
         flat=[{k:r.get(k) for k in ['method','objective','cut','seconds','evaluations','seed']} for r in runs.values()]
         st.download_button('Descargar comparación CSV',pd.DataFrame(flat).to_csv(index=False),'comparison.csv','text/csv')

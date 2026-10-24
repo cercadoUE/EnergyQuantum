@@ -19,7 +19,7 @@ import requests
 from ..models.graph_model import ROOT
 
 DEFAULT_CACHE = ROOT / "data" / "cache" / "arcgis"
-USER_AGENT = "QuantumGridPeru/2.0 (research; OSINERGMIN-ArcGIS)"
+USER_AGENT = "EnergyQuantumPeru/2.0 (research; OSINERGMIN-ArcGIS)"
 
 
 class ArcGISError(RuntimeError):

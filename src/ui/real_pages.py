@@ -861,7 +861,7 @@ def render_sources_page() -> None:
     st.markdown("### Fuentes, procedencia y metodología")
     st.caption(
         "Esta sección distingue datos oficiales descargados, transformaciones derivadas y "
-        "supuestos simulados. Un resultado calculado por QuantumGrid no es un dato oficial."
+        "supuestos simulados. Un resultado calculado por EnergyQuantum no es un dato oficial."
     )
     manifest = _read_optional(RAW_DIR / "manifest.json")
     network = load_network_safe()

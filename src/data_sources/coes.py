@@ -23,7 +23,7 @@ URLS = {
     "diagrama_unifilar": "https://www.coes.org.pe/Portal/Operacion/CaractSEIN/DiagramaUnifilar",
     "base_datos": "https://www.coes.org.pe/Portal/Operacion/CaractSEIN/BaseDatos",
 }
-USER_AGENT = "QuantumGridPeru/2.0 (research; COES availability probe)"
+USER_AGENT = "EnergyQuantumPeru/2.0 (research; COES availability probe)"
 
 
 def utc_now() -> str:

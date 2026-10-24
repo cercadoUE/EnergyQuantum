@@ -103,7 +103,7 @@ export default function ComparePage() {
             <button className="button button--primary" onClick={() => navigate("/optimizacion")}>
               <Sparkles size={15} /> Ejecutar nuevo experimento
             </button>
-            <button className="button button--ghost" onClick={() => downloadJson("quantumgrid-experimento.json", bundle)}>
+            <button className="button button--ghost" onClick={() => downloadJson("energyquantum-experimento.json", bundle)}>
               <Download size={15} /> Descargar JSON
             </button>
           </div>

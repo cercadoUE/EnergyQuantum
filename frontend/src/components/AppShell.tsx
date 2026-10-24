@@ -215,7 +215,7 @@ export default function AppShell() {
             <Zap size={18} />
           </div>
           <div className="brand-copy">
-            <strong>QuantumGrid</strong>
+            <strong>EnergyQuantum</strong>
             <span>PERÚ / LABORATORIO</span>
           </div>
           <button

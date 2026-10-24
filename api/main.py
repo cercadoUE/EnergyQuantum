@@ -1,4 +1,4 @@
-"""QuantumGrid Perú · API de datos reales, subredes y optimización.
+"""EnergyQuantum Perú · API de datos reales, subredes y optimización.
 
 Ejecutar en desarrollo:
     python -m uvicorn api.main:app --reload --port 8000
@@ -52,7 +52,7 @@ RESULTS_DIR = ROOT / "results"
 DIST_DIR = ROOT / "frontend" / "dist"
 
 app = FastAPI(
-    title="QuantumGrid Perú API",
+    title="EnergyQuantum Perú API",
     version="1.0.0",
     description=(
         "Red eléctrica del SEIN derivada de OSINERGMIN, selección de subredes "

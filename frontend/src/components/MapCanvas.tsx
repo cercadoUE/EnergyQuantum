@@ -223,7 +223,7 @@ export default function MapCanvas({
     mapRef.current = map;
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
     map.addControl(
-      new maplibregl.AttributionControl({ compact: true, customAttribution: "OSINERGMIN · QuantumGrid Perú" }),
+      new maplibregl.AttributionControl({ compact: true, customAttribution: "OSINERGMIN · EnergyQuantum Perú" }),
       "bottom-left",
     );
 

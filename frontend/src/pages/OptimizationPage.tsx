@@ -190,7 +190,7 @@ export default function OptimizationPage() {
 
   function exportJson() {
     if (!result) return;
-    downloadJson(`quantumgrid-optimizacion-${componentIndex}-${size}.json`, result);
+    downloadJson(`energyquantum-optimizacion-${componentIndex}-${size}.json`, result);
   }
 
   function exportCsv() {
@@ -205,7 +205,7 @@ export default function OptimizationPage() {
       estado: run.status ?? "completed",
       particion: run.bits ? run.bits.join("") : "",
     }));
-    downloadCsv(`quantumgrid-optimizacion-${componentIndex}-${size}.csv`, rows);
+    downloadCsv(`energyquantum-optimizacion-${componentIndex}-${size}.csv`, rows);
   }
 
   if (!summary) {

@@ -1,4 +1,4 @@
-# Plataforma web QuantumGrid Perú — informe de implementación
+# Plataforma web EnergyQuantum Perú — informe de implementación
 
 ## 1. Resumen
 
