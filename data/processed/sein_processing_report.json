@@ -1,0 +1,132 @@
+{
+  "generated_at_utc": "2026-10-24T18:41:31+00:00",
+  "stations_raw": 967,
+  "stations_merged": 685,
+  "station_duplicates_merged": 282,
+  "lines_raw": 986,
+  "lines_processed": 977,
+  "line_duplicates_removed": [
+    {
+      "removed_source_id": "29:2069",
+      "kept_source_id": "29:2068",
+      "reason": "mismo código, nombre, tensión y extremos"
+    },
+    {
+      "removed_source_id": "29:2070",
+      "kept_source_id": "29:2067",
+      "reason": "mismo código, nombre, tensión y extremos"
+    },
+    {
+      "removed_source_id": "29:2129",
+      "kept_source_id": "29:1689",
+      "reason": "mismo código, nombre, tensión y extremos"
+    },
+    {
+      "removed_source_id": "30:2458",
+      "kept_source_id": "30:1917",
+      "reason": "mismo código, nombre, tensión y extremos"
+    },
+    {
+      "removed_source_id": "31:1658",
+      "kept_source_id": "31:1657",
+      "reason": "mismo código, nombre, tensión y extremos"
+    },
+    {
+      "removed_source_id": "31:1954",
+      "kept_source_id": "31:1802",
+      "reason": "mismo código, nombre, tensión y extremos"
+    },
+    {
+      "removed_source_id": "31:1955",
+      "kept_source_id": "31:1801",
+      "reason": "mismo código, nombre, tensión y extremos"
+    },
+    {
+      "removed_source_id": "31:2049",
+      "kept_source_id": "31:2046",
+      "reason": "mismo código, nombre, tensión y extremos"
+    },
+    {
+      "removed_source_id": "31:2050",
+      "kept_source_id": "31:2045",
+      "reason": "mismo código, nombre, tensión y extremos"
+    }
+  ],
+  "generation_records": 246,
+  "skipped": [
+    {
+      "source_id": "9:323",
+      "layer_id": 9,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "22:2667",
+      "layer_id": 22,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "23:2313",
+      "layer_id": 23,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "23:2424",
+      "layer_id": 23,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "23:2538",
+      "layer_id": 23,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "25:2667",
+      "layer_id": 25,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "26:2579",
+      "layer_id": 26,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "28:1561",
+      "layer_id": 28,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "29:1551",
+      "layer_id": 29,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    },
+    {
+      "source_id": "29:1713",
+      "layer_id": 29,
+      "reason": "TIPO_SISTEMA/SISTEMA fuera del SEIN",
+      "system": "A"
+    }
+  ],
+  "merge_radius_km": 0.75,
+  "transformations": [
+    "Normalización Unicode/ASCII de nombres y campos.",
+    "Tensión numérica desde TENSION_NOM; geometría WGS84 desde outSR=4326.",
+    "Longitud oficial LONGITUD cuando es positiva; si no, longitud geodésica.",
+    "Estaciones con igual nombre normalizado y ≤0.75 km agrupadas; capacidad = máximo, no suma.",
+    "Duplicados de línea con mismo código/nombre/tensión/extremos y longitud similar agrupados.",
+    "Registros con TIPO_SISTEMA/SISTEMA 'A' excluidos del SEIN."
+  ],
+  "limitations": [
+    "La agrupación de estaciones es una identidad derivada, no un activo oficial.",
+    "No se dispone de demanda ni de estado operativo para la mayoría de estaciones.",
+    "Los extremos de línea se validan después, contra nombres explícitos."
+  ]
+}
