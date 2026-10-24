@@ -1,0 +1,771 @@
+{
+  "extent": {
+    "ymin": -17.994644264,
+    "xmin": -81.285076893,
+    "ymax": -2.45133220000002,
+    "xmax": -69.18869162300001,
+    "spatialReference": {
+      "falseM": -180,
+      "xyTolerance": 8.983152841195215e-09,
+      "mUnits": 25019997929836.082,
+      "zUnits": 25019997929836.082,
+      "latestWkid": 4326,
+      "zTolerance": 0.001,
+      "wkid": 4326,
+      "xyUnits": 11258999068426.24,
+      "mTolerance": 0.001,
+      "falseX": -400,
+      "falseY": -400,
+      "falseZ": -180
+    }
+  },
+  "maxRecordCount": 1000,
+  "datesInUnknownTimezone": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "type": "Feature Layer",
+  "maxSelectionCount": 2000,
+  "subtypes": [],
+  "relationships": [],
+  "cimVersion": "3.7.0",
+  "isDataArchived": false,
+  "id": 9,
+  "archivingInfo": {
+    "startArchivingMoment": -1,
+    "supportsQueryWithHistoricMoment": false
+  },
+  "spatialReference": {
+    "falseM": -180,
+    "xyTolerance": 8.983152841195215e-09,
+    "mUnits": 25019997929836.082,
+    "zUnits": 25019997929836.082,
+    "latestWkid": 4326,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 11258999068426.24,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": -180
+  },
+  "subtypeFieldName": null,
+  "supportsStatistics": true,
+  "hasLastEditTime": false,
+  "standardMaxRecordCount": 32000,
+  "isDataVersioned": false,
+  "supportsAdvancedQueries": true,
+  "parentLayer": {
+    "name": "Centrales Térmicas ",
+    "id": 8
+  },
+  "subLayers": [],
+  "currentVersion": 12.1,
+  "referenceScale": 0,
+  "canScaleSymbols": false,
+  "name": "C.T. SEIN",
+  "displayField": "NOMBRE",
+  "fields": [
+    {
+      "nullable": false,
+      "domain": null,
+      "name": "OBJECTID",
+      "alias": "OBJECTID",
+      "type": "esriFieldTypeOID"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "EMPRESA",
+      "length": 50,
+      "alias": "Nombre de la Empresa",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NOMBRE",
+      "length": 50,
+      "alias": "Nombre de la Central",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TIPO_CENTRAL",
+      "length": 50,
+      "alias": "Tipo de Central",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_TIPO_DE_SISTEMA",
+        "description": "TIPO DE SISTEMA",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "A",
+            "name": "AISLADO"
+          },
+          {
+            "code": "I",
+            "name": "INTERCONECTADO"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "TIPO_SISTEMA",
+      "length": 8,
+      "alias": "Tipo de Sistema",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_REGION_GEOGRAFICA",
+        "description": "REGION GEOGRAFICA",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "CO",
+            "name": "COSTA"
+          },
+          {
+            "code": "SI",
+            "name": "SIERRA"
+          },
+          {
+            "code": "SE",
+            "name": "SELVA"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "REGION_GEOGRAFICA",
+      "length": 50,
+      "alias": "Region Geografica",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "ALTITUD",
+      "alias": "Altitud",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "POT_INST",
+      "alias": "Potencial Instalado(MW)",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "POT_EFEC",
+      "alias": "Potencial Efectivo",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TENSION_NOM",
+      "alias": "Tensión Nominal del Generador (kV)",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "FUENTE_ENER",
+      "length": 30,
+      "alias": "Fuente de energia",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NRO_UNIDADES",
+      "length": 10,
+      "alias": "Nro_Unidades",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_TIPO_DE_TUBERIA",
+        "description": "TIPO DE TUBERIA",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "PE",
+            "name": "PELTON"
+          },
+          {
+            "code": "FR",
+            "name": "FRANCIS"
+          },
+          {
+            "code": "KA",
+            "name": "KALPLAN"
+          },
+          {
+            "code": "TV",
+            "name": "TURBOVAPOR"
+          },
+          {
+            "code": "TG",
+            "name": "TURBOGAS"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "TIPO_TURBINA",
+      "length": 20,
+      "alias": "Tipo de Turbina",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "PUEST_OPER",
+      "length": 8,
+      "alias": "Puesta en Operacion",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "DEPARTAMENTO",
+      "length": 25,
+      "alias": "Departamento",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "PROVINCIA",
+      "length": 25,
+      "alias": "Provincia",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "DISTRITO",
+      "length": 25,
+      "alias": "Distrito",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "FOTO",
+      "length": 50,
+      "alias": "FOTO",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_ESTADO",
+        "description": "ESTADO DE INSTALACIONES",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "FS",
+            "name": "FUERA DE SERVICIO"
+          },
+          {
+            "code": "CN",
+            "name": "EN CONSTRUCCION"
+          },
+          {
+            "code": "PA",
+            "name": "PARALIZADO"
+          },
+          {
+            "code": "P",
+            "name": "PROYECTADO"
+          },
+          {
+            "code": "EA",
+            "name": "EN ARBITRAJE"
+          },
+          {
+            "code": "C",
+            "name": "EN CADUCIDAD"
+          },
+          {
+            "code": "ES",
+            "name": "EN SERVICIO"
+          },
+          {
+            "code": "E",
+            "name": "ESTUDIOS"
+          },
+          {
+            "code": "CR",
+            "name": "CONTRATO RESUELTO"
+          },
+          {
+            "code": "CS",
+            "name": "CONTRATO SUSPENDIDO"
+          },
+          {
+            "code": "R",
+            "name": "RETIRADO"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "ESTADO",
+      "length": 20,
+      "alias": "Estado",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "SHAPE",
+      "alias": "SHAPE",
+      "type": "esriFieldTypeGeometry"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "PCO_ANIO",
+      "alias": "AÑO",
+      "type": "esriFieldTypeSmallInteger"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "ID_CG",
+      "alias": "ID_CG",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "FICHA",
+      "length": 200,
+      "alias": "FICHA",
+      "type": "esriFieldTypeString"
+    }
+  ],
+  "maxRecordCountFactor": 1,
+  "dateFieldsTimeReference": null,
+  "preferredTimeReference": null,
+  "useStandardizedQueries": true,
+  "sourceSpatialReference": {
+    "falseM": 0,
+    "xyTolerance": 8.98315284119521e-09,
+    "mUnits": 1,
+    "zUnits": 1,
+    "latestWkid": 4326,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 999999999.9999999,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": 0
+  },
+  "description": "Ministerio de Energía y Minas (MEM) ,Comite de Operación Económica del Sistema Interconectado Nacional (COES) ,Organismo Supervisor de la Inversión en Energía y Minería (OSINERGMIN) , Empresas del sector",
+  "canModifyLayer": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "standardMaxRecordCountNoGeometry": 32000,
+  "indexes": [
+    {
+      "name": "A177_IX1",
+      "isUnique": true,
+      "description": "",
+      "fields": "SHAPE",
+      "isAscending": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "supportsDatumTransformation": true,
+  "minScale": 0,
+  "supportsDynamicLegends": true,
+  "hasAttachments": false,
+  "advancedQueryCapabilities": {
+    "supportsSqlExpression": true,
+    "supportsQueryWithResultType": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsSqlFormat": false,
+    "useStandardizedQueries": true,
+    "supportsResultPaginationToken": false,
+    "supportsQueryWithCacheHint": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsQueryWithLodSR": false,
+    "supportsPagination": true,
+    "supportsMaxRecordCountFactor": false,
+    "supportsStatistics": true,
+    "supportsTrueCurve": true,
+    "supportsOrderBy": true,
+    "supportsLod": false,
+    "supportsQueryWithDistance": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsReturningQueryExtent": true,
+    "supportsDistinct": true,
+    "supportsTimeRelation": true,
+    "supportsQueryAnalytic": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true
+  },
+  "subtypeField": null,
+  "serviceItemId": "dd16d4ffadbd435db9a529c0e46452a3",
+  "supportsCoordinatesQuantization": true,
+  "capabilities": "Query,Map,Data",
+  "maxScale": 0,
+  "supportsExceedsLimitStatistics": true,
+  "defaultVisibility": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsAsync": false,
+    "supportsLinearRegression": true,
+    "supportsPercentileAnalytic": true
+  },
+  "hasMetadata": true,
+  "tileMaxRecordCount": 8000,
+  "typeIdField": null,
+  "defaultSubtypeCode": null,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "hasLabels": true,
+  "drawingInfo": {
+    "renderer": {
+      "uniqueValueGroups": [
+        {
+          "heading": "",
+          "classes": [
+            {
+              "symbol": {
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAXklEQVQokWNhIBOwUENjAQMDwx88atkZGBjOMDAwHETX+IWBgWEOHo0SDAwMNlR1KtkahRkYGCzwqBXCpdGVgYGhg4BFodg0kgRYBlRjIwMDwwwC6o9j03iYXBtJAgAeugk/QzTcVAAAAABJRU5ErkJggg==",
+                "yoffset": 0,
+                "width": 10,
+                "xoffset": 0,
+                "angle": 0,
+                "type": "esriPMS",
+                "contentType": "image/png",
+                "url": "d31caea3105010a71f60b4dd63c52021",
+                "height": 10
+              },
+              "values": [
+                [
+                  "I"
+                ]
+              ],
+              "description": "",
+              "label": ""
+            }
+          ]
+        }
+      ],
+      "field1": "TIPO_SISTEMA",
+      "authoringInfo": {
+        "colorRamp": {
+          "colorRamps": [
+            {
+              "toColor": [
+                168,
+                156,
+                59,
+                255
+              ],
+              "fromColor": [
+                168,
+                156,
+                59,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                171,
+                71,
+                201,
+                255
+              ],
+              "fromColor": [
+                171,
+                71,
+                201,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                86,
+                217,
+                240,
+                255
+              ],
+              "fromColor": [
+                86,
+                217,
+                240,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                179,
+                73,
+                87,
+                255
+              ],
+              "fromColor": [
+                179,
+                73,
+                87,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                84,
+                240,
+                102,
+                255
+              ],
+              "fromColor": [
+                84,
+                240,
+                102,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                49,
+                79,
+                135,
+                255
+              ],
+              "fromColor": [
+                49,
+                79,
+                135,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                60,
+                150,
+                87,
+                255
+              ],
+              "fromColor": [
+                60,
+                150,
+                87,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                130,
+                102,
+                75,
+                255
+              ],
+              "fromColor": [
+                130,
+                102,
+                75,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                94,
+                125,
+                247,
+                255
+              ],
+              "fromColor": [
+                94,
+                125,
+                247,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                247,
+                92,
+                180,
+                255
+              ],
+              "fromColor": [
+                247,
+                92,
+                180,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                90,
+                250,
+                205,
+                255
+              ],
+              "fromColor": [
+                90,
+                250,
+                205,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                177,
+                136,
+                207,
+                255
+              ],
+              "fromColor": [
+                177,
+                136,
+                207,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                210,
+                245,
+                164,
+                255
+              ],
+              "fromColor": [
+                210,
+                245,
+                164,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            }
+          ],
+          "type": "multipart"
+        }
+      },
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAXklEQVQokWNhIBOwUENjAQMDwx88atkZGBjOMDAwHETX+IWBgWEOHo0SDAwMNlR1KtkahRkYGCzwqBXCpdGVgYGhg4BFodg0kgRYBlRjIwMDwwwC6o9j03iYXBtJAgAeugk/QzTcVAAAAABJRU5ErkJggg==",
+            "yoffset": 0,
+            "width": 10,
+            "xoffset": 0,
+            "angle": 0,
+            "type": "esriPMS",
+            "contentType": "image/png",
+            "url": "d31caea3105010a71f60b4dd63c52021",
+            "height": 10
+          },
+          "value": "I"
+        }
+      ],
+      "type": "uniqueValue",
+      "fieldDelimiter": ","
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": [
+      {
+        "symbol": {
+          "backgroundColor": null,
+          "kerning": true,
+          "color": [
+            52,
+            52,
+            52,
+            255
+          ],
+          "yoffset": 0,
+          "xoffset": 0,
+          "haloColor": null,
+          "type": "esriTS",
+          "borderLineColor": null,
+          "borderLineSize": null,
+          "horizontalAlignment": "left",
+          "haloSize": null,
+          "angle": 0,
+          "rightToLeft": false,
+          "verticalAlignment": "baseline",
+          "font": {
+            "size": 7,
+            "weight": "bold",
+            "style": "normal",
+            "family": "Arial",
+            "decoration": "none"
+          }
+        },
+        "stackLabel": true,
+        "stackRowLength": 24,
+        "maxScale": 1000,
+        "deconflictionStrategy": "dynamic",
+        "priority": 12,
+        "labelExpression": "[NOMBRE]",
+        "labelPlacement": "esriServerPointLabelPlacementAboveRight",
+        "removeDuplicates": "none",
+        "name": "Default",
+        "minScale": 1000000,
+        "stackAlignment": "dynamic",
+        "useCodedValues": true
+      }
+    ]
+  },
+  "geometryField": {
+    "name": "SHAPE",
+    "alias": "SHAPE",
+    "type": "esriFieldTypeGeometry"
+  },
+  "copyrightText": "Ministerio de Energía y Minas (MEM) ,Comite de Operación Económica del Sistema Interconectado Nacional  (COES) ,Organismo Supervisor de la Inversión en Energía y Minería (OSINERGMIN) , Empresas del sector",
+  "geometryType": "esriGeometryPoint"
+}

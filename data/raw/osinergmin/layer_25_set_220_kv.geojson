@@ -1,0 +1,4362 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1671,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.86939999999998,
+          -6.782050000000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1671,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "CHICLAYO OESTE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 35,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "65",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LAMBAYEQUE",
+        "PROVINCIA": "CHICLAYO",
+        "DISTRITO": "CHICLAYO",
+        "PUEST_OPER": 820454400000,
+        "IMAGEN": "Subestacion-Chiclayo-Oeste.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1672,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.60377799999998,
+          -3.6461269999999786
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1672,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "ZORRITOS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 5.8,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "322",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "TUMBES",
+        "PROVINCIA": "CONTRALMIRANTE VILLAR",
+        "DISTRITO": "ZORRITOS",
+        "PUEST_OPER": 915148800000,
+        "IMAGEN": "Subestacion-Zorritos-REP.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1673,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.05539520299999,
+          -8.045222409000019
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1673,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "TRUJILLO NORTE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 253.3,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "305",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LA LIBERTAD",
+        "PROVINCIA": "TRUJILLO",
+        "DISTRITO": "LA ESPERANZA",
+        "PUEST_OPER": 1072915200000,
+        "IMAGEN": "Subestacion-Trujillo-Norte.JPG",
+        "TRANSFORMADORES": 5,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1675,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.992052839,
+          -9.28947182799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1675,
+        "EMPRESA": "INTERCONEXIÓN ELÉCTRICA ISA PERÚ S.A. ",
+        "NOMBRE": "TINGO MARIA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 650,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "299",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "HUANUCO",
+        "PROVINCIA": "LEONCIO PRADO",
+        "DISTRITO": "RUPA-RUPA",
+        "PUEST_OPER": 567993600000,
+        "IMAGEN": "Subestacion-Tierra-Colorada.JPG",
+        "TRANSFORMADORES": 4,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1677,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.49346530499997,
+          -9.03076868300002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1677,
+        "EMPRESA": "INTERCONEXIÓN ELÉCTRICA ISA PERÚ S.A.",
+        "NOMBRE": "AGUAYTIA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 297.3,
+        "CAPACIDAD": 60,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "5",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "UCAYALI",
+        "PROVINCIA": "PADRE ABAD",
+        "DISTRITO": "PADRE ABAD",
+        "PUEST_OPER": 1009843200000,
+        "IMAGEN": "Subestacion-Aguaytia.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1923,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62607339499999,
+          -11.837807606000013
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1923,
+        "EMPRESA": "CONELSUR LT S.A.C.",
+        "NOMBRE": "CALLAHUANCA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1395.8,
+        "CAPACIDAD": 85,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "39",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "CALLAHUANCA",
+        "PUEST_OPER": 536457600000,
+        "IMAGEN": "Subestacion-Callahuanca-Edg.JPG",
+        "TRANSFORMADORES": 6,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1924,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.51631145599998,
+          -11.114271106999979
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1924,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "HUACHO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 80,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "105",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAURA",
+        "DISTRITO": "HUACHO",
+        "PUEST_OPER": 915148800000,
+        "IMAGEN": "Subestacion-Huacho-REP.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1925,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.047873015,
+          -11.827422220000017
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1925,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "ZAPALLAL",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 300,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "358",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "CARABAYLLO",
+        "PUEST_OPER": 536457600000,
+        "IMAGEN": "Subestacion-Zapallal-REP.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1927,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.973369263,
+          -12.177475430000015
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1927,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "SAN JUAN",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "258",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "SAN JUAN DE MIRAFLORES",
+        "PUEST_OPER": 94694400000,
+        "IMAGEN": "Subestacion-San-Juan.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1928,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.96808217099999,
+          -13.716607271999976
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1928,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "INDEPENDENCIA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 300,
+        "CAPACIDAD": 100,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "122",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "PISCO",
+        "DISTRITO": "INDEPENDENCIA",
+        "PUEST_OPER": 94694400000,
+        "IMAGEN": "Subestacion-Independencia-ESM.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1929,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.06449789599998,
+          -11.632971123000004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1929,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "PACHACHACA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3900,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "363",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "YAULI",
+        "DISTRITO": "YAULI",
+        "PUEST_OPER": 441763200000,
+        "IMAGEN": "Subestacion-Pachachaca-Rep.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1930,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.99483462299997,
+          -12.112329858999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1930,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "BALNEARIOS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 70,
+        "CAPACIDAD": 613,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "24",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "SURQUILLO",
+        "PUEST_OPER": 852076800000,
+        "IMAGEN": "Subestacion-Balnearios.JPG",
+        "TRANSFORMADORES": 8,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1941,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.06863042600003,
+          -15.411086658999977
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1941,
+        "EMPRESA": "PARQUE EÓLICO MARCONA S.A.C.",
+        "NOMBRE": "TRES HERMANAS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 300,
+        "CAPACIDAD": 35,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "470",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": "SE_TRES_HERMANAS",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1942,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.26709983900002,
+          -3.7663403660000085
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1942,
+        "EMPRESA": "ELECTRO ORIENTE S.A.",
+        "NOMBRE": "SANTA ROSA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 110,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "270",
+        "TENSION_NOM": "60",
+        "DEPARTAMENTO": "LORETO",
+        "PROVINCIA": "MAYNAS",
+        "DISTRITO": "BELEN",
+        "PUEST_OPER": 441763200000,
+        "IMAGEN": "Subestacion-Santa-Rosa-EOR.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1948,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.59040186700003,
+          -16.51753381499998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1948,
+        "EMPRESA": "SOCIEDAD MINERA CERRO VERDE S.A.A.",
+        "NOMBRE": "CERRO VERDE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2000,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "328",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "YARABAMBA",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Cerro-Verde.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1949,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.31359530999998,
+          -14.881110080999974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1949,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "TINTAYA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3900,
+        "CAPACIDAD": 70,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "300",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CUSCO",
+        "PROVINCIA": "ESPINAR",
+        "DISTRITO": "ESPINAR",
+        "PUEST_OPER": 662688000000,
+        "IMAGEN": "Subestacion-Tintaya.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1955,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.58734978400003,
+          -16.560392494999974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1955,
+        "EMPRESA": "SOCIEDAD MINERA CERRO VERDE S.A.A.",
+        "NOMBRE": "SAN LUIS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2800,
+        "CAPACIDAD": 25,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "485",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "YARABAMBA",
+        "PUEST_OPER": 1420070400000,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1956,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.26446632400001,
+          -4.5363540870000065
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1956,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "TALARA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 75,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "295",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "TALARA",
+        "DISTRITO": "PARIÑAS",
+        "PUEST_OPER": 852076800000,
+        "IMAGEN": "Subestacion-Talara.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1958,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.71327182200002,
+          -5.167213217999972
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1958,
+        "EMPRESA": "EMPRESA DE TRANSMISIÓN GUADALUPE S.A.C.",
+        "NOMBRE": "CEMENTOS PIURA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 50,
+        "CAPACIDAD": 75,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "475",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "PIURA",
+        "DISTRITO": "VEINTISEIS DE OCTUBRE",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1961,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.87252946699999,
+          -8.775190506000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1961,
+        "EMPRESA": "ABENGOA TRANSMISION NORTE S.A.",
+        "NOMBRE": "KIMAN AYLLU",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1850,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "131",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "HUAYLAS",
+        "DISTRITO": "HUALLANCA",
+        "PUEST_OPER": 1293840000000,
+        "IMAGEN": "Subestacion-Kiman-Ayllu.jpg",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1964,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.55739999999997,
+          -9.011030000000005
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1964,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "CHIMBOTE 1",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "73",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "SANTA",
+        "DISTRITO": "CHIMBOTE",
+        "PUEST_OPER": 283996800000,
+        "IMAGEN": "Subestacion-Chimbote-1-REP.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1967,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.177097866,
+          -13.26578142400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1967,
+        "EMPRESA": "NEXA RESOURCES PERU S.A.A",
+        "NOMBRE": "DESIERTO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 235,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "93",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "CHINCHA",
+        "DISTRITO": "GROCIO PRADO",
+        "PUEST_OPER": 1180224000000,
+        "IMAGEN": "Subestacion-Desierto.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1968,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.80039545900001,
+          -13.538764109999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1968,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "ABANCAY NUEVA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3700,
+        "CAPACIDAD": 120,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "499",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "APURIMAC",
+        "PROVINCIA": "ABANCAY",
+        "DISTRITO": "CURAHUASI",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1974,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.96855590299998,
+          -12.055468314999985
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1974,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "INDUSTRIALES",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1000,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "490",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "SANTA ANITA",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1992,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.26518785399998,
+          -4.536299858000007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1992,
+        "EMPRESA": "ENEL GENERACIÓN PIURA S.A.",
+        "NOMBRE": "MALACAS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 30,
+        "CAPACIDAD": 12.5,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "429",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "TALARA",
+        "DISTRITO": "PARIÑAS",
+        "PUEST_OPER": null,
+        "IMAGEN": "SE_MALACAS.jpg",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1999,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.24732845,
+          -6.6058633719999875
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1999,
+        "EMPRESA": "ELECTRONORTE S.A.",
+        "NOMBRE": "CARHUAQUERO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 385,
+        "CAPACIDAD": 25,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "282",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CHOTA",
+        "DISTRITO": "LLAMA",
+        "PUEST_OPER": 978307200000,
+        "IMAGEN": "Subestacion-Carhuaquero.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2017,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.181564391,
+          -4.5565873730000135
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2017,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "PARIÑAS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 85,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "544",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "TALARA",
+        "DISTRITO": "PARIÑAS",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2020,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.241291767,
+          -6.314089751999973
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2020,
+        "EMPRESA": "CONSORCIO ELÉCTRICO DE VILLACURÍ S.A.",
+        "NOMBRE": "FELAM",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 360,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "471",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LAMBAYEQUE",
+        "PROVINCIA": "LAMBAYEQUE",
+        "DISTRITO": "OLMOS",
+        "PUEST_OPER": 1414713600000,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2021,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.141395832,
+          -6.106893033000006
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2021,
+        "EMPRESA": "CONSORCIO ELÉCTRICO DE VILLACURÍ S.A.",
+        "NOMBRE": "TIERRAS NUEVAS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 15,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "472",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LAMBAYEQUE",
+        "PROVINCIA": "LAMBAYEQUE",
+        "DISTRITO": "OLMOS",
+        "PUEST_OPER": 1414713600000,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2030,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.64450099999999,
+          -10.721989000000008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2030,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "SANTA ISABEL",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1869.63,
+        "CAPACIDAD": 120,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "266",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "HUACHON",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Santa-Isabel.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2053,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.03234133400002,
+          -10.920239890000005
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2053,
+        "EMPRESA": "INTERCONEXIÓN ELÉCTRICA ISA PERÚ S.A.",
+        "NOMBRE": "CARHUAMAYO NUEVA (ISA)",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4342.28,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "552",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "JUNIN",
+        "DISTRITO": "CARHUAMAYO",
+        "PUEST_OPER": 1009843200000,
+        "IMAGEN": "SE_CARHUAMAYO_(ISA).jpg",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2054,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.277764042,
+          -10.672573434000014
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2054,
+        "EMPRESA": "INTERCONEXIÓN ELÉCTRICA ISA PERÚ S.A.",
+        "NOMBRE": "PARAGSHA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4366.99,
+        "CAPACIDAD": 120,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "181",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "SIMON BOLIVAR",
+        "PUEST_OPER": 1009843200000,
+        "IMAGEN": "Subestacion-Paragsha.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2077,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.30140224600001,
+          -14.532672581999975
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2077,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "COTARUSE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4104,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "332",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "APURIMAC",
+        "PROVINCIA": "AYMARAES",
+        "DISTRITO": "COTARUSE",
+        "PUEST_OPER": 946684800000,
+        "IMAGEN": "SE_COTARUSE.jpg",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2078,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.30253985000002,
+          -13.061177014999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2078,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "LA CANTERA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 230,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "334",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CAÑETE",
+        "DISTRITO": "NUEVO IMPERIAL",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-La-Cantera.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2079,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.61426097399999,
+          -11.759611575000008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2079,
+        "EMPRESA": "CONELSUR LT S.A.C.",
+        "NOMBRE": "HUINCO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1950,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "116",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "SAN ANTONIO",
+        "PUEST_OPER": -189388800000,
+        "IMAGEN": "Subestacion-Huinco.JPG",
+        "TRANSFORMADORES": 4,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2080,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.45637299999999,
+          -11.885739999999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2080,
+        "EMPRESA": "CONELSUR LT S.A.C.",
+        "NOMBRE": "MATUCANA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2000,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "409",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "SURCO",
+        "PUEST_OPER": 63072000000,
+        "IMAGEN": "SE_MATUCANA.jpg",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2083,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.88305937000001,
+          -11.969956088000004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2083,
+        "EMPRESA": "CONELSUR LT S.A.C.",
+        "NOMBRE": "CAJAMARQUILLA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 0,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "324",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "LURIGANCHO",
+        "PUEST_OPER": 283996800000,
+        "IMAGEN": "SE_CAJAMARQUILLA.jpg",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2084,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.30535067699998,
+          -11.30649043599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2084,
+        "EMPRESA": "CHINANGO S.A.C.",
+        "NOMBRE": "CHIMAY",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1150,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "361",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "JAUJA",
+        "DISTRITO": "MONOBAMBA",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Chimay.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2085,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.46578364300001,
+          -11.187550611000006
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2085,
+        "EMPRESA": "CHINANGO S.A.C.",
+        "NOMBRE": "YANANGO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1600,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "362",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "CHANCHAMAYO",
+        "DISTRITO": "SAN RAMON",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Yanango.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2087,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.13227252000001,
+          -11.733959544000015
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2087,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "POMACOCHA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4350,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "347",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "YAULI",
+        "DISTRITO": "YAULI",
+        "PUEST_OPER": 63072000000,
+        "IMAGEN": "Subestacion-Pomacocha.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2088,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.22472065199997,
+          -12.13173698899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2088,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "HUAYUCACHI",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3200,
+        "CAPACIDAD": 80,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "115",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "HUANCAYO",
+        "DISTRITO": "HUAYUCACHI",
+        "PUEST_OPER": 820454400000,
+        "IMAGEN": "Subestacion-Huayucachi.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2089,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.95262147800003,
+          -12.784661239000002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2089,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "HUANCAVELICA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3670,
+        "CAPACIDAD": 60,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "109",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "HUANCAVELICA",
+        "PROVINCIA": "HUANCAVELICA",
+        "DISTRITO": "HUANCAVELICA",
+        "PUEST_OPER": 441763200000,
+        "IMAGEN": "Subestacion-Huancavelica.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2090,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.27694843199998,
+          -10.673203042000011
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2090,
+        "EMPRESA": "INTERCONEXIÓN ELÉCTRICA ISA PERÚ S.A.",
+        "NOMBRE": "PARAGSHA II",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4200,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "343",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "SIMON BOLIVAR",
+        "PUEST_OPER": 567993600000,
+        "IMAGEN": "Subestacion-Paragsha-2.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.16699208699998,
+          -13.785008635999986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2136,
+        "EMPRESA": "CORPORACIÓN ACEROS AREQUIPA S.A.",
+        "NOMBRE": "ACEROS AREQUIPA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 71,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "385",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "PISCO",
+        "DISTRITO": "PARACAS",
+        "PUEST_OPER": 441763200000,
+        "IMAGEN": "Subestacion-Caasa.JPG",
+        "TRANSFORMADORES": 5,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2146,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.65119980999998,
+          -12.358643556999994
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2146,
+        "EMPRESA": "STATKRAFT PERÚ S.A.",
+        "NOMBRE": "COBRIZA I",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2045,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "81",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "HUANCAVELICA",
+        "PROVINCIA": "TAYACAJA",
+        "DISTRITO": "COLCABAMBA",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Cobriza-I.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.14562009299999,
+          -11.66576382300002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2178,
+        "EMPRESA": "MINERA CHINALCO PERÚ S.A.",
+        "NOMBRE": "TOROMOCHO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4500,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "723",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "YAULI",
+        "DISTRITO": "YAULI",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.97673155000001,
+          -12.837638002999995
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2179,
+        "EMPRESA": "COMPAÑIA ELECTRICA EL PLATANAL S.A.",
+        "NOMBRE": "PLATANAL",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 900,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "346",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CAÑETE",
+        "DISTRITO": "ZUÑIGA",
+        "PUEST_OPER": null,
+        "IMAGEN": "SE_PLATANAL.jpg",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.608027633,
+          -12.714097134999975
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2187,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "ASIA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 49.57,
+        "CAPACIDAD": 85,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "586",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CAÑETE",
+        "DISTRITO": "MALA",
+        "PUEST_OPER": 1420070400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.22278144299997,
+          -15.268162759000006
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2188,
+        "EMPRESA": "SHOUGANG HIERRO PERÚ S.A.A.",
+        "NOMBRE": "EL HIERRO",
+        "TIPO_SISTEMA": " ",
+        "ALTITUD": 114,
+        "CAPACIDAD": 80,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "587",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.885794772,
+          -9.601788785999986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2190,
+        "EMPRESA": "EMPRESA DE GENERACION ELECTRICA HUALLAGA S.A.",
+        "NOMBRE": "CHAGLLA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 928.85,
+        "CAPACIDAD": 510,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "588",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "HUANUCO",
+        "PROVINCIA": "HUANUCO",
+        "DISTRITO": "SAN PABLO DE PILLAO",
+        "PUEST_OPER": 1455062400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05458270700001,
+          -12.041251196000019
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2193,
+        "EMPRESA": "PLUZ ENERGIA PERU S.A.A.",
+        "NOMBRE": "MALVINAS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 220,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "590",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "LIMA",
+        "PUEST_OPER": 1451606400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.187544,
+          -17.775569001000008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2200,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "ILO 2",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 30,
+        "CAPACIDAD": 169,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "121",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "ILO",
+        "DISTRITO": "ILO",
+        "PUEST_OPER": 978307200000,
+        "IMAGEN": "Subestacion-Ilo-2.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2227,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.58930109599999,
+          -16.554687058000013
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2227,
+        "EMPRESA": "SOCIEDAD MINERA CERRO VERDE S.A.A.",
+        "NOMBRE": "SAN CARLOS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2800,
+        "CAPACIDAD": 240,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "502",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "YARABAMBA",
+        "PUEST_OPER": 1420070400000,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2233,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93283995600001,
+          -3.269989360000011
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2233,
+        "EMPRESA": "CENACE",
+        "NOMBRE": "MACHALA",
+        "TIPO_SISTEMA": " ",
+        "ALTITUD": 0,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "337",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": null,
+        "PROVINCIA": null,
+        "DISTRITO": " ",
+        "PUEST_OPER": null,
+        "IMAGEN": "SE_MACHALA.jpg",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2234,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.191337353,
+          -4.557985841000004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2234,
+        "EMPRESA": "ENERGÍA EÓLICA S.A.",
+        "NOMBRE": "CAMPANA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 50,
+        "CAPACIDAD": 32,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "468",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "TALARA",
+        "DISTRITO": "PARIÑAS",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": "SE_CAMPANA.jpg",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2248,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.792341367,
+          -6.86285004299998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2248,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "REQUE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 75,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "606",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LAMBAYEQUE",
+        "PROVINCIA": "CHICLAYO",
+        "DISTRITO": "REQUE",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2249,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.79016653600002,
+          -6.8840130830000135
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2249,
+        "EMPRESA": "PLANTA DE RESERVA FRÍA DE GENERACIÓN DE ETEN S.A.",
+        "NOMBRE": "ETEN",
+        "TIPO_SISTEMA": " ",
+        "ALTITUD": 75,
+        "CAPACIDAD": 255,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "479",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LAMBAYEQUE",
+        "PROVINCIA": "CHICLAYO",
+        "DISTRITO": "REQUE",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2250,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.630067016,
+          -6.769942747000016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2250,
+        "EMPRESA": "COMPAÑÍA TRANSMISORA NORPERUANA S.A.C.",
+        "NOMBRE": "CERRO CORONA",
+        "TIPO_SISTEMA": " ",
+        "ALTITUD": 3900,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "532",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "HUALGAYOC",
+        "DISTRITO": "HUALGAYOC",
+        "PUEST_OPER": 1577836800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.85045772199999,
+          -8.801867502999983
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2259,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "QUITARACSA I",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1476,
+        "CAPACIDAD": 140,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "476",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "HUAYLAS",
+        "DISTRITO": "YURACMARCA",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2260,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.15350078699998,
+          -7.913163333
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2260,
+        "EMPRESA": "EMPRESA DE ENERGÍA YAMOBAMBA S.A.C.",
+        "NOMBRE": "LA RAMADA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3500,
+        "CAPACIDAD": 40,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "474",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LA LIBERTAD",
+        "PROVINCIA": "SANCHEZ CARRION",
+        "DISTRITO": "HUAMACHUCO",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2262,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.54739556200002,
+          -6.9923019679999925
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2262,
+        "EMPRESA": "MINERA YANACOCHA S.R.L.",
+        "NOMBRE": "GOLD MILL",
+        "TIPO_SISTEMA": " ",
+        "ALTITUD": 3650,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "100",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CAJAMARCA",
+        "DISTRITO": "CAJAMARCA",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Gold-Mill.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2263,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.482930366,
+          -7.554562870999973
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2263,
+        "EMPRESA": "ENERGÍA EÓLICA S.A.",
+        "NOMBRE": "CUPISNIQUE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 30,
+        "CAPACIDAD": 90,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "469",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LA LIBERTAD",
+        "PROVINCIA": "PACASMAYO",
+        "DISTRITO": "SAN PEDRO DE LLOC",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": "SE_CUPISNIQUE.jpg",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.94180746,
+          -9.901743002999979
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2269,
+        "EMPRESA": "COMPAÑIA MINERA SANTA LUISA S.A.",
+        "NOMBRE": "HUALLANCA NUEVA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3344,
+        "CAPACIDAD": 64,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "398",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "BOLOGNESI",
+        "DISTRITO": "HUALLANCA",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Huallanca-Nueva.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2270,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.25226890900001,
+          -10.102872244000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2270,
+        "EMPRESA": "ABENGOA TRANSMISION NORTE S.A.",
+        "NOMBRE": "CONOCOCHA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4050,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "330",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "RECUAY",
+        "DISTRITO": "CATAC",
+        "PUEST_OPER": 1293840000000,
+        "IMAGEN": "SE_CONOCOCHA.jpg",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2276,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.975393957,
+          -10.88496644700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2276,
+        "EMPRESA": "STATKRAFT PERÚ S.A.",
+        "NOMBRE": "CHEVES",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1610,
+        "CAPACIDAD": 208,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "477",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAURA",
+        "DISTRITO": "PACCHO",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.40831504599998,
+          -10.995925277000026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2286,
+        "EMPRESA": "ATN 1 S.A.",
+        "NOMBRE": "FRANCOISE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4600,
+        "CAPACIDAD": 60,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "494",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "HUAYLLAY",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.605371343,
+          -13.142560249999974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2316,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "SURIRAY",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1800,
+        "CAPACIDAD": 225,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "501",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CUSCO",
+        "PROVINCIA": "LA CONVENCION",
+        "DISTRITO": "SANTA TERESA",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2319,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.33662274,
+          -14.088545703000023
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2319,
+        "EMPRESA": "ATN 2 S.A.",
+        "NOMBRE": "LAS BAMBAS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4200,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "619",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "APURIMAC",
+        "PROVINCIA": "COTABAMBAS",
+        "DISTRITO": "CHALLHUAHUACHO",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2320,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.78732804600003,
+          -14.46711469600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2320,
+        "EMPRESA": "ATN 1 S.A.",
+        "NOMBRE": "CONSTANCIA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4100,
+        "CAPACIDAD": 125,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "458",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CUSCO",
+        "PROVINCIA": "CHUMBIVILCAS",
+        "DISTRITO": "VELILLE",
+        "PUEST_OPER": null,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2335,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.37885903699998,
+          -14.950764334999974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2335,
+        "EMPRESA": "XSTRATA TINTAYA S.A.",
+        "NOMBRE": "ANTAPACCAY",
+        "TIPO_SISTEMA": " ",
+        "ALTITUD": 4000,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "379",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CUSCO",
+        "PROVINCIA": "ESPINAR",
+        "DISTRITO": "ESPINAR",
+        "PUEST_OPER": null,
+        "IMAGEN": "SE_ANTAPACCAY",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2352,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.51893303100002,
+          -16.50435901200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2352,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "YARABAMBA(SOCABAYA NUEVA)",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2350,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "632",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "YARABAMBA",
+        "PUEST_OPER": 1499126400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2359,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.31705005399999,
+          -17.999747238999987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2359,
+        "EMPRESA": "RED ELÉCTRICA DEL SUR S.A.",
+        "NOMBRE": "LOS HEROES",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 700,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "139",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "TACNA",
+        "PROVINCIA": "TACNA",
+        "DISTRITO": "TACNA",
+        "PUEST_OPER": 978307200000,
+        "IMAGEN": "Subestacion-Los-Heroes.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2361,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.986262867,
+          -11.905420906000018
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2361,
+        "EMPRESA": "PLUZ ENERGIA PERU S.A.A.",
+        "NOMBRE": "MIRADOR",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 750,
+        "CAPACIDAD": 205,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "486",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "SAN JUAN DE LURIGANCHO",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2368,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.594114564,
+          -16.516594924000003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2368,
+        "EMPRESA": "SOCIEDAD MINERA CERRO VERDE S.A.A.",
+        "NOMBRE": "SULFUROS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2715,
+        "CAPACIDAD": 150,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "442",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "TIABAYA",
+        "PUEST_OPER": 1154390400000,
+        "IMAGEN": "SE_SULFUROS.jpg",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2376,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.84276229900001,
+          -12.088092999000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2376,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "PLANICIE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 614,
+        "CAPACIDAD": 360,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "354",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "CIENEGUILLA",
+        "PUEST_OPER": null,
+        "IMAGEN": "SE_PLANICIE.jpg",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2428,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.24630822400002,
+          -6.606725071000028
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2428,
+        "EMPRESA": "ORAZUL ENERGY PERÚ S.A.",
+        "NOMBRE": "C.H. CARHUAQUERO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 375,
+        "CAPACIDAD": 95,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "357",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CHOTA",
+        "DISTRITO": "LLAMA",
+        "PUEST_OPER": null,
+        "IMAGEN": "SE_C.H._CARHUAQUERO.jpg",
+        "TRANSFORMADORES": 4,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.60224111399998,
+          -7.057407072999979
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2432,
+        "EMPRESA": "CONSORCIO ENERGÉTICO DE HUANCAVELICA S.A. ",
+        "NOMBRE": "CAJAMARCA NORTE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3600,
+        "CAPACIDAD": 75,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "38",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CAJAMARCA",
+        "DISTRITO": "CAJAMARCA",
+        "PUEST_OPER": 978307200000,
+        "IMAGEN": "Subestacion-Cajamarca-Norte-CEH.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2434,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45810214300002,
+          -7.305374323000024
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2434,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "GUADALUPE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 110,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "102",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LA LIBERTAD",
+        "PROVINCIA": "PACASMAYO",
+        "DISTRITO": "GUADALUPE",
+        "PUEST_OPER": 504921600000,
+        "IMAGEN": "Subestacion-Guadalupe.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2435,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.74170429899999,
+          -10.68029866400002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2435,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "PARAMONGA NUEVA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "184",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "BARRANCA",
+        "DISTRITO": "PATIVILCA",
+        "PUEST_OPER": 315532800000,
+        "IMAGEN": "Subestacion-Paramonga-Nueva.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2437,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.264080305,
+          -4.538085899999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2437,
+        "EMPRESA": "PETROLEOS DEL PERU PETROPERU SA",
+        "NOMBRE": "MALACAS PTR",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 30,
+        "CAPACIDAD": 20,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "652",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "TALARA",
+        "DISTRITO": "PARIÑAS",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2440,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62409589999999,
+          -11.840338551999992
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2440,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "CALLAHUANCA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1530,
+        "CAPACIDAD": 85,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "369",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "CALLAHUANCA",
+        "PUEST_OPER": 473385600000,
+        "IMAGEN": "Subestacion-Callalli-Rep.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2441,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.692638676,
+          -14.05594483599998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2441,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "ICA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 200,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "117",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "PARCONA",
+        "PUEST_OPER": 94694400000,
+        "IMAGEN": "Subestacion-Ica.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2444,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.104467833,
+          -12.04821790699998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2444,
+        "EMPRESA": "PLUZ ENERGIA PERU S.A.A.",
+        "NOMBRE": "BARSI",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 29000,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "26",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CALLAO",
+        "PROVINCIA": "CALLAO",
+        "DISTRITO": "CALLAO",
+        "PUEST_OPER": 978307200000,
+        "IMAGEN": "Subestacion-Barsi.JPG",
+        "TRANSFORMADORES": 6,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2448,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.966866187,
+          -17.215386693000028
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2448,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "MOQUEGUA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1285,
+        "CAPACIDAD": 60,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "159",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "SAN ANTONIO",
+        "PUEST_OPER": 946684800000,
+        "IMAGEN": "Subestacion-Moquegua.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2449,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.05183537699997,
+          -15.831969547000028
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2449,
+        "EMPRESA": "RED ELÉCTRICA DEL SUR S.A.",
+        "NOMBRE": "PUNO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3800,
+        "CAPACIDAD": 95,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "206",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PUNO",
+        "PROVINCIA": "PUNO",
+        "DISTRITO": "PUNO",
+        "PUEST_OPER": 852076800000,
+        "IMAGEN": "Subestacion-Puno-REP.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2452,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.807317979,
+          -16.675995186000023
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2452,
+        "EMPRESA": "ATLÁNTICA TRANSMISIÓN SUR S.A.",
+        "NOMBRE": "SAN JOSE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1450,
+        "CAPACIDAD": 1666,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "484",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "LA JOYA",
+        "PUEST_OPER": 1420070400000,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2453,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.69914799999998,
+          -5.169176999999991
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2453,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "PIURA OESTE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 50,
+        "CAPACIDAD": 200,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "195",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "PIURA",
+        "DISTRITO": "VEINTISEIS DE OCTUBRE",
+        "PUEST_OPER": 852076800000,
+        "IMAGEN": "Subestacion-Piura-Oeste.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2454,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53093922099998,
+          -5.926786967999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2454,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "LA NIÑA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 12,
+        "CAPACIDAD": 676,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "461",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "SECHURA",
+        "DISTRITO": "SECHURA",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": "Subestacion-La-Nina-500.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2455,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.55899437699998,
+          -9.01141179299998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2455,
+        "EMPRESA": "ORAZUL ENERGY PERÚ S.A.",
+        "NOMBRE": "CHIMBOTE 1",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "375",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "SANTA",
+        "DISTRITO": "CHIMBOTE",
+        "PUEST_OPER": null,
+        "IMAGEN": "SE_CHIMBOTE_1_(EGN).jpg",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2462,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.176712742,
+          -15.204754544000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2462,
+        "EMPRESA": "RED DE ENERGÍA DEL PERÚ S.A.",
+        "NOMBRE": "MARCONA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 112.5,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "147",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "PUEST_OPER": 1009843200000,
+        "IMAGEN": "Subestacion-Marcona.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2466,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.27496958900002,
+          -11.433153104999974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2466,
+        "EMPRESA": "CONELSUR LT S.A.C.",
+        "NOMBRE": "LOMERA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 179.6,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "487",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUARAL",
+        "DISTRITO": "HUARAL",
+        "PUEST_OPER": 1392336000000,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2487,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.60367400000001,
+          -3.645590000000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2487,
+        "EMPRESA": "ELECTRONOROESTE S.A.",
+        "NOMBRE": "NUEVA ZORRITOS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": null,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "341",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "TUMBES",
+        "PROVINCIA": "CONTRALMIRANTE VILLAR",
+        "DISTRITO": "ZORRITOS",
+        "PUEST_OPER": null,
+        "IMAGEN": "SE_NUEVA_ZORRITOS.jpg",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2488,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.64411799999999,
+          -10.722387000000026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2488,
+        "EMPRESA": "STATKRAFT PERÚ S.A.",
+        "NOMBRE": "YUNCÁN",
+        "TIPO_SISTEMA": null,
+        "ALTITUD": 1869.63,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "353",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "HUACHON",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Yuncan.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2500,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.93292100000002,
+          -9.894515000000013
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2500,
+        "EMPRESA": "COMPAÑIA MINERA ANTAMINA S.A.",
+        "NOMBRE": "VIZCARRA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3600,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "312",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "BOLOGNESI",
+        "DISTRITO": "HUALLANCA",
+        "PUEST_OPER": 1009843200000,
+        "IMAGEN": "Subestacion-Vizcarra.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2503,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.99921353600001,
+          -12.063843612000028
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2503,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "SAN LUIS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 189,
+        "CAPACIDAD": 25,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "485",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "YARABAMBA",
+        "PUEST_OPER": 1443657600000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2506,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.06229639100002,
+          -11.913522451999995
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2506,
+        "EMPRESA": "PLUZ ENERGIA PERU S.A.A.",
+        "NOMBRE": "COMAS",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1000,
+        "CAPACIDAD": 0.63,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "706",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "COMAS",
+        "PUEST_OPER": 1451606400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2513,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.31821983399999,
+          -11.972871697000016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2513,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "ORCOTUNA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3350,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "510",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "CONCEPCION",
+        "DISTRITO": "ORCOTUNA",
+        "PUEST_OPER": 1483228800000,
+        "IMAGEN": "Subestacion-Orcotuna.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": "S.P.ORCOTUNA.pdf",
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2520,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.20524079500001,
+          -14.914603059000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2520,
+        "EMPRESA": "TRANSMISORA ELÉCTRICA DEL SUR 2 S.A.C.",
+        "NOMBRE": "NUEVA AZANGARO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": null,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": null,
+        "COD_SE": "516",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PUNO",
+        "PROVINCIA": "AZANGARO",
+        "DISTRITO": "AZANGARO",
+        "PUEST_OPER": 1514764800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": "S.P.AZANGARO.pdf",
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2522,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.872701732,
+          -9.851369178000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2522,
+        "EMPRESA": "CELEPSA RENOVABLES S.R.L.",
+        "NOMBRE": "HUARICASHASH",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3750,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "518",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "HUANUCO",
+        "PROVINCIA": "BOLOGNESI",
+        "DISTRITO": "HUALLANCA",
+        "PUEST_OPER": 1514764800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": "S.P.HUARICASHASH.pdf",
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2530,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.05629766300001,
+          -15.053381430000002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2530,
+        "EMPRESA": "ORYGEN PERÚ S.A.A.",
+        "NOMBRE": "FLAMENCO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 525,
+        "CAPACIDAD": 120,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "671",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2536,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.184284004,
+          -17.243190158999994
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2536,
+        "EMPRESA": "ORYGEN PERÚ S.A.A.",
+        "NOMBRE": "RUBI",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1469,
+        "CAPACIDAD": 500,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "702",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "MOQUEGUA",
+        "PUEST_OPER": 1514764800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2539,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.98894213800003,
+          -6.058611385000006
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2539,
+        "EMPRESA": "CONCESIONARIA LINEA DE TRANSMISION CCNCM S.A.C.",
+        "NOMBRE": "BELAUNDE TERRY",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 854,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "503",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "SAN MARTIN",
+        "PROVINCIA": "MOYOBAMBA",
+        "DISTRITO": "MOYOBAMBA",
+        "PUEST_OPER": 1483228800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2540,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.86834885399998,
+          -12.101207108999972
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2540,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "MANCHAY",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 435,
+        "CAPACIDAD": 170,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "734",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "PACHACAMAC",
+        "PUEST_OPER": 1515024000000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2542,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.088627799,
+          -15.561607881999976
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2542,
+        "EMPRESA": "TRANSMISORA ELÉCTRICA DEL SUR 2 S.A.C.",
+        "NOMBRE": "SAN ROMAN",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3830,
+        "CAPACIDAD": 150,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "705",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PUNO",
+        "PROVINCIA": "SAN ROMAN",
+        "DISTRITO": "CARACOTO",
+        "PUEST_OPER": 1514764800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2543,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.211510159,
+          -14.939298552000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2543,
+        "EMPRESA": "TRANSMISORA ELÉCTRICA DEL SUR 2 S.A.C.",
+        "NOMBRE": "PUMIRI",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3860,
+        "CAPACIDAD": 150,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "704",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PUNO",
+        "PROVINCIA": "AZANGARO",
+        "DISTRITO": "AZANGARO",
+        "PUEST_OPER": 1514764800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2553,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0659,
+          -11.997400000000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2553,
+        "EMPRESA": "PLUZ ENERGIA PERU S.A.A.",
+        "NOMBRE": "CHAVARRIA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1000,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "64",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "LOS OLIVOS",
+        "PUEST_OPER": -157766400000,
+        "IMAGEN": "Subestacion-Chavarria.JPG",
+        "TRANSFORMADORES": 8,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2555,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.825790659,
+          -12.288647566000009
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2555,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "ALTO PRADERA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": null,
+        "CAPACIDAD": 120,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "707",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "LURIN",
+        "PUEST_OPER": 1451606400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": 4,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2557,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.86705423199999,
+          -11.933574435000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2557,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "SAN MIGUEL",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 500,
+        "CAPACIDAD": 103,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "711",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "SAN ANTONIO",
+        "PUEST_OPER": 1545177600000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2567,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.07654133599999,
+          -15.147473596999987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2567,
+        "EMPRESA": "MARCOBRE S.A.C.",
+        "NOMBRE": "MINA JUSTA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 825,
+        "CAPACIDAD": 125,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "708",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "PUEST_OPER": 1557360000000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2580,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.222677858,
+          -7.657932222999989
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2580,
+        "EMPRESA": "ABENGOA TRANSMISION NORTE S.A.",
+        "NOMBRE": "PAMPA HONDA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3300,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "750",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CAJABAMBA",
+        "DISTRITO": "CACHACHI",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2582,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.38072172800003,
+          -16.596871576000012
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2582,
+        "EMPRESA": "RED ELÉCTRICA DEL SUR S.A.",
+        "NOMBRE": "CHILOTA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4600,
+        "CAPACIDAD": 26,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "752",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "CARUMAS",
+        "PUEST_OPER": 1577836800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2600,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.51583241700001,
+          -16.471518076999985
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2600,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "SOCABAYA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2375,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "280",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "SABANDIA",
+        "PUEST_OPER": 883612800000,
+        "IMAGEN": "Subestacion-Socabaya-TRM.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.51627500000001,
+          -16.474968999999987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2601,
+        "EMPRESA": "RED ELÉCTRICA DEL SUR S.A.",
+        "NOMBRE": "SOCABAYA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2375,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "367",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "SABANDIA",
+        "PUEST_OPER": 883612800000,
+        "IMAGEN": "Subestacion-Socabaya-RDS.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2607,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.07416613800001,
+          -13.453808687999981
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2607,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "CHINCHA NUEVA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 125,
+        "CAPACIDAD": 10,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "685",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "CHINCHA",
+        "DISTRITO": "ALTO LARAN",
+        "PUEST_OPER": 1700784000000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2613,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.97900464899999,
+          -12.066475285000024
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2613,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "LOS SAUCES ",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 223,
+        "CAPACIDAD": 150,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "754",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "ATE",
+        "PUEST_OPER": 1582243200000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2619,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.14562000000001,
+          -11.665759999999977
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2619,
+        "EMPRESA": "MINERA TOROMOCHO",
+        "NOMBRE": "TOROMOCHO",
+        "TIPO_SISTEMA": null,
+        "ALTITUD": 4500,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "496",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "YAULI",
+        "DISTRITO": "YAULI",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2623,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.34682676400001,
+          -3.5450846300000194
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2623,
+        "EMPRESA": "CONCESIONARIA LINEA DE TRANSMISION LA NIÑA S.A.C",
+        "NOMBRE": "Nueva Tumbes",
+        "TIPO_SISTEMA": null,
+        "ALTITUD": 21,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": null,
+        "COD_SE": "758",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "TUMBES",
+        "PROVINCIA": "ZARUMILLA",
+        "DISTRITO": "PAPAYAL",
+        "PUEST_OPER": 1703721600000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": "Enlace220-kV-Pariñas-NuevaTumbes.pdf",
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2627,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.61308283699998,
+          -10.726510387000019
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2627,
+        "EMPRESA": "ATRIA ENERGIA S.A.C.",
+        "NOMBRE": "PURMACANA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 348,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "762",
+        "TENSION_NOM": "20",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "BARRANCA",
+        "DISTRITO": "SUPE",
+        "PUEST_OPER": 1300406400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2628,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.67309165299997,
+          -10.80611144400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2628,
+        "EMPRESA": "ATRIA ENERGIA S.A.C.",
+        "NOMBRE": "RIO SECO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 35,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "763",
+        "TENSION_NOM": "20",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "BARRANCA",
+        "DISTRITO": "SUPE",
+        "PUEST_OPER": 1300406400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2638,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.27694878699998,
+          -10.671839377000026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2638,
+        "EMPRESA": "EMPRESA DE GENERACION ELECTRICA HUALLAGA S.A.",
+        "NOMBRE": "PARAGSHA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4200,
+        "CAPACIDAD": 120,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "343",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "SIMON BOLIVAR",
+        "PUEST_OPER": 567993600000,
+        "IMAGEN": "Subestacion-Paragsha-2.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2646,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.10391575800003,
+          -14.92808219699998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2646,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "NAZCA NUEVA (Cahuachi)",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 420,
+        "CAPACIDAD": 60,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "778",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "NASCA",
+        "PUEST_OPER": 1700956800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2647,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.81426837200002,
+          -4.913059229999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2647,
+        "EMPRESA": "PUERTO MALDONADO TRANSMISORA DE ENERGIA SAC",
+        "NOMBRE": "VALLE DEL CHIRA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 95,
+        "CAPACIDAD": 65,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "779",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "SULLANA",
+        "DISTRITO": "MIGUEL CHECA",
+        "PUEST_OPER": 1702598400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2648,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.942416805,
+          -12.185978316999979
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2648,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "PACHACUTEC",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 175,
+        "CAPACIDAD": 32,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "780",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "VILLA EL SALVADOR",
+        "PUEST_OPER": 1609459200000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2649,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.97991265799999,
+          -12.157085987000016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2649,
+        "EMPRESA": "LUZ DEL SUR S.A.A.",
+        "NOMBRE": "PROGRESO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "781",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "SAN JUAN DE MIRAFLORES",
+        "PUEST_OPER": 1609459200000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2650,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.67011430999997,
+          -17.13258053300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2650,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "PAPUJUNE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3542,
+        "CAPACIDAD": 132,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "782",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "TORATA",
+        "PUEST_OPER": 1614902400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2651,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.27597943,
+          -4.590032612000016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2651,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "LA BREA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 130,
+        "CAPACIDAD": 130,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "783",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "TALARA",
+        "DISTRITO": "PARIÑAS",
+        "PUEST_OPER": 1611360000000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2667,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.88958619599998,
+          -14.613936448000004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2667,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "S.E. PUNTA LOMITAS",
+        "TIPO_SISTEMA": "A",
+        "ALTITUD": 75,
+        "CAPACIDAD": 300,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "799",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "OCUCAJE",
+        "PUEST_OPER": 1668124800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2668,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.47224386200003,
+          -14.409397839000007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2668,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "S.E. DERIVACION",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 500,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "800",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "SANTIAGO",
+        "PUEST_OPER": 1667260800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2677,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.804567647,
+          -16.679268997999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2677,
+        "EMPRESA": "JOYA SOLAR S.A.C.",
+        "NOMBRE": "AMP. SAN JOSE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1450,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "809",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "LA JOYA",
+        "PUEST_OPER": 1749168000000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2678,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.800914407,
+          -16.695153256000026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2678,
+        "EMPRESA": "JOYA SOLAR S.A.C.",
+        "NOMBRE": "SAN MARTÍN SOLAR",
+        "TIPO_SISTEMA": null,
+        "ALTITUD": 1425,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "810",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "LA JOYA",
+        "PUEST_OPER": 1749168000000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2686,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.22392435,
+          -12.131827359999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2686,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "HUAYUCACHI",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3200,
+        "CAPACIDAD": 80,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "115",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "HUANCAYO",
+        "DISTRITO": "HUAYUCACHI",
+        "PUEST_OPER": 1102464000000,
+        "IMAGEN": "Subestacion-Huayucachi.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2687,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.95231672199998,
+          -12.784831655999994
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2687,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "HUANCAVELICA NORTE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3670,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "109",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "HUANCAVELICA",
+        "PROVINCIA": "HUANCAVELICA",
+        "DISTRITO": "HUANCAVELICA",
+        "PUEST_OPER": 1099612800000,
+        "IMAGEN": "Subestacion-Huancavelica.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2696,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.56550620899998,
+          -10.453941413999985
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2696,
+        "EMPRESA": "ABENGOA TRANSMISION NORTE S.A.",
+        "NOMBRE": "ISHCAYUCRO",
+        "TIPO_SISTEMA": null,
+        "ALTITUD": 4300,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "818",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "DANIEL ALCIDES CARRION",
+        "DISTRITO": "YANAHUANCA",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2697,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.258122463,
+          -11.58075599
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2697,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "PUERTO CHANCAY",
+        "TIPO_SISTEMA": null,
+        "ALTITUD": 100,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "819",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUARAL",
+        "DISTRITO": "CHANCAY",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2711,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.10592592699999,
+          -15.404590499999983
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2711,
+        "EMPRESA": "ENERGIA RENOVABLE DEL SUR S.A.",
+        "NOMBRE": "ERSUR",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 56,
+        "CAPACIDAD": 160,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "832",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "PUEST_OPER": 1711411200000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2727,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.18461764800003,
+          -17.243567111000004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2727,
+        "EMPRESA": "ORYGEN PERÚ S.A.A.",
+        "NOMBRE": "CREMESI",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1469,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "848",
+        "TENSION_NOM": "220",
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "MOQUEGUA",
+        "PUEST_OPER": 1709078400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    }
+  ],
+  "properties": {
+    "layer_id": 25,
+    "layer_name": "SET 220 kV",
+    "geometry_type": "esriGeometryPoint"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.87188671400003,
+          -11.932166741000003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 204,
+        "EMPRESA": "PETRAMAS S.A.C.",
+        "NOMBRE": "HUAYCOLORO",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 615,
+        "POT_INST": 4.8,
+        "POT_EFEC": 4.45301,
+        "TENSION_NOM": 0.48,
+        "FUENTE_ENER": "BIOGAS",
+        "NRO_UNIDADES": "3",
+        "PUEST_OPER": 1323129600000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "SAN ANTONIO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 10.5,
+        "PCO_ANIO": 2011,
+        "ID_CG": 202,
+        "FICHA": "Central-Biomasa-Huaycoloro.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.82438941200002,
+          -10.673461603000021
+        ]
+      },
+      "properties": {
+        "OBJECTID": 205,
+        "EMPRESA": "AGRO INDUSTRIAL PARAMONGA S.A.",
+        "NOMBRE": "PARAMONGA",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 14,
+        "POT_INST": 23,
+        "POT_EFEC": 13.450000000000001,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "BAGAZO",
+        "NRO_UNIDADES": "1",
+        "PUEST_OPER": 1269993600000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "BARRANCA",
+        "DISTRITO": "PARAMONGA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 31,
+        "PCO_ANIO": 2010,
+        "ID_CG": 203,
+        "FICHA": "Central-Biomasa-Cogeneracion-Paramonga.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.871718397,
+          -11.932450957000015
+        ]
+      },
+      "properties": {
+        "OBJECTID": 211,
+        "EMPRESA": "PETRAMAS S.A.C.",
+        "NOMBRE": "LA GRINGA V",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 614,
+        "POT_INST": 3.2,
+        "POT_EFEC": 2.91728,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "BIOGAS",
+        "NRO_UNIDADES": "2",
+        "PUEST_OPER": 1440979200000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "SAN ANTONIO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1317340800000,
+        "MONTO_INV": 5.1000000000000005,
+        "PCO_ANIO": 2018,
+        "ID_CG": 209,
+        "FICHA": "Central-Biomasa-LaGringaV.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 221,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.715410889,
+          -5.165271887000017
+        ]
+      },
+      "properties": {
+        "OBJECTID": 221,
+        "EMPRESA": "AGROAURORA S.A.C.",
+        "NOMBRE": "MAPLE ETANOL",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1000,
+        "POT_INST": 37.52,
+        "POT_EFEC": 19.04,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "BAGAZO",
+        "NRO_UNIDADES": "1",
+        "PUEST_OPER": 1345161600000,
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "SULLANA",
+        "DISTRITO": "LA HUACA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1339113600000,
+        "MONTO_INV": 25,
+        "PCO_ANIO": 2012,
+        "ID_CG": 247,
+        "FICHA": "Central-Termica-MapleEtanol.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.12673517299999,
+          -11.935533955999972
+        ]
+      },
+      "properties": {
+        "OBJECTID": 283,
+        "EMPRESA": "PETRAMAS S.A.C.",
+        "NOMBRE": "CALLAO",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 60,
+        "POT_INST": 2.4,
+        "POT_EFEC": 2.4,
+        "TENSION_NOM": 0.48,
+        "FUENTE_ENER": "BIOGAS",
+        "NRO_UNIDADES": "2",
+        "PUEST_OPER": 1594598400000,
+        "DEPARTAMENTO": "CALLAO",
+        "PROVINCIA": "CALLAO",
+        "DISTRITO": "VENTANILLA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1463443200000,
+        "MONTO_INV": null,
+        "PCO_ANIO": 2020,
+        "ID_CG": 296,
+        "FICHA": "Central-Biomasa-Callao.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 284,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.871568739,
+          -11.932040475000008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 284,
+        "EMPRESA": "PETRAMAS S.A.C.",
+        "NOMBRE": "HUAYCOLORO II",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 60,
+        "POT_INST": 2.4,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "BIOGAS",
+        "NRO_UNIDADES": "2",
+        "PUEST_OPER": 1535500800000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "SAN ANTONIO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1463443200000,
+        "MONTO_INV": null,
+        "PCO_ANIO": 2018,
+        "ID_CG": 309,
+        "FICHA": "Central-Biomasa-HuaycoloroII.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.278723033,
+          -9.146070774999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 285,
+        "EMPRESA": "AGROINDUSTRIAS SAN JACINTO SAA",
+        "NOMBRE": "SAN JACINTO",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 114,
+        "POT_INST": 21.71,
+        "POT_EFEC": 8.15,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "BAGAZO DE CAÑA",
+        "NRO_UNIDADES": "1",
+        "PUEST_OPER": 1555113600000,
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "SANTA",
+        "DISTRITO": "NEPEDA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1498176000000,
+        "MONTO_INV": null,
+        "PCO_ANIO": 2017,
+        "ID_CG": 298,
+        "FICHA": "Central-Biomasa-SanJacinto.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 307,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76,
+          -8
+        ]
+      },
+      "properties": {
+        "OBJECTID": 307,
+        "EMPRESA": "OLEAGINOSAS DEL PERÚ S.A.",
+        "NOMBRE": "OLPESA (PTAR)",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": 471,
+        "POT_INST": 2.3000000000000003,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "PETAR",
+        "NRO_UNIDADES": "3",
+        "PUEST_OPER": 1575331200000,
+        "DEPARTAMENTO": "SAN MARTIN ",
+        "PROVINCIA": " TOCACHE ",
+        "DISTRITO": " TOCACHE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1513123200000,
+        "MONTO_INV": null,
+        "PCO_ANIO": 2019,
+        "ID_CG": 325,
+        "FICHA": "Central-Olpesa.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.87159200500002,
+          -11.932650431000013
+        ]
+      },
+      "properties": {
+        "OBJECTID": 313,
+        "EMPRESA": "PETRAMAS S.A.C.",
+        "NOMBRE": "DOÑA CATALINA",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 615,
+        "POT_INST": 2.4,
+        "POT_EFEC": 2.4,
+        "TENSION_NOM": 0.48,
+        "FUENTE_ENER": "BIOGAS",
+        "NRO_UNIDADES": "2",
+        "PUEST_OPER": 1535500800000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "SAN ANTONIO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": 2018,
+        "ID_CG": 297,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.92773333399998,
+          -4.8504436299999725
+        ]
+      },
+      "properties": {
+        "OBJECTID": 316,
+        "EMPRESA": "BIOENERGÍA DEL CHIRA S.A.",
+        "NOMBRE": "CAÑA BRAVA",
+        "TIPO_CENTRAL": "CENTRAL BIOMASA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 104,
+        "POT_INST": 13.8,
+        "POT_EFEC": 23.17952,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "BAGAZO",
+        "NRO_UNIDADES": "2",
+        "PUEST_OPER": 1569974400000,
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "SULLANA",
+        "DISTRITO": "IGNACIO ESCUDERO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": 2019,
+        "ID_CG": 361,
+        "FICHA": null
+      }
+    }
+  ],
+  "properties": {
+    "layer_id": 19,
+    "layer_name": "Biomasa",
+    "geometry_type": "esriGeometryPoint"
+  }
+}

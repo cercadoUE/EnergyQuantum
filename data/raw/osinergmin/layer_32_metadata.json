@@ -1,0 +1,888 @@
+{
+  "extent": {
+    "ymin": -18.174338229,
+    "xmin": -180,
+    "ymax": 90,
+    "xmax": 180,
+    "spatialReference": {
+      "falseM": -180,
+      "xyTolerance": 8.983152841195215e-09,
+      "mUnits": 25019997929836.082,
+      "zUnits": 25019997929836.082,
+      "latestWkid": 4326,
+      "zTolerance": 0.001,
+      "wkid": 4326,
+      "xyUnits": 11258999068426.24,
+      "mTolerance": 0.001,
+      "falseX": -400,
+      "falseY": -400,
+      "falseZ": -180
+    }
+  },
+  "maxRecordCount": 1000,
+  "datesInUnknownTimezone": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "type": "Feature Layer",
+  "maxSelectionCount": 2000,
+  "subtypes": [],
+  "relationships": [],
+  "cimVersion": "3.7.0",
+  "isDataArchived": false,
+  "id": 32,
+  "archivingInfo": {
+    "startArchivingMoment": -1,
+    "supportsQueryWithHistoricMoment": false
+  },
+  "spatialReference": {
+    "falseM": -180,
+    "xyTolerance": 8.983152841195215e-09,
+    "mUnits": 25019997929836.082,
+    "zUnits": 25019997929836.082,
+    "latestWkid": 4326,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 11258999068426.24,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": -180
+  },
+  "subtypeFieldName": null,
+  "supportsStatistics": true,
+  "hasLastEditTime": false,
+  "standardMaxRecordCount": 8000,
+  "isDataVersioned": false,
+  "hasGeometryProperties": true,
+  "supportsAdvancedQueries": true,
+  "parentLayer": {
+    "name": "Lineas de Transmisión (L.T.)",
+    "id": 27
+  },
+  "subLayers": [],
+  "currentVersion": 12.1,
+  "referenceScale": 0,
+  "canScaleSymbols": false,
+  "name": "L.T.  500 kV",
+  "displayField": "COD_LINEA",
+  "fields": [
+    {
+      "nullable": false,
+      "domain": null,
+      "name": "OBJECTID",
+      "alias": "OBJECTID",
+      "type": "esriFieldTypeOID"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "EMPRESA",
+      "length": 50,
+      "alias": "Nombre de la Empresa",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "COD_LINEA",
+      "length": 10,
+      "alias": "Código de Linea de Transmision",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NOMBRE",
+      "length": 50,
+      "alias": "Nombre de Linea de Transmision",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TENSION_NOM",
+      "alias": "Tension Nominal (kV)",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "LONGITUD",
+      "alias": "Longitud de Linea de Transmision (KM)",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_REGION_GEOGRAFICA",
+        "description": "REGION GEOGRAFICA",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "CO",
+            "name": "COSTA"
+          },
+          {
+            "code": "SI",
+            "name": "SIERRA"
+          },
+          {
+            "code": "SE",
+            "name": "SELVA"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "REGION_GEOGRAFICA",
+      "length": 10,
+      "alias": "Region Geográfica",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "AREA_SEIN",
+      "length": 10,
+      "alias": "Area SEIN",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "CORRIENTE_NOM",
+      "alias": "Corriente Nominal (A)",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "CAPAC_NOMINAL",
+      "alias": "Capacidad Nominal",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_ESTADO",
+        "description": "ESTADO DE INSTALACIONES",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "FS",
+            "name": "FUERA DE SERVICIO"
+          },
+          {
+            "code": "CN",
+            "name": "EN CONSTRUCCION"
+          },
+          {
+            "code": "PA",
+            "name": "PARALIZADO"
+          },
+          {
+            "code": "P",
+            "name": "PROYECTADO"
+          },
+          {
+            "code": "EA",
+            "name": "EN ARBITRAJE"
+          },
+          {
+            "code": "C",
+            "name": "EN CADUCIDAD"
+          },
+          {
+            "code": "ES",
+            "name": "EN SERVICIO"
+          },
+          {
+            "code": "E",
+            "name": "ESTUDIOS"
+          },
+          {
+            "code": "CR",
+            "name": "CONTRATO RESUELTO"
+          },
+          {
+            "code": "CS",
+            "name": "CONTRATO SUSPENDIDO"
+          },
+          {
+            "code": "R",
+            "name": "RETIRADO"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "ESTADO",
+      "length": 20,
+      "alias": "Estado",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NODO_SALIDA",
+      "length": 50,
+      "alias": "Nombre de Subestacion de Salida",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NORTE_SALIDA",
+      "alias": "Norte Envio",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "ESTE_SALIDA",
+      "alias": "Este Envío",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NODO_LLEGADA",
+      "length": 50,
+      "alias": "Nombre de Subestacion de Llegada",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NORTE_LLEGADA",
+      "alias": "Norte Llegada",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "ESTE_LLEGADA",
+      "alias": "Este Llegada",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "MAX_TENS_OPERAC",
+      "alias": "Maxima Tension Operativa",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "LONG_AEREA",
+      "alias": "Longitud Aerea",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "LONG_SUBTER",
+      "alias": "Longitud Subterranea",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TIPO_CIRCUITO",
+      "length": 15,
+      "alias": "Tipo de Circuito",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_TIPO_DE_SISTEMA",
+        "description": "TIPO DE SISTEMA",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "A",
+            "name": "AISLADO"
+          },
+          {
+            "code": "I",
+            "name": "INTERCONECTADO"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "SISTEMA",
+      "length": 10,
+      "alias": "Sistema",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_CALIFICACION",
+        "description": "CALIFICACION DE LINEA DE TRANSMISION",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "P",
+            "name": "PRINCIPAL"
+          },
+          {
+            "code": "S",
+            "name": "SECUNDARIO"
+          },
+          {
+            "code": "GR",
+            "name": "GARANTIZADO"
+          },
+          {
+            "code": "COMPL",
+            "name": "COMPLEMENTARIO"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "CALIFICACION",
+      "length": 20,
+      "alias": "Calificacion",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "PUEST_OPER",
+      "length": 8,
+      "alias": "Puesta en Operacion",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NRO_TERNAS",
+      "alias": "Nro de Ternas",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NRO_SOPORTES",
+      "alias": "Nro de Soportes",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "MATERIA_SO",
+      "length": 50,
+      "alias": "Material de Soporte",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "CORRIENTE",
+      "length": 20,
+      "alias": "Corriente Maxima",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "POTENCIA_NOM",
+      "length": 20,
+      "alias": "Potencia Nominal",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TIPO_CONDUCTOR",
+      "length": 20,
+      "alias": "Tipo de Soporte",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "IMAGEN",
+      "length": 100,
+      "alias": "Imagen",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TIPO_SOPOR",
+      "length": 30,
+      "alias": "Tipo de Soporte",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "RESOL_SERV",
+      "length": 150,
+      "alias": "Resolución de Servidumbre",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "RESOL_CONCE",
+      "length": 150,
+      "alias": "Resolución de Concesion",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "COD_LINEA_1",
+      "length": 10,
+      "alias": "Código de Linea (L)",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "SIMB_LIN",
+      "alias": "Simbologia",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "ANCHO_SERV",
+      "alias": "Ancho de Servidumbre",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TIPO_CONCE",
+      "length": 50,
+      "alias": "Tipo de Concesión",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "FICHA",
+      "length": 200,
+      "alias": "FICHA",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "SHAPE",
+      "alias": "SHAPE",
+      "type": "esriFieldTypeGeometry"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "PCO_ANIO",
+      "alias": "AÑO",
+      "type": "esriFieldTypeSmallInteger"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "ID_LT",
+      "alias": "ID_LT",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "MAT_CODUC",
+      "length": 50,
+      "alias": "MATERIAL CONDUCTOR",
+      "type": "esriFieldTypeString"
+    }
+  ],
+  "maxRecordCountFactor": 1,
+  "dateFieldsTimeReference": null,
+  "preferredTimeReference": null,
+  "useStandardizedQueries": true,
+  "sourceSpatialReference": {
+    "falseM": 0,
+    "xyTolerance": 8.98315284119521e-09,
+    "mUnits": 1,
+    "zUnits": 1,
+    "latestWkid": 4326,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 999999999.9999999,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": 0
+  },
+  "description": "Este conjunto de datos representa las lineas de transmisión a nivel nacional existentes, fue generada a partir de información del MEM ,COES y Empresas del Sector , la cual posteriormente fue validada para los fines requeridos por el Organismo Supervisor de la Inversión en Energía y Minería (OSINERGMIN).",
+  "canModifyLayer": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "geometryProperties": {
+    "shapeLengthFieldName": "SHAPE.LEN",
+    "units": "esriDecimalDegrees",
+    "mapUnits": {
+      "uwkid": 9102
+    }
+  },
+  "standardMaxRecordCountNoGeometry": 32000,
+  "indexes": [
+    {
+      "name": "I3228COD_LINEA",
+      "isUnique": false,
+      "description": "",
+      "fields": "COD_LINEA",
+      "isAscending": true
+    },
+    {
+      "name": "A168_IX1",
+      "isUnique": true,
+      "description": "",
+      "fields": "SHAPE",
+      "isAscending": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "supportsDatumTransformation": true,
+  "minScale": 10000000,
+  "supportsDynamicLegends": true,
+  "hasAttachments": false,
+  "advancedQueryCapabilities": {
+    "supportsSqlExpression": true,
+    "supportsQueryWithResultType": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsSqlFormat": false,
+    "useStandardizedQueries": true,
+    "supportsResultPaginationToken": false,
+    "supportsQueryWithCacheHint": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsQueryWithLodSR": false,
+    "supportsPagination": true,
+    "supportsMaxRecordCountFactor": false,
+    "supportsStatistics": true,
+    "supportsTrueCurve": true,
+    "supportsOrderBy": true,
+    "supportsLod": false,
+    "supportsQueryWithDistance": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsReturningQueryExtent": true,
+    "supportsDistinct": true,
+    "supportsTimeRelation": true,
+    "supportsQueryAnalytic": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true
+  },
+  "subtypeField": null,
+  "serviceItemId": "dd16d4ffadbd435db9a529c0e46452a3",
+  "supportsCoordinatesQuantization": true,
+  "capabilities": "Query,Map,Data",
+  "maxScale": 0,
+  "supportsExceedsLimitStatistics": true,
+  "defaultVisibility": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsAsync": false,
+    "supportsLinearRegression": true,
+    "supportsPercentileAnalytic": true
+  },
+  "hasMetadata": true,
+  "tileMaxRecordCount": 4000,
+  "typeIdField": null,
+  "defaultSubtypeCode": null,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "hasLabels": false,
+  "drawingInfo": {
+    "renderer": {
+      "uniqueValueGroups": [
+        {
+          "heading": "",
+          "classes": [
+            {
+              "symbol": {
+                "color": [
+                  255,
+                  170,
+                  0,
+                  255
+                ],
+                "width": 1.5,
+                "style": "esriSLSSolid",
+                "type": "esriSLS"
+              },
+              "values": [
+                [
+                  "500"
+                ]
+              ],
+              "description": "",
+              "label": ""
+            }
+          ]
+        }
+      ],
+      "field1": "TENSION_NOM",
+      "authoringInfo": {
+        "colorRamp": {
+          "colorRamps": [
+            {
+              "toColor": [
+                168,
+                156,
+                59,
+                255
+              ],
+              "fromColor": [
+                168,
+                156,
+                59,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                171,
+                71,
+                201,
+                255
+              ],
+              "fromColor": [
+                171,
+                71,
+                201,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                86,
+                217,
+                240,
+                255
+              ],
+              "fromColor": [
+                86,
+                217,
+                240,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                179,
+                73,
+                87,
+                255
+              ],
+              "fromColor": [
+                179,
+                73,
+                87,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                84,
+                240,
+                102,
+                255
+              ],
+              "fromColor": [
+                84,
+                240,
+                102,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                49,
+                79,
+                135,
+                255
+              ],
+              "fromColor": [
+                49,
+                79,
+                135,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                60,
+                150,
+                87,
+                255
+              ],
+              "fromColor": [
+                60,
+                150,
+                87,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                130,
+                102,
+                75,
+                255
+              ],
+              "fromColor": [
+                130,
+                102,
+                75,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                94,
+                125,
+                247,
+                255
+              ],
+              "fromColor": [
+                94,
+                125,
+                247,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                247,
+                92,
+                180,
+                255
+              ],
+              "fromColor": [
+                247,
+                92,
+                180,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                90,
+                250,
+                205,
+                255
+              ],
+              "fromColor": [
+                90,
+                250,
+                205,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                177,
+                136,
+                207,
+                255
+              ],
+              "fromColor": [
+                177,
+                136,
+                207,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            },
+            {
+              "toColor": [
+                210,
+                245,
+                164,
+                255
+              ],
+              "fromColor": [
+                210,
+                245,
+                164,
+                255
+              ],
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm"
+            }
+          ],
+          "type": "multipart"
+        }
+      },
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "color": [
+              255,
+              170,
+              0,
+              255
+            ],
+            "width": 1.5,
+            "style": "esriSLSSolid",
+            "type": "esriSLS"
+          },
+          "value": "500"
+        }
+      ],
+      "type": "uniqueValue",
+      "fieldDelimiter": ","
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "geometryField": {
+    "name": "SHAPE",
+    "alias": "SHAPE",
+    "type": "esriFieldTypeGeometry"
+  },
+  "copyrightText": "Ministerio de Energía y Minas (MEM) ,Comite de Operación Económica del Sistema Interconectado Nacional  (COES) , Organismo Supervisor de la Inversión en Energía y Minería (OSINERGMIN) , Empresas del sector.",
+  "geometryType": "esriGeometryPolyline"
+}

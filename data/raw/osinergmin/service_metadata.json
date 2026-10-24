@@ -1,0 +1,521 @@
+{
+  "documentInfo": {
+    "Category": "",
+    "Keywords": "OSINERGMIN",
+    "Version": "2.9.0",
+    "Comments": "Mapa de Elelectricidad",
+    "AntialiasingMode": "Fast",
+    "Title": "Mapa de Elelectricidad",
+    "Author": "",
+    "TextAntialiasingMode": "Force",
+    "Subject": "Mapa de Elelectricidad"
+  },
+  "maxImageWidth": 4096,
+  "maxRecordCount": 1000,
+  "description": "Instalaciones de generación y líneas de transmisión de electricidad en operación",
+  "datesInUnknownTimezone": false,
+  "supportsQueryDomains": true,
+  "units": "esriDecimalDegrees",
+  "maxSelectionCount": 2000,
+  "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+  "supportsClipping": true,
+  "exportTilesAllowed": false,
+  "maxImageHeight": 4096,
+  "tables": [
+    {
+      "name": "ELEC_GEYT.TB_SEIN_TRANSFORMADORES",
+      "id": 34,
+      "type": "Table"
+    }
+  ],
+  "hasVersionedData": false,
+  "supportsDatumTransformation": true,
+  "cimVersion": "3.7.0",
+  "supportsQueryDataElements": true,
+  "layers": [
+    {
+      "subLayerIds": [
+        5,
+        8,
+        11,
+        13
+      ],
+      "maxScale": 0,
+      "name": "Centrales Convencionales",
+      "defaultVisibility": true,
+      "id": 4,
+      "minScale": 0,
+      "supportsDynamicLegends": false,
+      "type": "Group Layer",
+      "parentLayerId": -1
+    },
+    {
+      "subLayerIds": [
+        6,
+        7
+      ],
+      "maxScale": 0,
+      "name": "Centrales Hidroelectricas",
+      "defaultVisibility": true,
+      "id": 5,
+      "minScale": 0,
+      "supportsDynamicLegends": false,
+      "type": "Group Layer",
+      "parentLayerId": 4
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "C.H. SEIN",
+      "defaultVisibility": true,
+      "id": 6,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 5,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "C.H. Aislados",
+      "defaultVisibility": true,
+      "id": 7,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 5,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": [
+        9,
+        10
+      ],
+      "maxScale": 0,
+      "name": "Centrales Térmicas ",
+      "defaultVisibility": true,
+      "id": 8,
+      "minScale": 0,
+      "supportsDynamicLegends": false,
+      "type": "Group Layer",
+      "parentLayerId": 4
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "C.T. SEIN",
+      "defaultVisibility": true,
+      "id": 9,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 8,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "C.T. Aislados",
+      "defaultVisibility": true,
+      "id": 10,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 8,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": [
+        12
+      ],
+      "maxScale": 0,
+      "name": "Centrales Reserva",
+      "defaultVisibility": true,
+      "id": 11,
+      "minScale": 0,
+      "supportsDynamicLegends": false,
+      "type": "Group Layer",
+      "parentLayerId": 4
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "Central Reserva",
+      "defaultVisibility": true,
+      "id": 12,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 11,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": [
+        14,
+        15
+      ],
+      "maxScale": 0,
+      "name": "Gen. Aislada- Municipios",
+      "defaultVisibility": true,
+      "id": 13,
+      "minScale": 5000000,
+      "supportsDynamicLegends": false,
+      "type": "Group Layer",
+      "parentLayerId": 4
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "Hidroeléctricas",
+      "defaultVisibility": true,
+      "id": 14,
+      "minScale": 4622324,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 13,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "Térmicas",
+      "defaultVisibility": true,
+      "id": 15,
+      "minScale": 4622324,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 13,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "maxScale": 0,
+      "name": "Centrales No Convencionales",
+      "defaultVisibility": true,
+      "id": 16,
+      "minScale": 0,
+      "supportsDynamicLegends": false,
+      "type": "Group Layer",
+      "parentLayerId": -1
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "Hidroeléctrica",
+      "defaultVisibility": true,
+      "id": 17,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 16,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "Eólica",
+      "defaultVisibility": true,
+      "id": 18,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 16,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "Biomasa",
+      "defaultVisibility": true,
+      "id": 19,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 16,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "Solar",
+      "defaultVisibility": true,
+      "id": 20,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 16,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "maxScale": 0,
+      "name": "Subestaciones de Transformación (SET)",
+      "defaultVisibility": true,
+      "id": 21,
+      "minScale": 0,
+      "supportsDynamicLegends": false,
+      "type": "Group Layer",
+      "parentLayerId": -1
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "SET 33 kV",
+      "defaultVisibility": true,
+      "id": 22,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 21,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "SET 60 kV",
+      "defaultVisibility": true,
+      "id": 23,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 21,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "SET 138 kV",
+      "defaultVisibility": true,
+      "id": 24,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 21,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "SET 220 kV",
+      "defaultVisibility": true,
+      "id": 25,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 21,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "SET 500 kV",
+      "defaultVisibility": true,
+      "id": 26,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 21,
+      "geometryType": "esriGeometryPoint"
+    },
+    {
+      "subLayerIds": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "maxScale": 0,
+      "name": "Lineas de Transmisión (L.T.)",
+      "defaultVisibility": true,
+      "id": 27,
+      "minScale": 0,
+      "supportsDynamicLegends": false,
+      "type": "Group Layer",
+      "parentLayerId": -1
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "L.T. 33 kV",
+      "defaultVisibility": true,
+      "id": 28,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 27,
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "L.T.  60 kV",
+      "defaultVisibility": true,
+      "id": 29,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 27,
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "L.T.  138 kV",
+      "defaultVisibility": true,
+      "id": 30,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 27,
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "L.T.  220 kV",
+      "defaultVisibility": true,
+      "id": 31,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 27,
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "L.T.  500 kV",
+      "defaultVisibility": true,
+      "id": 32,
+      "minScale": 10000000,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 27,
+      "geometryType": "esriGeometryPolyline"
+    },
+    {
+      "subLayerIds": null,
+      "maxScale": 0,
+      "name": "Estructuras",
+      "defaultVisibility": false,
+      "id": 33,
+      "minScale": 0,
+      "supportsDynamicLegends": true,
+      "type": "Feature Layer",
+      "parentLayerId": 27,
+      "geometryType": "esriGeometryPoint"
+    }
+  ],
+  "mapName": "Sistemas e Instalaciones en Operación",
+  "minScale": 0,
+  "archivingInfo": {
+    "supportsHistoricMoment": false
+  },
+  "spatialReference": {
+    "falseM": -180,
+    "xyTolerance": 8.983152841195215e-09,
+    "mUnits": 25019997929836.082,
+    "zUnits": 25019997929836.082,
+    "latestWkid": 4326,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 11258999068426.24,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": -180
+  },
+  "fullExtent": {
+    "ymin": -18.50111389160155,
+    "xmin": -81.49996185302734,
+    "ymax": 0,
+    "xmax": -68.50003814697266,
+    "spatialReference": {
+      "falseM": -180,
+      "xyTolerance": 8.983152841195215e-09,
+      "mUnits": 25019997929836.082,
+      "zUnits": 25019997929836.082,
+      "latestWkid": 4326,
+      "zTolerance": 0.001,
+      "wkid": 4326,
+      "xyUnits": 11258999068426.24,
+      "mTolerance": 0.001,
+      "falseX": -400,
+      "falseY": -400,
+      "falseZ": -180
+    }
+  },
+  "supportedExtensions": "",
+  "serviceItemId": "dd16d4ffadbd435db9a529c0e46452a3",
+  "capabilities": "Query,Map,Data",
+  "supportsDynamicLayers": true,
+  "maxScale": 0,
+  "singleFusedMapCache": false,
+  "currentVersion": 12.1,
+  "hasBranchVersionedData": false,
+  "mapUnits": {
+    "uwkid": 9102
+  },
+  "referenceScale": 0,
+  "supportsSpatialFilter": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "datumTransformations": [
+    {
+      "geoTransforms": [
+        {
+          "latestWkid": 1241,
+          "transformForward": true,
+          "wkid": 108001,
+          "name": "NAD_1927_To_NAD_1983_NADCON"
+        }
+      ]
+    },
+    {
+      "geoTransforms": [
+        {
+          "latestWkid": 1241,
+          "transformForward": false,
+          "wkid": 108001,
+          "name": "NAD_1927_To_NAD_1983_NADCON"
+        }
+      ]
+    }
+  ],
+  "initialExtent": {
+    "ymin": -18.50111389160155,
+    "xmin": -89.54299679842862,
+    "ymax": 0,
+    "xmax": -60.45700320157139,
+    "spatialReference": {
+      "falseM": -180,
+      "xyTolerance": 8.983152841195215e-09,
+      "mUnits": 25019997929836.082,
+      "zUnits": 25019997929836.082,
+      "latestWkid": 4326,
+      "zTolerance": 0.001,
+      "wkid": 4326,
+      "xyUnits": 11258999068426.24,
+      "mTolerance": 0.001,
+      "falseX": -400,
+      "falseY": -400,
+      "falseZ": -180
+    }
+  },
+  "serviceDescription": "Instalaciones de generación y líneas de transmisión de electricidad en operación",
+  "copyrightText": "OSINERGMIN",
+  "supportsTimeRelation": true
+}

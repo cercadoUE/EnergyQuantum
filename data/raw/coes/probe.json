@@ -1,0 +1,36 @@
+{
+  "institution": "COES",
+  "probed_at_utc": "2026-10-24T18:18:45+00:00",
+  "urls": {
+    "diagrama_unifilar": {
+      "url": "https://www.coes.org.pe/Portal/Operacion/CaractSEIN/DiagramaUnifilar",
+      "accessible": true,
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 49403,
+      "title": "Unifilar del SEIN",
+      "sha256": "57f6216d850f9787c91e109638cade63a373e540d8dc262025577ca1c9efb6fa",
+      "document_links": [],
+      "machine_readable_topology": false,
+      "note": "Página HTML. No se identificó un endpoint estable de nodos/aristas; no se usa para afirmar conectividad verificada."
+    },
+    "base_datos": {
+      "url": "https://www.coes.org.pe/Portal/Operacion/CaractSEIN/BaseDatos",
+      "accessible": true,
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 46331,
+      "title": "Caracter&#237;sticas del SEIN",
+      "sha256": "da41137660e80782e04ccf07cae9c322663e57f85a9dd7b3ddbb04850c8e84e3",
+      "document_links": [],
+      "machine_readable_topology": false,
+      "note": "Página HTML. No se identificó un endpoint estable de nodos/aristas; no se usa para afirmar conectividad verificada."
+    }
+  },
+  "validation_status": "NO_AUTOMATIZADA",
+  "limitations": [
+    "El diagrama unifilar es un documento gráfico, no una tabla de aristas.",
+    "No se declara ninguna conexión como validada por COES.",
+    "La contrastación documental manual queda fuera de esta versión."
+  ]
+}

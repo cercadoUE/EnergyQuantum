@@ -1,0 +1,494 @@
+{
+  "extent": {
+    "ymin": -18.174338229,
+    "xmin": -81.283293,
+    "ymax": -3.2699893600000096,
+    "xmax": -69.222171246,
+    "spatialReference": {
+      "falseM": -180,
+      "xyTolerance": 8.983152841195215e-09,
+      "mUnits": 25019997929836.082,
+      "zUnits": 25019997929836.082,
+      "latestWkid": 4326,
+      "zTolerance": 0.001,
+      "wkid": 4326,
+      "xyUnits": 11258999068426.24,
+      "mTolerance": 0.001,
+      "falseX": -400,
+      "falseY": -400,
+      "falseZ": -180
+    }
+  },
+  "maxRecordCount": 1000,
+  "datesInUnknownTimezone": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "type": "Feature Layer",
+  "maxSelectionCount": 2000,
+  "subtypes": [],
+  "relationships": [],
+  "cimVersion": "3.7.0",
+  "isDataArchived": false,
+  "id": 24,
+  "archivingInfo": {
+    "startArchivingMoment": -1,
+    "supportsQueryWithHistoricMoment": false
+  },
+  "spatialReference": {
+    "falseM": -180,
+    "xyTolerance": 8.983152841195215e-09,
+    "mUnits": 25019997929836.082,
+    "zUnits": 25019997929836.082,
+    "latestWkid": 4326,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 11258999068426.24,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": -180
+  },
+  "subtypeFieldName": null,
+  "supportsStatistics": true,
+  "hasLastEditTime": false,
+  "standardMaxRecordCount": 32000,
+  "isDataVersioned": false,
+  "supportsAdvancedQueries": true,
+  "parentLayer": {
+    "name": "Subestaciones de Transformación (SET)",
+    "id": 21
+  },
+  "subLayers": [],
+  "currentVersion": 12.1,
+  "referenceScale": 0,
+  "canScaleSymbols": false,
+  "name": "SET 138 kV",
+  "displayField": "NOMBRE",
+  "fields": [
+    {
+      "nullable": false,
+      "domain": null,
+      "name": "OBJECTID",
+      "alias": "OBJECTID",
+      "type": "esriFieldTypeOID"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "EMPRESA",
+      "length": 50,
+      "alias": "Nombre de la Empresa",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "NOMBRE",
+      "length": 50,
+      "alias": "Nombre de Subestación",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_TIPO_DE_SISTEMA",
+        "description": "TIPO DE SISTEMA",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "A",
+            "name": "AISLADO"
+          },
+          {
+            "code": "I",
+            "name": "INTERCONECTADO"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "TIPO_SISTEMA",
+      "length": 8,
+      "alias": "Tipo de Sistema",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "ALTITUD",
+      "alias": "Altitud",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "CAPACIDAD",
+      "alias": "Capacidad",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_REGION_GEOGRAFICA",
+        "description": "REGION GEOGRAFICA",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "CO",
+            "name": "COSTA"
+          },
+          {
+            "code": "SI",
+            "name": "SIERRA"
+          },
+          {
+            "code": "SE",
+            "name": "SELVA"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "REGION_GEOGRAFICA",
+      "length": 10,
+      "alias": "Región Geográfica",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "COD_SE",
+      "length": 20,
+      "alias": "Código de Subestación",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TENSION_NOM",
+      "length": 30,
+      "alias": "Tension Nominal (kV)",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "DEPARTAMENTO",
+      "length": 25,
+      "alias": "Departamento",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "PROVINCIA",
+      "length": 25,
+      "alias": "Provincia",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "DISTRITO",
+      "length": 25,
+      "alias": "Distrito",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "CAPITAL",
+      "length": 25,
+      "alias": "Capital",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "PUEST_OPER",
+      "length": 8,
+      "alias": "Puesta en Operacion",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "IMAGEN",
+      "length": 200,
+      "alias": "Fotografias",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "TRANSFORMADORES",
+      "alias": "Nro Transformadores",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "nullable": true,
+      "domain": {
+        "splitPolicy": "esriSPTDefaultValue",
+        "name": "WS2_ESTADO",
+        "description": "ESTADO DE INSTALACIONES",
+        "type": "codedValue",
+        "codedValues": [
+          {
+            "code": "FS",
+            "name": "FUERA DE SERVICIO"
+          },
+          {
+            "code": "CN",
+            "name": "EN CONSTRUCCION"
+          },
+          {
+            "code": "PA",
+            "name": "PARALIZADO"
+          },
+          {
+            "code": "P",
+            "name": "PROYECTADO"
+          },
+          {
+            "code": "EA",
+            "name": "EN ARBITRAJE"
+          },
+          {
+            "code": "C",
+            "name": "EN CADUCIDAD"
+          },
+          {
+            "code": "ES",
+            "name": "EN SERVICIO"
+          },
+          {
+            "code": "E",
+            "name": "ESTUDIOS"
+          },
+          {
+            "code": "CR",
+            "name": "CONTRATO RESUELTO"
+          },
+          {
+            "code": "CS",
+            "name": "CONTRATO SUSPENDIDO"
+          },
+          {
+            "code": "R",
+            "name": "RETIRADO"
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue"
+      },
+      "name": "ESTADO",
+      "length": 20,
+      "alias": "Estado",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "FICHA",
+      "length": 100,
+      "alias": "Ficha Tecnica",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "SHAPE",
+      "alias": "SHAPE",
+      "type": "esriFieldTypeGeometry"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "PCO_ANIO",
+      "length": 20,
+      "alias": "AÑO",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "nullable": true,
+      "domain": null,
+      "name": "ID_SET",
+      "alias": "ID_SET",
+      "type": "esriFieldTypeDouble"
+    }
+  ],
+  "maxRecordCountFactor": 1,
+  "dateFieldsTimeReference": null,
+  "preferredTimeReference": null,
+  "useStandardizedQueries": true,
+  "sourceSpatialReference": {
+    "falseM": 0,
+    "xyTolerance": 8.98315284119521e-09,
+    "mUnits": 1,
+    "zUnits": 1,
+    "latestWkid": 4326,
+    "zTolerance": 0.001,
+    "wkid": 4326,
+    "xyUnits": 999999999.9999999,
+    "mTolerance": 0.001,
+    "falseX": -400,
+    "falseY": -400,
+    "falseZ": 0
+  },
+  "description": "Este conjunto de datos representa las Subestaciones de transformación a nivel nacional existentes, fue generada a partir de información del MEM ,COES y Empresas del Sector , la cual posteriormente fue validada para los fines requeridos por el Organismo Supervisor de la Inversión en Energía y Minería (OSINERGMIN).",
+  "canModifyLayer": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "standardMaxRecordCountNoGeometry": 32000,
+  "indexes": [
+    {
+      "name": "I3226EMPRESA",
+      "isUnique": false,
+      "description": "",
+      "fields": "EMPRESA",
+      "isAscending": true
+    },
+    {
+      "name": "I3226NOMBRE",
+      "isUnique": false,
+      "description": "",
+      "fields": "NOMBRE",
+      "isAscending": true
+    },
+    {
+      "name": "A167_IX1",
+      "isUnique": true,
+      "description": "",
+      "fields": "SHAPE",
+      "isAscending": true
+    }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "supportsDatumTransformation": true,
+  "minScale": 10000000,
+  "supportsDynamicLegends": true,
+  "hasAttachments": false,
+  "advancedQueryCapabilities": {
+    "supportsSqlExpression": true,
+    "supportsQueryWithResultType": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsSqlFormat": false,
+    "useStandardizedQueries": true,
+    "supportsResultPaginationToken": false,
+    "supportsQueryWithCacheHint": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsCurrentUserQueries": true,
+    "supportsQueryWithLodSR": false,
+    "supportsPagination": true,
+    "supportsMaxRecordCountFactor": false,
+    "supportsStatistics": true,
+    "supportsTrueCurve": true,
+    "supportsOrderBy": true,
+    "supportsLod": false,
+    "supportsQueryWithDistance": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsReturningQueryExtent": true,
+    "supportsDistinct": true,
+    "supportsTimeRelation": true,
+    "supportsQueryAnalytic": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true
+  },
+  "subtypeField": null,
+  "serviceItemId": "dd16d4ffadbd435db9a529c0e46452a3",
+  "supportsCoordinatesQuantization": true,
+  "capabilities": "Query,Map,Data",
+  "maxScale": 0,
+  "supportsExceedsLimitStatistics": true,
+  "defaultVisibility": true,
+  "advancedQueryAnalyticCapabilities": {
+    "supportsAsync": false,
+    "supportsLinearRegression": true,
+    "supportsPercentileAnalytic": true
+  },
+  "hasMetadata": true,
+  "tileMaxRecordCount": 8000,
+  "typeIdField": null,
+  "defaultSubtypeCode": null,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "hasLabels": true,
+  "drawingInfo": {
+    "renderer": {
+      "symbol": {
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA70lEQVQokaXSP0tCURiA8ee91wvR0iIS+AFsF/JPm3sQCWaLDYXg2NIigktfwS1EEFEbWxvVdHZ2aXBoaclJ73mDC4KXe7uIPduB8zvnvHBiHFjs3/C8R0EsElGbHYvJqMSnD9o2dQPtMCBCApfi2nhLP1RFZ2W6uyDdI+7YNDDUEBahT90tPyRnXKoIJZTjyBm9mliZM+7U0EI4iprXBy9SnLrCpWo0CsDxLUvgOjfgRaGIcrIX3PZxwz3KQ3ZIBeUZSO4FvQSdQif9xqvzwxPCVShUmGf7vAcOWHmHIBbfZsNXAM7KPP55e0gH/9VfzW07FhO/9UQAAAAASUVORK5CYII=",
+        "yoffset": 0,
+        "width": 10,
+        "xoffset": 0,
+        "angle": 0,
+        "type": "esriPMS",
+        "contentType": "image/png",
+        "url": "110ffc13dddfe609287aac43d2412991",
+        "height": 10
+      },
+      "type": "simple"
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": [
+      {
+        "symbol": {
+          "backgroundColor": null,
+          "kerning": true,
+          "color": [
+            52,
+            52,
+            52,
+            255
+          ],
+          "yoffset": 0,
+          "xoffset": 0,
+          "haloColor": null,
+          "type": "esriTS",
+          "borderLineColor": null,
+          "borderLineSize": null,
+          "horizontalAlignment": "left",
+          "haloSize": null,
+          "angle": 0,
+          "rightToLeft": false,
+          "verticalAlignment": "baseline",
+          "font": {
+            "size": 7,
+            "weight": "bold",
+            "style": "normal",
+            "family": "Arial",
+            "decoration": "none"
+          }
+        },
+        "stackLabel": false,
+        "maxScale": 1000,
+        "allowOverlapOfFeatureInterior": "avoid",
+        "deconflictionStrategy": "dynamic",
+        "priority": 15,
+        "labelExpression": "[NOMBRE]",
+        "labelPlacement": "esriServerPointLabelPlacementAboveRight",
+        "removeDuplicates": "all",
+        "removeDuplicatesDistance": 0,
+        "name": "Default",
+        "minScale": 1000000,
+        "useCodedValues": true
+      }
+    ]
+  },
+  "geometryField": {
+    "name": "SHAPE",
+    "alias": "SHAPE",
+    "type": "esriFieldTypeGeometry"
+  },
+  "copyrightText": "Ministerio de Energía y Minas (MEM) ,Comite de Operación Económica del Sistema Interconectado Nacional  (COES) , Organismo Supervisor de la Inversión en Energía y Minería (OSINERGMIN) , Empresas del sector",
+  "geometryType": "esriGeometryPoint"
+}

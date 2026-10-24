@@ -1,0 +1,406 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.06174333899997,
+          -15.381797787999972
+        ]
+      },
+      "properties": {
+        "OBJECTID": 207,
+        "EMPRESA": "PARQUE EÓLICO TRES HERMANAS S.A.C.",
+        "NOMBRE": "TRES HERMANAS",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 300,
+        "POT_INST": 97.15,
+        "POT_EFEC": 98.21000000000001,
+        "TENSION_NOM": 0.6900000000000001,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "33",
+        "PUEST_OPER": 1457654400000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NAZCA",
+        "DISTRITO": "MARCONA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1317340800000,
+        "MONTO_INV": 185.70000000000002,
+        "PCO_ANIO": 2016,
+        "ID_CG": 205,
+        "FICHA": "Central-Eolica-Tres_Hermanas.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.07335853000001,
+          -15.412029957000016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 208,
+        "EMPRESA": "PARQUE EÓLICO MARCONA S.A.C.",
+        "NOMBRE": "MARCONA",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 325,
+        "POT_INST": 32,
+        "POT_EFEC": 32.3,
+        "TENSION_NOM": 0.6900000000000001,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "11",
+        "PUEST_OPER": 1398384000000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "MARCONA",
+        "DISTRITO": "MARCONA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 61.160000000000004,
+        "PCO_ANIO": 2014,
+        "ID_CG": 206,
+        "FICHA": "Central-Eolica-Marcona.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48974627000001,
+          -7.55421394199999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 209,
+        "EMPRESA": "ENERGÍA EÓLICA S.A.",
+        "NOMBRE": "CUPISNIQUE",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 30,
+        "POT_INST": 83.15,
+        "POT_EFEC": 90,
+        "TENSION_NOM": 0.6900000000000001,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "45",
+        "PUEST_OPER": 1409356800000,
+        "DEPARTAMENTO": "LA LIBERTAD",
+        "PROVINCIA": "PACASMAYO",
+        "DISTRITO": "CUPISNIQUE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 242,
+        "PCO_ANIO": 2014,
+        "ID_CG": 207,
+        "FICHA": "Central-Eolica-Cupisnique.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.19792833499997,
+          -4.562316603999989
+        ]
+      },
+      "properties": {
+        "OBJECTID": 210,
+        "EMPRESA": "ENERGÍA EÓLICA S.A.",
+        "NOMBRE": "TALARA",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 108,
+        "POT_INST": 30.86,
+        "POT_EFEC": 31.53,
+        "TENSION_NOM": 0.6900000000000001,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "17",
+        "PUEST_OPER": 1409356800000,
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "PARIÑAS",
+        "DISTRITO": "PARIÑAS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 101.2,
+        "PCO_ANIO": 2014,
+        "ID_CG": 208,
+        "FICHA": "Central-Eolica-Talara.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.04585728400002,
+          -15.040365022999993
+        ]
+      },
+      "properties": {
+        "OBJECTID": 278,
+        "EMPRESA": "ORYGEN PERÚ S.A.A.",
+        "NOMBRE": "PARQUE NAZCA(WAYRA I)",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 505,
+        "POT_INST": 132.3,
+        "POT_EFEC": 132.3,
+        "TENSION_NOM": 12,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "42",
+        "PUEST_OPER": 1526688000000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NAZCA",
+        "DISTRITO": "MARCONA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1463443200000,
+        "MONTO_INV": 165.8,
+        "PCO_ANIO": 2018,
+        "ID_CG": 291,
+        "FICHA": "Central-Eolica-ParqueNazca.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.97442729,
+          -6.451627040999995
+        ]
+      },
+      "properties": {
+        "OBJECTID": 279,
+        "EMPRESA": "GR PAINO S.A.C.",
+        "NOMBRE": "HUAMBOS",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 2276,
+        "POT_INST": 18.375,
+        "POT_EFEC": 21.2,
+        "TENSION_NOM": 0.6900000000000001,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "7",
+        "PUEST_OPER": 1620259200000,
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CHOTA",
+        "DISTRITO": "HUAMBOS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1512950400000,
+        "MONTO_INV": 25.900000000000002,
+        "PCO_ANIO": 2021,
+        "ID_CG": 292,
+        "FICHA": "Central-Eolica-Huambos.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 280,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.98218282599998,
+          -6.453042703999984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 280,
+        "EMPRESA": "GR TARUCA S.A.C.",
+        "NOMBRE": "DUNA",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 2276,
+        "POT_INST": 18.375,
+        "POT_EFEC": 20,
+        "TENSION_NOM": 0.6900000000000001,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "7",
+        "PUEST_OPER": 1620259200000,
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CHOTA",
+        "DISTRITO": "HUAMBOS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1486771200000,
+        "MONTO_INV": 26.1,
+        "PCO_ANIO": 2021,
+        "ID_CG": 293,
+        "FICHA": "Central-Eolica-Dunas.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 355,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.03602390200001,
+          -15.05815448200002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 355,
+        "EMPRESA": "ORYGEN PERÚ S.A.A.",
+        "NOMBRE": "WAYRA EXTENSIÓN",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 45,
+        "POT_INST": 177,
+        "POT_EFEC": 177,
+        "TENSION_NOM": 12,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "30",
+        "PUEST_OPER": 1719619200000,
+        "DEPARTAMENTO": "ICA ",
+        "PROVINCIA": "NAZCA ",
+        "DISTRITO": "MARCONA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1608508800000,
+        "MONTO_INV": 188.55,
+        "PCO_ANIO": 2022,
+        "ID_CG": 378,
+        "FICHA": "Central-Eolica-WayraExtension.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 356,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.13232920299998,
+          -15.400471512000024
+        ]
+      },
+      "properties": {
+        "OBJECTID": 356,
+        "EMPRESA": "ENERGIA RENOVABLE DEL SUR S.A.",
+        "NOMBRE": "SAN JUAN",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 100,
+        "POT_INST": 135.7,
+        "POT_EFEC": 150.29,
+        "TENSION_NOM": 0.75,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "23",
+        "PUEST_OPER": 1713398400000,
+        "DEPARTAMENTO": "ICA ",
+        "PROVINCIA": "NAZCA ",
+        "DISTRITO": "MARCONA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1618790400000,
+        "MONTO_INV": 162.9,
+        "PCO_ANIO": 2024,
+        "ID_CG": 379,
+        "FICHA": "Central-Eolica-SanJuan.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 366,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.91749730599997,
+          -14.638011622000022
+        ]
+      },
+      "properties": {
+        "OBJECTID": 366,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "PUNTA LOMITAS",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 334,
+        "POT_INST": 260,
+        "POT_EFEC": 289,
+        "TENSION_NOM": 0.6900000000000001,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "50",
+        "PUEST_OPER": 1686873600000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "OCUCAJE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1615766400000,
+        "MONTO_INV": 223.5,
+        "PCO_ANIO": 2024,
+        "ID_CG": 389,
+        "FICHA": "Central-Eolica-PuntaLomitas.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 438,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.92485328700002,
+          -14.634633769000004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 438,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "PUNTA LOMITAS EXPANSION",
+        "TIPO_CENTRAL": "CENTRAL EOLICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 334,
+        "POT_INST": 36.4,
+        "POT_EFEC": 43.3158,
+        "TENSION_NOM": 0.6900000000000001,
+        "FUENTE_ENER": "ENERGIA EÓLICA",
+        "NRO_UNIDADES": "7",
+        "PUEST_OPER": 1703376000000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "OCUCAJE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1615766400000,
+        "MONTO_INV": 223.5,
+        "PCO_ANIO": 2024,
+        "ID_CG": 389,
+        "FICHA": "Central-Eolica-PuntaLomitas.pdf"
+      }
+    }
+  ],
+  "properties": {
+    "layer_id": 18,
+    "layer_name": "Eólica",
+    "geometry_type": "esriGeometryPoint"
+  }
+}

@@ -1,0 +1,810 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1935,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.31337674299999,
+          -10.706245066999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1935,
+        "EMPRESA": "LINEAS ANDINAS SECUNDARIAS SAC",
+        "NOMBRE": "SAN JUAN",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4200,
+        "CAPACIDAD": 50,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "256",
+        "TENSION_NOM": "50",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "SIMON BOLIVAR",
+        "PUEST_OPER": -315619200000,
+        "IMAGEN": "Subestacion-San-Juan.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1938,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.259277929,
+          -11.682907299000021
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1938,
+        "EMPRESA": "LINEAS ANDINAS SECUNDARIAS SAC",
+        "NOMBRE": "BELLAVISTA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3850,
+        "CAPACIDAD": 1500,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "719",
+        "TENSION_NOM": "50",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAROCHIRI",
+        "DISTRITO": "CHICLA",
+        "PUEST_OPER": -788918400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1942,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.26709983900002,
+          -3.7663403660000085
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1942,
+        "EMPRESA": "ELECTRO ORIENTE S.A.",
+        "NOMBRE": "SANTA ROSA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 110,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SELVA",
+        "COD_SE": "270",
+        "TENSION_NOM": "60",
+        "DEPARTAMENTO": "LORETO",
+        "PROVINCIA": "MAYNAS",
+        "DISTRITO": "BELEN",
+        "PUEST_OPER": 441763200000,
+        "IMAGEN": "Subestacion-Santa-Rosa-EOR.JPG",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1953,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80843020600003,
+          -16.676573459999986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1953,
+        "EMPRESA": "SOCIEDAD MINERA CERRO VERDE S.A.A.",
+        "NOMBRE": "SAN JOSE",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1450,
+        "CAPACIDAD": 1666,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "721",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "LA JOYA",
+        "PUEST_OPER": 1420070400000,
+        "IMAGEN": " ",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1959,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53122352999998,
+          -5.927279424000005
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1959,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "LA NIÑA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 12,
+        "CAPACIDAD": 676,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "135",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "SECHURA",
+        "DISTRITO": "SECHURA",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": "Subestacion-La-Nina-500.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1962,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.02237520199998,
+          -8.049762041999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1962,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "TRUJILLO NUEVA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 250,
+        "CAPACIDAD": 750,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "464",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "LA LIBERTAD",
+        "PROVINCIA": "TRUJILLO",
+        "DISTRITO": "ALTO TRUJILLO",
+        "PUEST_OPER": 1325376000000,
+        "IMAGEN": "Subestacion-Trujillo-Nueva.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1972,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.00005431599999,
+          -17.190215147000004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1972,
+        "EMPRESA": "ATLÁNTICA TRANSMISIÓN SUR S.A.",
+        "NOMBRE": "MONTALVO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 1360,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "462",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "SAN ANTONIO",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": "Subestacion-Montalvo-500.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.18543285700002,
+          -17.776662991000023
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2229,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "ILO 4",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 60,
+        "CAPACIDAD": 870,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "1",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "ILO",
+        "DISTRITO": "ILO",
+        "PUEST_OPER": 1451606400000,
+        "IMAGEN": "SE_ILO4.jpg",
+        "TRANSFORMADORES": 3,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.55824628200003,
+          -9.008694462999983
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2264,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "CHIMBOTE NUEVA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 100,
+        "CAPACIDAD": 750,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "465",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "ANCASH",
+        "PROVINCIA": "SANTA",
+        "DISTRITO": "CHIMBOTE",
+        "PUEST_OPER": 1325376000000,
+        "IMAGEN": "Subestacion-Chimbote-Nueva.jpg",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.32849047000002,
+          -11.081469984000023
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2285,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "CHANCHAMAYO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 800,
+        "CAPACIDAD": 10.6,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "60",
+        "TENSION_NOM": "44",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "CHANCHAMAYO",
+        "DISTRITO": "SAN RAMON",
+        "PUEST_OPER": 1098835200000,
+        "IMAGEN": "Subestacion-Chanchamayo.JPG",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.05285617700002,
+          -15.046984488000021
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2324,
+        "EMPRESA": "ATLÁNTICA TRANSMISIÓN SUR S.A.",
+        "NOMBRE": "POROMA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 525,
+        "CAPACIDAD": 450,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "460",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Poroma.JPG",
+        "TRANSFORMADORES": 1,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2339,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.033774596,
+          -16.44356822200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2339,
+        "EMPRESA": "SOCIEDAD ELÉCTRICA DEL SUR OESTE S.A.",
+        "NOMBRE": "OCOÑA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 400,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "463",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "CAMANA",
+        "DISTRITO": "OCOÑA",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": "Subestacion-Ocoña.JPG",
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2355,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.97650659200002,
+          -17.038840617000005
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2355,
+        "EMPRESA": "SAMAY I S.A.",
+        "NOMBRE": "PUERTO BRAVO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 60,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "478",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "ISLAY",
+        "DISTRITO": "MOLLENDO",
+        "PUEST_OPER": 1451606400000,
+        "IMAGEN": "Subestacion-Puerto-Bravo.jpg",
+        "TRANSFORMADORES": 4,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2431,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.34080975,
+          -11.100933887999986
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2431,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "PUNTAYACU",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 850,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "SE",
+        "COD_SE": "650",
+        "TENSION_NOM": "44",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "CHANCHAMAYO",
+        "DISTRITO": "SAN RAMON",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2461,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.962284571,
+          -11.795979752999983
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2461,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "CARABAYLLO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 500,
+        "CAPACIDAD": 120,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "46",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "CARABAYLLO",
+        "PUEST_OPER": null,
+        "IMAGEN": "Subestacion-Carabayllo.jpg",
+        "TRANSFORMADORES": 2,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2504,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.413387016,
+          -11.006619177999994
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2504,
+        "EMPRESA": "PAN AMERICAN SILVER HUARON S.A.",
+        "NOMBRE": "HUARON",
+        "TIPO_SISTEMA": null,
+        "ALTITUD": 4485,
+        "CAPACIDAD": 10,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "658",
+        "TENSION_NOM": "50",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "HUAYLLAY",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2508,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.92875577199999,
+          -11.505451692000008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2508,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "MAYUPAMPA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3750,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": null,
+        "COD_SE": "660",
+        "TENSION_NOM": "50",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "YAULI",
+        "DISTRITO": "LA OROYA",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2509,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.963383502,
+          -11.601501394000024
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2509,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "CURIPATA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4000,
+        "CAPACIDAD": 2.5,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "661",
+        "TENSION_NOM": "50",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "YAULI",
+        "DISTRITO": "LA OROYA",
+        "PUEST_OPER": 992995200000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2514,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.51898700599997,
+          -16.475488783000003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2514,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "NUEVA SOCABAYA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 2375,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": null,
+        "COD_SE": "512",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "SABANDIA",
+        "PUEST_OPER": 1483228800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": "S.P.SOCABAYA.pdf",
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2515,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.86270230999997,
+          -11.974742042999992
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2515,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "CARAPONGO",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 870,
+        "CAPACIDAD": 750,
+        "REGION_GEOGRAFICA": "COSTA",
+        "COD_SE": "513",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "LURIGANCHO",
+        "PUEST_OPER": 1517443200000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": "S.P.CARAPONGO.pdf",
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2533,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.99487333000002,
+          -11.153360631999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2533,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "JUNIN",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 4200,
+        "CAPACIDAD": 3,
+        "REGION_GEOGRAFICA": "SIERRA",
+        "COD_SE": "674",
+        "TENSION_NOM": "50",
+        "DEPARTAMENTO": "JUNIN",
+        "PROVINCIA": "JUNIN",
+        "DISTRITO": "JUNIN",
+        "PUEST_OPER": 852076800000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2579,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615079777,
+          -16.226065448999975
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2579,
+        "EMPRESA": "SOCIEDAD ELÉCTRICA DEL SUR OESTE S.A.",
+        "NOMBRE": "ATICO",
+        "TIPO_SISTEMA": "A",
+        "ALTITUD": 30,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "749",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "CARAVELI",
+        "DISTRITO": "ATICO",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2630,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54485771700001,
+          -5.2271295429999896
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2630,
+        "EMPRESA": "CONCESIONARIA LINEA DE TRANSMISION LA NIÑA S.A.C",
+        "NOMBRE": "PIURA NUEVA(MIGUEL GRAU)",
+        "TIPO_SISTEMA": null,
+        "ALTITUD": 75,
+        "CAPACIDAD": 0,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "765",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "PIURA",
+        "DISTRITO": "CASTILLA",
+        "PUEST_OPER": 1819238400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": "Enlace500-kV-LaNiña-Piura.pdf",
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2635,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.19262469300003,
+          -10.564180613000019
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2635,
+        "EMPRESA": "NEXA RESOURCES ATACOCHA S.A.A.",
+        "NOMBRE": "NUEVA CHICRIN",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 3500,
+        "CAPACIDAD": 10,
+        "REGION_GEOGRAFICA": "SI",
+        "COD_SE": "770",
+        "TENSION_NOM": "50",
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "PASCO",
+        "DISTRITO": "YANACANCHA",
+        "PUEST_OPER": null,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2715,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.05180981900003,
+          -15.046267082999975
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2715,
+        "EMPRESA": "CONSORCIO TRANSMANTARO S.A.",
+        "NOMBRE": "POROMA",
+        "TIPO_SISTEMA": "I",
+        "ALTITUD": 525,
+        "CAPACIDAD": 450,
+        "REGION_GEOGRAFICA": "CO",
+        "COD_SE": "836",
+        "TENSION_NOM": "500",
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "PUEST_OPER": 1388534400000,
+        "IMAGEN": null,
+        "TRANSFORMADORES": null,
+        "ESTADO": "ES",
+        "FICHA": null,
+        "PCO_ANIO": null,
+        "ID_SET": null
+      }
+    }
+  ],
+  "properties": {
+    "layer_id": 26,
+    "layer_name": "SET 500 kV",
+    "geometry_type": "esriGeometryPoint"
+  }
+}

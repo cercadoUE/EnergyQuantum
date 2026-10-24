@@ -1,0 +1,766 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.22194112400001,
+          -16.434934320000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 200,
+        "EMPRESA": "MAJES ARCUS S.A.C.",
+        "NOMBRE": "MAJES",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1680,
+        "POT_INST": 20,
+        "POT_EFEC": 20,
+        "TENSION_NOM": 0.3,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "55584",
+        "PUEST_OPER": 1351641600000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "CAYLLOMA",
+        "DISTRITO": "MAJES",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 73.60000000000001,
+        "PCO_ANIO": 2012,
+        "ID_CG": 198,
+        "FICHA": "Central-Solar-MajesSolar20T.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.81662791399998,
+          -16.571981348999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 201,
+        "EMPRESA": "REPARTICIÓN ARCUS S.A.C.",
+        "NOMBRE": "REPARTICION",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1187,
+        "POT_INST": 20,
+        "POT_EFEC": 20,
+        "TENSION_NOM": 0.3,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "56208",
+        "PUEST_OPER": 1351641600000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "CAYLLOMA",
+        "DISTRITO": "LA JOYA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 73.5,
+        "PCO_ANIO": 2012,
+        "ID_CG": 199,
+        "FICHA": "Central-Solar-Reparticion20T.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.03905131099998,
+          -17.544892267000023
+        ]
+      },
+      "properties": {
+        "OBJECTID": 202,
+        "EMPRESA": "PANAMERICANA SOLAR S.A.C.",
+        "NOMBRE": "PANAMERICANA SOLAR",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1410,
+        "POT_INST": 20,
+        "POT_EFEC": 20,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "71334",
+        "PUEST_OPER": 1356912000000,
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "MOQUEGUA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 94.59,
+        "PCO_ANIO": 2012,
+        "ID_CG": 200,
+        "FICHA": "Central-Solar-PanamericanaSolar.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.33485327300002,
+          -17.994644263999987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 203,
+        "EMPRESA": "TACNA SOLAR S.A.C.",
+        "NOMBRE": "TACNA SOLAR",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 560,
+        "POT_INST": 20,
+        "POT_EFEC": 20,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "74988",
+        "PUEST_OPER": 1351641600000,
+        "DEPARTAMENTO": "TACNA",
+        "PROVINCIA": "TACNA",
+        "DISTRITO": "TACNA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1269993600000,
+        "MONTO_INV": 94.60000000000001,
+        "PCO_ANIO": 2012,
+        "ID_CG": 201,
+        "FICHA": "Central-Solar-TacnaSolar.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.02391795,
+          -17.54220277799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 206,
+        "EMPRESA": "MOQUEGUA FV S.A.C",
+        "NOMBRE": "MOQUEGUA SOLAR",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1000,
+        "POT_INST": 16,
+        "POT_EFEC": 16,
+        "TENSION_NOM": 0.3,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "63480",
+        "PUEST_OPER": 1419984000000,
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "MOQUEGUA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1317340800000,
+        "MONTO_INV": 43,
+        "PCO_ANIO": 2015,
+        "ID_CG": 204,
+        "FICHA": "Central-Solar-MoqueguaFV.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.18424627299999,
+          -17.24429753200002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 266,
+        "EMPRESA": "ORYGEN PERÚ S.A.A.",
+        "NOMBRE": "RUBI",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1450,
+        "POT_INST": 144.48,
+        "POT_EFEC": 144.48,
+        "TENSION_NOM": 0.4,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "560880",
+        "PUEST_OPER": 1522454400000,
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "MOQUEGUA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1463443200000,
+        "MONTO_INV": 165,
+        "PCO_ANIO": 2018,
+        "ID_CG": 280,
+        "FICHA": "Central-Solar-Rubi.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 281,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.86413800499997,
+          -17.231000354999992
+        ]
+      },
+      "properties": {
+        "OBJECTID": 281,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "INTIPAMPA",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1410,
+        "POT_INST": 40.5,
+        "POT_EFEC": 40.5,
+        "TENSION_NOM": 0.66,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "138120",
+        "PUEST_OPER": 1522454400000,
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "MOQUEGUA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1463443200000,
+        "MONTO_INV": 52.36,
+        "PCO_ANIO": 2017,
+        "ID_CG": 294,
+        "FICHA": "Central-Solar-Intipampa.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 345,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.09729538900001,
+          -11.038135485999987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 345,
+        "EMPRESA": "COLCA SOLAR S.A.C",
+        "NOMBRE": "YARUCAYA",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 700,
+        "POT_INST": 1.2950000000000002,
+        "POT_EFEC": 1.2950000000000002,
+        "TENSION_NOM": 0.8,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "3070",
+        "PUEST_OPER": 1632614400000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "HUAURA",
+        "DISTRITO": "SAYAN",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": 2021,
+        "ID_CG": 368,
+        "FICHA": "Central-Solar-Yarucaya.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 361,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.18961742699997,
+          -17.243321943000012
+        ]
+      },
+      "properties": {
+        "OBJECTID": 361,
+        "EMPRESA": "ORYGEN PERÚ S.A.A.",
+        "NOMBRE": "CLEMESÍ",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1460,
+        "POT_INST": 114.93,
+        "POT_EFEC": 114.93,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "304110",
+        "PUEST_OPER": 1709078400000,
+        "DEPARTAMENTO": "MOQUEGUA ",
+        "PROVINCIA": "MARISCAL NIETO ",
+        "DISTRITO": "MOQUEGUA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1625011200000,
+        "MONTO_INV": 80.7,
+        "PCO_ANIO": 2023,
+        "ID_CG": 384,
+        "FICHA": "Central-Solar-Clemesi.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 387,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.950169259,
+          -16.736396753999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 387,
+        "EMPRESA": "GR CORTARRAMA S.A.C.",
+        "NOMBRE": "MATARANI",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1170,
+        "POT_INST": 80,
+        "POT_EFEC": 90,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": null,
+        "PUEST_OPER": 1726012800000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "ISLAY",
+        "DISTRITO": "MOLLENDO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1675123200000,
+        "MONTO_INV": null,
+        "PCO_ANIO": null,
+        "ID_CG": 408,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 389,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80207545100001,
+          -16.709413304999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 389,
+        "EMPRESA": "JOYA SOLAR S.A.C.",
+        "NOMBRE": "SAN MARTIN SOLAR",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1470,
+        "POT_INST": 252.4,
+        "POT_EFEC": 280.44,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "454 560",
+        "PUEST_OPER": 1749254400000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "LA JOYA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1663200000000,
+        "MONTO_INV": null,
+        "PCO_ANIO": null,
+        "ID_CG": 410,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 391,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.827097025,
+          -16.689947492999977
+        ]
+      },
+      "properties": {
+        "OBJECTID": 391,
+        "EMPRESA": "KALLPA GENERACIÓN S.A.",
+        "NOMBRE": "SUNNY",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1397,
+        "POT_INST": 204,
+        "POT_EFEC": 247.5,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "612000",
+        "PUEST_OPER": 1761091200000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "LA JOYA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": 191.1,
+        "PCO_ANIO": null,
+        "ID_CG": 412,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 410,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25107193999997,
+          -6.610073812999985
+        ]
+      },
+      "properties": {
+        "OBJECTID": 410,
+        "EMPRESA": "KONDU S.A.C.",
+        "NOMBRE": "CARHUAQUERO",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": null,
+        "ALTITUD": 1363,
+        "POT_INST": 0.55,
+        "POT_EFEC": 0.55,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": null,
+        "PUEST_OPER": 1707868800000,
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "SANTA CRUZ",
+        "DISTRITO": "CATACHE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": null,
+        "ID_CG": 431,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 415,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.14283811600001,
+          -4.0063640540000165
+        ]
+      },
+      "properties": {
+        "OBJECTID": 415,
+        "EMPRESA": "AMAZONAS ENERGIA SOLAR S.A.C.",
+        "NOMBRE": "TAMSHIYACU",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": 11,
+        "POT_INST": 10,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": null,
+        "PUEST_OPER": 1730419200000,
+        "DEPARTAMENTO": "LORETO",
+        "PROVINCIA": "MAYNAS",
+        "DISTRITO": "FERNANDO LORES",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": null,
+        "ID_CG": 436,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 416,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84918138,
+          -5.087583187999996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 416,
+        "EMPRESA": "AMAZONAS ENERGIA SOLAR S.A.C.",
+        "NOMBRE": "REQUENA",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": 11,
+        "POT_INST": 7.5,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": "12,000",
+        "PUEST_OPER": 1730419200000,
+        "DEPARTAMENTO": "LORETO",
+        "PROVINCIA": "REQUENA",
+        "DISTRITO": "REQUENA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": null,
+        "ID_CG": 437,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 417,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.91077990899998,
+          -13.928152061999981
+        ]
+      },
+      "properties": {
+        "OBJECTID": 417,
+        "EMPRESA": "CONSORCIO ELECTRICO DE VILLACURI S.A.C.",
+        "NOMBRE": "VILLACURÍ",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 357,
+        "POT_INST": 13.16,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": null,
+        "PUEST_OPER": 1776384000000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "SALAS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": null,
+        "ID_CG": 438,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 421,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.68579982900002,
+          -16.268531541000016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 421,
+        "EMPRESA": "YURA",
+        "NOMBRE": "YURA",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 2529,
+        "POT_INST": 28.5,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": null,
+        "PUEST_OPER": 1753920000000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "YURA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1753920000000,
+        "MONTO_INV": 22.8,
+        "PCO_ANIO": null,
+        "ID_CG": 442,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 427,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.85380429399999,
+          -17.231165052999984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 427,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "EXPANSION INTIPAMPA",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 36,
+        "POT_INST": 51.7,
+        "POT_EFEC": 60.38,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "LUZ SOLAR",
+        "NRO_UNIDADES": null,
+        "PUEST_OPER": 1771372800000,
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "MARISCAL NIETO",
+        "DISTRITO": "MOQUEGUA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": 1749686400000,
+        "MONTO_INV": 48,
+        "PCO_ANIO": null,
+        "ID_CG": 448,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 434,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.07121301199999,
+          -12.038439316999984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 434,
+        "EMPRESA": "FERRENERGY S.A.C",
+        "NOMBRE": "SMI",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 70,
+        "POT_INST": 1,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": null,
+        "PUEST_OPER": 1769817600000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "LIMA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": null,
+        "ID_CG": 452,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 436,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.909052922,
+          -13.931353433000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 436,
+        "EMPRESA": "COENERGY",
+        "NOMBRE": "COENERGY",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 405,
+        "POT_INST": 0.5049,
+        "POT_EFEC": 0.51,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "864",
+        "PUEST_OPER": 1766275200000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "SALAS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": null,
+        "PCO_ANIO": null,
+        "ID_CG": 456,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 437,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.827097025,
+          -16.689947492999977
+        ]
+      },
+      "properties": {
+        "OBJECTID": 437,
+        "EMPRESA": "KALLPA GENERACIÓN S.A.",
+        "NOMBRE": "SUNNY EXPANSION",
+        "TIPO_CENTRAL": "CENTRAL SOLAR",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1397,
+        "POT_INST": 105,
+        "POT_EFEC": 125.4,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "178408",
+        "PUEST_OPER": 1775174400000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "LA JOYA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "FIRMA_CONTRATO": null,
+        "MONTO_INV": 191.1,
+        "PCO_ANIO": null,
+        "ID_CG": 412,
+        "FICHA": null
+      }
+    }
+  ],
+  "properties": {
+    "layer_id": 20,
+    "layer_name": "Solar",
+    "geometry_type": "esriGeometryPoint"
+  }
+}

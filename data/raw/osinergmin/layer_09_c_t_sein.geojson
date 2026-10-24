@@ -1,0 +1,1970 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.12626806399999,
+          -11.982627544000024
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "EMPRESA": "SDF SUDAMERICANA DE FIBRAS",
+        "NOMBRE": "OQUENDO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 50,
+        "POT_INST": 32.1837,
+        "POT_EFEC": 32.1837,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "Gas Natural/Diesel B5",
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": "TURBOGAS",
+        "PUEST_OPER": 1240358400000,
+        "DEPARTAMENTO": "CALLAO",
+        "PROVINCIA": "CALLAO",
+        "DISTRITO": "CALLAO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2009,
+        "ID_CG": 130,
+        "FICHA": "Central-Termica-Oquendo.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.49333381500003,
+          -9.029263398000012
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "EMPRESA": "TERMOSELVA S.R.L.",
+        "NOMBRE": "AGUAYTIA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": 300,
+        "POT_INST": 191.9095,
+        "POT_EFEC": 179.37171,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": "GAS",
+        "PUEST_OPER": 900892800000,
+        "DEPARTAMENTO": "UCAYALI",
+        "PROVINCIA": "PADRE ABAD",
+        "DISTRITO": "PADRE ABAD",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1997,
+        "ID_CG": 105,
+        "FICHA": "Central-Termica-Aguaytia.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.53392877599998,
+          -16.382700909999983
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "EMPRESA": "EMPRESA DE GENERACIÓN ELÉCTRICA DE AREQUIPA S.A.",
+        "NOMBRE": "CHILINA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 2352.7000000000003,
+        "POT_INST": 21.66,
+        "POT_EFEC": 21.63597,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "RESIDUAL/DIESEL",
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": "CICLOCOMBINADO/DIES",
+        "PUEST_OPER": -63158400000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "AREQUIPA",
+        "DISTRITO": "AREQUIPA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1968,
+        "ID_CG": 111,
+        "FICHA": "Central-Termica-Chilina.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.18941132100002,
+          -17.775908070000014
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "ILO 21",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 25,
+        "POT_INST": 135,
+        "POT_EFEC": 140.35,
+        "TENSION_NOM": 17,
+        "FUENTE_ENER": "CARBON",
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": "VAPOR",
+        "PUEST_OPER": 967075200000,
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "ILO",
+        "DISTRITO": "ILO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2000,
+        "ID_CG": 119,
+        "FICHA": "Central-Termica-Ilo2.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.96823497100002,
+          -13.715388312000016
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "EMPRESA": "EMPRESA DE GENERACIÓN ELÉCTRICA DEL SUR S.A.",
+        "NOMBRE": "INDEPENDENCIA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 300,
+        "POT_INST": 22.928,
+        "POT_EFEC": 23.060679999999998,
+        "TENSION_NOM": 10.5,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "4",
+        "TIPO_TURBINA": "GAS",
+        "PUEST_OPER": 1287532800000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "PISCO",
+        "DISTRITO": "INDEPENDENCIA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2010,
+        "ID_CG": 120,
+        "FICHA": "Central-Termica-Independencia.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.72863801699998,
+          -12.498574667000014
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "EMPRESA": "KALLPA GENERACIÓN S.A.",
+        "NOMBRE": "KALLPA IV - CICLO COMBINADO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 60,
+        "POT_INST": 350,
+        "POT_EFEC": 350,
+        "TENSION_NOM": 18,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "4",
+        "TIPO_TURBINA": "CICLO COMBINADO",
+        "PUEST_OPER": 1344384000000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CAÑETE",
+        "DISTRITO": "CHILCA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2007,
+        "ID_CG": 121,
+        "FICHA": "Central-Termica-Kallpa-IV.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.71727583199998,
+          -12.520837031999974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "EMPRESA": "KALLPA GENERACIÓN S.A.",
+        "NOMBRE": "LAS FLORES CICLO SIMPLE",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 37,
+        "POT_INST": 321.99,
+        "POT_EFEC": 321.99,
+        "TENSION_NOM": 16.5,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": "GAS",
+        "PUEST_OPER": 1274918400000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CAÑETE",
+        "DISTRITO": "CHILCA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2010,
+        "ID_CG": 123,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.99649942999997,
+          -17.025920385000006
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "EMPRESA": "EMPRESA DE GENERACIÓN ELÉCTRICA DE AREQUIPA S.A.",
+        "NOMBRE": "MOLLENDO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 85,
+        "POT_INST": 31.71,
+        "POT_EFEC": 23.889149999999997,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "RESIDUAL/DIESEL",
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": "DIESEL",
+        "PUEST_OPER": 883612800000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "ISLAY",
+        "DISTRITO": "MOLLENDO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1998,
+        "ID_CG": 128,
+        "FICHA": "Central-Termica-Mollendo.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.012272914,
+          -12.039247809000017
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "EMPRESA": "ORYGEN PERÚ S.A.A.",
+        "NOMBRE": "SANTA ROSA I",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 180,
+        "POT_INST": 379.90000000000003,
+        "POT_EFEC": 246.70000000000002,
+        "TENSION_NOM": 16.5,
+        "FUENTE_ENER": "Gas Natural/Diesel B5",
+        "NRO_UNIDADES": "4",
+        "TIPO_TURBINA": "GAS/DIESEL",
+        "PUEST_OPER": 1150502400000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "CERCADO DE LIMA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1982,
+        "ID_CG": 137,
+        "FICHA": "Central-Termica-SantaRosa.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.24675322799999,
+          -15.255401559999996
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "EMPRESA": "SHOUGANG GENERACIÓN ELÉCTRICA S.A.A.",
+        "NOMBRE": "SAN NICOLAS",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 18,
+        "POT_INST": 68.5,
+        "POT_EFEC": 57.75,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "PETROLEO",
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": "VAPOR/DIESEL",
+        "PUEST_OPER": 996105600000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NASCA",
+        "DISTRITO": "MARCONA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1963,
+        "ID_CG": 136,
+        "FICHA": "Central-Termica-SanNicolas.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.81587000000002,
+          -5.555687999999975
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "EMPRESA": "ELECTRONOROESTE S.A.",
+        "NOMBRE": "SECHURA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 107,
+        "POT_INST": 1.6,
+        "POT_EFEC": 1.6,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": "DIESEL",
+        "PUEST_OPER": 757382400000,
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "SECHURA",
+        "DISTRITO": "SECHURA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1994,
+        "ID_CG": 139,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.35700300000002,
+          -6.492056999999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "EMPRESA": "ELECTRO ORIENTE S.A.",
+        "NOMBRE": "TARAPOTO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": 333,
+        "POT_INST": 23.538,
+        "POT_EFEC": 23.538,
+        "TENSION_NOM": 10,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": "TV",
+        "PUEST_OPER": 834796800000,
+        "DEPARTAMENTO": "SAN MARTIN",
+        "PROVINCIA": "SAN MARTIN",
+        "DISTRITO": "TARAPOTO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1970,
+        "ID_CG": 142,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.60434793500002,
+          -3.642518982000013
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "EMPRESA": "ELECTROPERU S.A.",
+        "NOMBRE": "TUMBES",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": null,
+        "POT_INST": 17.50398,
+        "POT_EFEC": 18.02,
+        "TENSION_NOM": 10,
+        "FUENTE_ENER": "RESIDUAL/DIESEL",
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": "DIESEL",
+        "PUEST_OPER": 1696377600000,
+        "DEPARTAMENTO": "TUMBES",
+        "PROVINCIA": "CONTRALMIRANTE VILLAR",
+        "DISTRITO": "ZORRITOS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1996,
+        "ID_CG": 145,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.71658321899997,
+          -12.49329095500002
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "EMPRESA": "TERMOCHILCA SA",
+        "NOMBRE": "SANTO DOMINGO DE LOS OLLEROS  - Ciclo Simple",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 100,
+        "POT_INST": 333.60900000000004,
+        "POT_EFEC": 333.60900000000004,
+        "TENSION_NOM": 16.5,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": "<Null>",
+        "PUEST_OPER": 1382140800000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CAÑETE",
+        "DISTRITO": "CHILCA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2013,
+        "ID_CG": 138,
+        "FICHA": "Central-Termica-SantoDomingoOlleros.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.24116856799998,
+          -7.955876190000026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "EMPRESA": "MINERA BARRICK MISQUICHILCA S.A.",
+        "NOMBRE": "LAGUNAS NORTE",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 4100,
+        "POT_INST": 12.780000000000001,
+        "POT_EFEC": 12.780000000000001,
+        "TENSION_NOM": 4.16,
+        "FUENTE_ENER": "DIESEL 2",
+        "NRO_UNIDADES": "7",
+        "TIPO_TURBINA": "DIESEL",
+        "PUEST_OPER": 1391126400000,
+        "DEPARTAMENTO": "LA LIBERTAD",
+        "PROVINCIA": "SANTIAGO DE CHUCO",
+        "DISTRITO": "QUIRUVILCA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2014,
+        "ID_CG": 122,
+        "FICHA": "Central-Termica-LagunasNorte.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.79224310299998,
+          -6.879024244999982
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "EMPRESA": "SOCIEDAD MINERA CERRO VERDE S.A.A.",
+        "NOMBRE": "RECKA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 69.2,
+        "POT_INST": 181.3,
+        "POT_EFEC": 175.92342,
+        "TENSION_NOM": 18,
+        "FUENTE_ENER": "DIESEL B5/GAS",
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": "GAS",
+        "PUEST_OPER": 1443139200000,
+        "DEPARTAMENTO": "LAMBAYEQUE",
+        "PROVINCIA": "CHICLAYO",
+        "DISTRITO": "REQUE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2015,
+        "ID_CG": 134,
+        "FICHA": "Central-Termica-Recka.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.49408554899998,
+          -11.405204201000004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "EMPRESA": "ELECTRO SUR ESTE S.A.A.",
+        "NOMBRE": "IBERIA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": 234,
+        "POT_INST": 2.41,
+        "POT_EFEC": 1.8250000000000002,
+        "TENSION_NOM": 0,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": "CAT, CUMINS",
+        "PUEST_OPER": 315532800000,
+        "DEPARTAMENTO": "MADRE DE DIOS",
+        "PROVINCIA": "TAHUAMANU",
+        "DISTRITO": "IBERIA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1980,
+        "ID_CG": 166,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.57775800000002,
+          -10.945863640000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "EMPRESA": "ELECTRO SUR ESTE S.A.A.",
+        "NOMBRE": "IÑAPARI",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": 230,
+        "POT_INST": 0.5,
+        "POT_EFEC": 0.727,
+        "TENSION_NOM": 0,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": "CAT",
+        "PUEST_OPER": 315532800000,
+        "DEPARTAMENTO": "MADRE DE DIOS",
+        "PROVINCIA": "TAHUAMANU",
+        "DISTRITO": "IÑAPARI",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1980,
+        "ID_CG": 167,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36738000000003,
+          -15.773462999999992
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "EMPRESA": "SOCIEDAD ELÉCTRICA DEL SUR OESTE S.A.",
+        "NOMBRE": "CARAVELI",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 1774,
+        "POT_INST": 0.55,
+        "POT_EFEC": 0.3,
+        "TENSION_NOM": 0,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": "PERKINS, DAEWO",
+        "PUEST_OPER": 63072000000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "CARAVELÍ",
+        "DISTRITO": "CARAVELÍ",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1972,
+        "ID_CG": 156,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.90469648499999,
+          -12.006087660999981
+        ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "EMPRESA": "ILLAPU ENERGY S.A",
+        "NOMBRE": "HUACHIPA COGENERACIÓN",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 374,
+        "POT_INST": 13.6,
+        "POT_EFEC": 0,
+        "TENSION_NOM": 0,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": "GAS",
+        "PUEST_OPER": 1317340800000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CHOSICA",
+        "DISTRITO": "SANTA EULALIA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2011,
+        "ID_CG": 229,
+        "FICHA": "Central-Termica-Cogeneracion-Huachipa.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.32255619300003,
+          -14.925120917000015
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "EMPRESA": "COMPAÑÍA MINERA ANTAPACCAY S.A",
+        "NOMBRE": "TINTAYA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 4100,
+        "POT_INST": 16,
+        "POT_EFEC": 16,
+        "TENSION_NOM": 0,
+        "FUENTE_ENER": " ",
+        "NRO_UNIDADES": "0",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": null,
+        "DEPARTAMENTO": "CUSCO",
+        "PROVINCIA": "ESPINAR",
+        "DISTRITO": "ESPINAR",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 230,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68752499300001,
+          -16.61092956599998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "EMPRESA": "SOCIEDAD ELÉCTRICA DEL SUR OESTE S.A.",
+        "NOMBRE": "CAMANA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": null,
+        "POT_INST": 5.9,
+        "POT_EFEC": null,
+        "TENSION_NOM": 0,
+        "FUENTE_ENER": " ",
+        "NRO_UNIDADES": "0",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": null,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "CAMANA",
+        "DISTRITO": "JOSE MARIA QUIMPER",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 231,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.18601242,
+          -17.77779549899998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "EMPRESA": "ENGIE ENERGÍA PERÚ S.A.",
+        "NOMBRE": "ILO 4(NEPI)",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 25,
+        "POT_INST": 735,
+        "POT_EFEC": 735,
+        "TENSION_NOM": 18,
+        "FUENTE_ENER": "DIESEL",
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": "DIESEL",
+        "PUEST_OPER": 1477094400000,
+        "DEPARTAMENTO": "MOQUEGUA",
+        "PROVINCIA": "ILO",
+        "DISTRITO": "ILO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2016,
+        "ID_CG": 193,
+        "FICHA": "Central-Termica-Ilo4.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.61588811299998,
+          -8.396626097000023
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "EMPRESA": "INFRAESTRUCTURAS Y ENERGÍAS DEL PERÚ S.A.C.",
+        "NOMBRE": "PUCALLPA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": 160,
+        "POT_INST": 45.75,
+        "POT_EFEC": 40.6,
+        "TENSION_NOM": 10,
+        "FUENTE_ENER": "DIESEL",
+        "NRO_UNIDADES": "22",
+        "TIPO_TURBINA": "MOTOR",
+        "PUEST_OPER": 1469491200000,
+        "DEPARTAMENTO": "UCAYALI",
+        "PROVINCIA": "CORONEL PORTILLO",
+        "DISTRITO": "YARINACOCHA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2016,
+        "ID_CG": 191,
+        "FICHA": "Central-Termica-PlantaPucallpa.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.97745200000003,
+          -17.038329999999974
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "EMPRESA": "SAMAY I S.A.",
+        "NOMBRE": "PUERTO BRAVO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 56.5,
+        "POT_INST": 788.8000000000001,
+        "POT_EFEC": 723.44067,
+        "TENSION_NOM": 18,
+        "FUENTE_ENER": "DIESEL",
+        "NRO_UNIDADES": "4",
+        "TIPO_TURBINA": "DIESEL",
+        "PUEST_OPER": 1464220800000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "ISLAY",
+        "DISTRITO": "MOLLENDO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2016,
+        "ID_CG": 194,
+        "FICHA": "Central-Termica-PuertoBravo.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.53633760999998,
+          -10.121478657000011
+        ]
+      },
+      "properties": {
+        "OBJECTID": 174,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "POZUZO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 860,
+        "POT_INST": 1.2,
+        "POT_EFEC": 0.5,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "4",
+        "TIPO_TURBINA": "PELTON",
+        "PUEST_OPER": 441763200000,
+        "DEPARTAMENTO": "PASCO",
+        "PROVINCIA": "OXAPAMPA",
+        "DISTRITO": "OXAPAMPA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1984,
+        "ID_CG": 176,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 227,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.14169624300001,
+          -12.052254306999998
+        ]
+      },
+      "properties": {
+        "OBJECTID": 227,
+        "EMPRESA": "TERMINALS CALLAO S.A",
+        "NOMBRE": "PUERTO CALLAO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 34,
+        "POT_INST": 13.25,
+        "POT_EFEC": 13.25,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "7",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1451865600000,
+        "DEPARTAMENTO": "CALLAO",
+        "PROVINCIA": "CALLAO",
+        "DISTRITO": "BELLAVISTA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2016,
+        "ID_CG": 253,
+        "FICHA": "Central-Termica-PuertoCallao.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 249,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.83778593699998,
+          -12.300263957000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 249,
+        "EMPRESA": "PROGENERE S.A.C.",
+        "NOMBRE": "LA GRINGA VI",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 9,
+        "POT_INST": 11.96,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "8",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1410307200000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "LURIN",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2014,
+        "ID_CG": 263,
+        "FICHA": "Central-Biomasa-LaGringaV.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.26574146600001,
+          -4.536370768999973
+        ]
+      },
+      "properties": {
+        "OBJECTID": 295,
+        "EMPRESA": "ENEL GENERACIÓN PIURA S.A.",
+        "NOMBRE": "MALACAS",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 27,
+        "POT_INST": 396.48,
+        "POT_EFEC": 147.88,
+        "TENSION_NOM": 55.980000000000004,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "6",
+        "TIPO_TURBINA": "GAS",
+        "PUEST_OPER": 1356998400000,
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "TALARA",
+        "DISTRITO": "PARINAS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2013,
+        "ID_CG": 125,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 299,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76,
+          -12
+        ]
+      },
+      "properties": {
+        "OBJECTID": 299,
+        "EMPRESA": "AJEPER S.A",
+        "NOMBRE": "AJE",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 205,
+        "POT_INST": 6.53,
+        "POT_EFEC": null,
+        "TENSION_NOM": 0.46,
+        "FUENTE_ENER": "Gas Natural",
+        "NRO_UNIDADES": "5",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1534723200000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CALLAO",
+        "DISTRITO": "LURIGANCHO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 317,
+        "FICHA": "C.H.Aje.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 300,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.13483018800002,
+          -13.450484658999983
+        ]
+      },
+      "properties": {
+        "OBJECTID": 300,
+        "EMPRESA": "ELECTRO DUNAS S.A.A.",
+        "NOMBRE": "PEDREGAL",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 137,
+        "POT_INST": 18,
+        "POT_EFEC": 18,
+        "TENSION_NOM": 10,
+        "FUENTE_ENER": "Gas Natural",
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1553990400000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "CHINCHA",
+        "DISTRITO": "ALTO LARAN",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2019,
+        "ID_CG": 318,
+        "FICHA": "C.T.Pedregal.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.87311409400002,
+          -12.276069916999973
+        ]
+      },
+      "properties": {
+        "OBJECTID": 304,
+        "EMPRESA": "SURPACK",
+        "NOMBRE": "SURPACK",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 9,
+        "POT_INST": 2.61,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1520380800000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "LURIN",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2018,
+        "ID_CG": 322,
+        "FICHA": "Central-Termica-Surpack.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 306,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.90964502899999,
+          -13.905404061000013
+        ]
+      },
+      "properties": {
+        "OBJECTID": 306,
+        "EMPRESA": "CONSORCIO ELECTRICO DE VILLACURI S.A.C.",
+        "NOMBRE": "VILLACURI",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 200,
+        "POT_INST": 2.5,
+        "POT_EFEC": null,
+        "TENSION_NOM": 0.48,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "4",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1572566400000,
+        "DEPARTAMENTO": "ICA ",
+        "PROVINCIA": " ICA ",
+        "DISTRITO": " SALAS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2019,
+        "ID_CG": 324,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 309,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.717494886,
+          -14.089899451000008
+        ]
+      },
+      "properties": {
+        "OBJECTID": 309,
+        "EMPRESA": "ELECTRO DUNAS S.A.A.",
+        "NOMBRE": "LUREN",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": null,
+        "POT_INST": 18.68,
+        "POT_EFEC": 18.68,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1498867200000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "LOS AQUIJES",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 327,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 314,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.84876087200001,
+          -4.926841378999995
+        ]
+      },
+      "properties": {
+        "OBJECTID": 314,
+        "EMPRESA": "AGROAURORA S.A.C.",
+        "NOMBRE": "C.T. MAPLE ETANOL",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": null,
+        "POT_INST": 37.5,
+        "POT_EFEC": null,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1345161600000,
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "PAITA",
+        "DISTRITO": "LA HUACA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 331,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 321,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.059505893,
+          -5.058485587000007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 321,
+        "EMPRESA": "ELECTRONOROESTE S.A.",
+        "NOMBRE": "PAITA EMERGENCIA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": null,
+        "POT_INST": 16,
+        "POT_EFEC": 16,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "17",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1583712000000,
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "PAITA",
+        "DISTRITO": "PAITA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 338,
+        "FICHA": "Central-Termica-Paita.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.957881998,
+          -4.225424996000015
+        ]
+      },
+      "properties": {
+        "OBJECTID": 323,
+        "EMPRESA": "ELECTRO ORIENTE S.A.",
+        "NOMBRE": "SANTA ROSA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "A",
+        "REGION_GEOGRAFICA": "SE",
+        "ALTITUD": null,
+        "POT_INST": 379.90000000000003,
+        "POT_EFEC": 379.90000000000003,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1441065600000,
+        "DEPARTAMENTO": "LORETO",
+        "PROVINCIA": "MARISCAL RAMÓN CASTILLA",
+        "DISTRITO": "YAVARÍ",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 1969,
+        "ID_CG": 340,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.81621410100001,
+          -6.376052996999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 327,
+        "EMPRESA": "ELECTROCENTRO S.A.",
+        "NOMBRE": "CUTERVO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 2649,
+        "POT_INST": 0.5,
+        "POT_EFEC": 0.5,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": null,
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CUTERVO",
+        "DISTRITO": "CUTERVO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 345,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 339,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.44709404999998,
+          -5.759917697999981
+        ]
+      },
+      "properties": {
+        "OBJECTID": 339,
+        "EMPRESA": "ELECTRO ORIENTE S.A.",
+        "NOMBRE": "BAGUA GRANDE",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 463,
+        "POT_INST": 3.45,
+        "POT_EFEC": 1.7,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "4",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": null,
+        "DEPARTAMENTO": "AMAZONAS",
+        "PROVINCIA": "UTCUBAMBA",
+        "DISTRITO": "BAGUA GRANDE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 356,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 344,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.03997530700002,
+          -4.989671382999973
+        ]
+      },
+      "properties": {
+        "OBJECTID": 344,
+        "EMPRESA": "SDE PIURA  SAC",
+        "NOMBRE": "TALLANCA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 84,
+        "POT_INST": 18.400000000000002,
+        "POT_EFEC": 18.400000000000002,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1619395200000,
+        "DEPARTAMENTO": "PIURA",
+        "PROVINCIA": "PAITA",
+        "DISTRITO": "PAITA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2020,
+        "ID_CG": 367,
+        "FICHA": "Central-Termica-Tallanca.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 363,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.28497122499999,
+          -4.5761997750000205
+        ]
+      },
+      "properties": {
+        "OBJECTID": 363,
+        "EMPRESA": "GM OPERACIONES SAC",
+        "NOMBRE": "REFINERÍA TALARA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 15,
+        "POT_INST": 102.34,
+        "POT_EFEC": 371.74355,
+        "TENSION_NOM": 13.8,
+        "FUENTE_ENER": "Flexigas (FXG), Gas de Refine*",
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1713484800000,
+        "DEPARTAMENTO": "PIURA ",
+        "PROVINCIA": "TALARA ",
+        "DISTRITO": "PARIÑAS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2022,
+        "ID_CG": 386,
+        "FICHA": "Central-Termica-Refineria-Talara.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 364,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.71669911599997,
+          -12.521384297999987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 364,
+        "EMPRESA": "KALLPA GENERACIÓN S.A.",
+        "NOMBRE": "LAS FLORES CICLO COMBINADO ",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 37,
+        "POT_INST": 324,
+        "POT_EFEC": 321.8,
+        "TENSION_NOM": 16.5,
+        "FUENTE_ENER": "Gas Natural",
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": "<Null>",
+        "PUEST_OPER": 1653609600000,
+        "DEPARTAMENTO": "LIMA ",
+        "PROVINCIA": " CAÑETE ",
+        "DISTRITO": " CHILCA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2022,
+        "ID_CG": 387,
+        "FICHA": "Central-Termica-LasFlores.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 370,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.93276606799998,
+          -12.04079796100001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 370,
+        "EMPRESA": "CALIDDA ENERGÍA S.A.C.",
+        "NOMBRE": "PURUCHUCO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 355,
+        "POT_INST": 4,
+        "POT_EFEC": null,
+        "TENSION_NOM": 0.48,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1617926400000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "LIMA",
+        "DISTRITO": "ATE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": 2021,
+        "ID_CG": 393,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.88348284900002,
+          -15.213455630999988
+        ]
+      },
+      "properties": {
+        "OBJECTID": 379,
+        "EMPRESA": "SOCIEDAD ELÉCTRICA DEL SUR OESTE S.A.",
+        "NOMBRE": "COTAHUASI",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": null,
+        "POT_INST": 0.3,
+        "POT_EFEC": 0.26,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": null,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "LA UNIÓN",
+        "DISTRITO": "COTAHUASI",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 400,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 381,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.82445965099998,
+          -6.116816523000011
+        ]
+      },
+      "properties": {
+        "OBJECTID": 381,
+        "EMPRESA": "ELECTRONORTE S.A.",
+        "NOMBRE": "SANTA CRUZ",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": null,
+        "POT_INST": 0.45,
+        "POT_EFEC": 0.45,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": null,
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "CHOTA",
+        "DISTRITO": "CHOTA",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 402,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 382,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.131186265,
+          -11.997211228000026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 382,
+        "EMPRESA": "PTAR TABOADA",
+        "NOMBRE": "TABOADA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 5,
+        "POT_INST": 2.2,
+        "POT_EFEC": null,
+        "TENSION_NOM": 4.16,
+        "FUENTE_ENER": "GAS NATURAL",
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1635465600000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": null,
+        "DISTRITO": "CALLAO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 403,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 388,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.98087236600003,
+          -14.86445428799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 388,
+        "EMPRESA": "ELECTRO DUNAS S.A.A.",
+        "NOMBRE": "NASCA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 520,
+        "POT_INST": 9.9,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1723939200000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "NAZCA",
+        "DISTRITO": "VISTA ALEGRE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 409,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 405,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.116462765,
+          -12.03485740299999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 405,
+        "EMPRESA": "LIMA AIRPORT PARTNERS S.R.L.",
+        "NOMBRE": "PLANTA DE EMERG. DEL CENTRO DE DATOS PRIMARIOS",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 11,
+        "POT_INST": 22,
+        "POT_EFEC": null,
+        "TENSION_NOM": 0.48,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "11",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1743292800000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CALLAO",
+        "DISTRITO": "CALLAO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 426,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 406,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.11777916699998,
+          -12.026755503999993
+        ]
+      },
+      "properties": {
+        "OBJECTID": 406,
+        "EMPRESA": "LIMA AIRPORT PARTNERS S.R.L.",
+        "NOMBRE": "PLANTA DE EMERG. DEL CENTRO DE DATOS SECUNDARIOS",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 11,
+        "POT_INST": 0.8,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "ASTM Diesel Nº 2",
+        "NRO_UNIDADES": "1",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1743292800000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CALLAO",
+        "DISTRITO": "CALLAO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 427,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 414,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.72591058900002,
+          -12.484000245999994
+        ]
+      },
+      "properties": {
+        "OBJECTID": 414,
+        "EMPRESA": "CONSORCIO ELECTRICO DE VILLACURI S.A.C.",
+        "NOMBRE": "LA CHUTANA",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": 190,
+        "POT_INST": 9.950000000000001,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": null,
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1684108800000,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "SALAS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 435,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 422,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.182523823,
+          -7.742178600999978
+        ]
+      },
+      "properties": {
+        "OBJECTID": 422,
+        "EMPRESA": "CASA GRANDE",
+        "NOMBRE": "CASA GRANDE",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 240,
+        "POT_INST": 37.34,
+        "POT_EFEC": 55.706959999999995,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "BIOMASA",
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1764892800000,
+        "DEPARTAMENTO": "LA LIBERTAD",
+        "PROVINCIA": "ASCOPE",
+        "DISTRITO": "CASA GRANDE",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 443,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 423,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.11548244199997,
+          -12.036837492000018
+        ]
+      },
+      "properties": {
+        "OBJECTID": 423,
+        "EMPRESA": "LIMA AIRPORT PARTNERS S.R.L.",
+        "NOMBRE": "PLANTA DE EMERG. DEL NUEVO AEROPUERTO JORGE CHAVEZ",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": null,
+        "ALTITUD": 10,
+        "POT_INST": 2,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": "ASTM Diesel Nº 2",
+        "NRO_UNIDADES": null,
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1743292800000,
+        "DEPARTAMENTO": "LIMA",
+        "PROVINCIA": "CALLAO",
+        "DISTRITO": "CALLAO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 444,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 425,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.98834295400002,
+          -5.133125823
+        ]
+      },
+      "properties": {
+        "OBJECTID": 425,
+        "EMPRESA": "ELECTRO ORIENTE S.A.",
+        "NOMBRE": "SAN IGNACIO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "SI",
+        "ALTITUD": null,
+        "POT_INST": 3.99,
+        "POT_EFEC": 3.99,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "3",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": null,
+        "DEPARTAMENTO": "CAJAMARCA",
+        "PROVINCIA": "SAN IGNACIO",
+        "DISTRITO": "SAN IGNACIO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 446,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 429,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.060804126,
+          -6.085216084000024
+        ]
+      },
+      "properties": {
+        "OBJECTID": 429,
+        "EMPRESA": "AGROLMOS S.A.",
+        "NOMBRE": "AGROLMOS",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 175,
+        "POT_INST": 26.256,
+        "POT_EFEC": 28.28426,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": "2",
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 1755302400000,
+        "DEPARTAMENTO": "LAMBAYEQUE",
+        "PROVINCIA": "LAMBAYEQUE",
+        "DISTRITO": "OLMOS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": 450,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 440,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.909349254,
+          -13.905504614999984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 440,
+        "EMPRESA": "CONSORCIO ELECTRICO DE VILLACURI S.A.C.",
+        "NOMBRE": "SALAS",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": null,
+        "POT_INST": 9.9,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": null,
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": null,
+        "DEPARTAMENTO": "ICA",
+        "PROVINCIA": "ICA",
+        "DISTRITO": "SALAS",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": null,
+        "FICHA": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 443,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615079777,
+          -16.226065448999975
+        ]
+      },
+      "properties": {
+        "OBJECTID": 443,
+        "EMPRESA": "SOCIEDAD ELÉCTRICA DEL SUR OESTE S.A.",
+        "NOMBRE": "ATICO",
+        "TIPO_CENTRAL": "CENTRAL TERMICA",
+        "TIPO_SISTEMA": "I",
+        "REGION_GEOGRAFICA": "CO",
+        "ALTITUD": 75,
+        "POT_INST": 2.6,
+        "POT_EFEC": null,
+        "TENSION_NOM": null,
+        "FUENTE_ENER": null,
+        "NRO_UNIDADES": null,
+        "TIPO_TURBINA": null,
+        "PUEST_OPER": 157766400000,
+        "DEPARTAMENTO": "AREQUIPA",
+        "PROVINCIA": "CARAVELI",
+        "DISTRITO": "ATICO",
+        "FOTO": null,
+        "ESTADO": "ES",
+        "PCO_ANIO": null,
+        "ID_CG": null,
+        "FICHA": null
+      }
+    }
+  ],
+  "properties": {
+    "layer_id": 9,
+    "layer_name": "C.T. SEIN",
+    "geometry_type": "esriGeometryPoint"
+  }
+}
