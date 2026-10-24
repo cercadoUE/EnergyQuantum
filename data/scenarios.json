@@ -1,0 +1,30 @@
+{
+  "normal": {},
+  "single_failure": {
+    "failed": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "multiple_failures": {
+    "failed": [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "demand_stress": {
+    "demand_factor": 1.5,
+    "selected_nodes": [
+      6,
+      11
+    ]
+  }
+}

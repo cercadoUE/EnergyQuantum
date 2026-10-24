@@ -1,0 +1,158 @@
+[
+  {
+    "id": 0,
+    "name": "Tumbes",
+    "demand": 5,
+    "generation": 0,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      0.0,
+      0
+    ],
+    "operational": true
+  },
+  {
+    "id": 1,
+    "name": "Zorritos",
+    "demand": 2,
+    "generation": 0,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      2.0,
+      0
+    ],
+    "operational": true
+  },
+  {
+    "id": 2,
+    "name": "Máncora",
+    "demand": 2,
+    "generation": 0,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      4.0,
+      0
+    ],
+    "operational": true
+  },
+  {
+    "id": 3,
+    "name": "Talara",
+    "demand": 5,
+    "generation": 30,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      0.3,
+      -2
+    ],
+    "operational": true
+  },
+  {
+    "id": 4,
+    "name": "Paita",
+    "demand": 4,
+    "generation": 0,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      2.3,
+      -2
+    ],
+    "operational": true
+  },
+  {
+    "id": 5,
+    "name": "Sullana",
+    "demand": 7,
+    "generation": 0,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      4.3,
+      -2
+    ],
+    "operational": true
+  },
+  {
+    "id": 6,
+    "name": "Piura",
+    "demand": 10,
+    "generation": 0,
+    "priority": 2,
+    "type": "Agregado sintético",
+    "position": [
+      0.6,
+      -4
+    ],
+    "operational": true
+  },
+  {
+    "id": 7,
+    "name": "Chulucanas",
+    "demand": 3,
+    "generation": 0,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      2.6,
+      -4
+    ],
+    "operational": true
+  },
+  {
+    "id": 8,
+    "name": "Sechura",
+    "demand": 3,
+    "generation": 0,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      4.6,
+      -4
+    ],
+    "operational": true
+  },
+  {
+    "id": 9,
+    "name": "Olmos",
+    "demand": 2,
+    "generation": 0,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      0.8999999999999999,
+      -6
+    ],
+    "operational": true
+  },
+  {
+    "id": 10,
+    "name": "Lambayeque",
+    "demand": 5,
+    "generation": 30,
+    "priority": 1,
+    "type": "Agregado sintético",
+    "position": [
+      2.9,
+      -6
+    ],
+    "operational": true
+  },
+  {
+    "id": 11,
+    "name": "Chiclayo",
+    "demand": 9,
+    "generation": 0,
+    "priority": 2,
+    "type": "Agregado sintético",
+    "position": [
+      4.9,
+      -6
+    ],
+    "operational": true
+  }
+]

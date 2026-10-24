@@ -1,0 +1,146 @@
+[
+  {
+    "source": 0,
+    "target": 1,
+    "cost": 2,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.1,
+    "capacity": 20
+  },
+  {
+    "source": 1,
+    "target": 2,
+    "cost": 3,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.25,
+    "capacity": 20
+  },
+  {
+    "source": 2,
+    "target": 3,
+    "cost": 4,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.4,
+    "capacity": 20
+  },
+  {
+    "source": 3,
+    "target": 4,
+    "cost": 5,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.55,
+    "capacity": 20
+  },
+  {
+    "source": 4,
+    "target": 5,
+    "cost": 2,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.7,
+    "capacity": 20
+  },
+  {
+    "source": 5,
+    "target": 6,
+    "cost": 3,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.1,
+    "capacity": 20
+  },
+  {
+    "source": 6,
+    "target": 7,
+    "cost": 4,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.25,
+    "capacity": 20
+  },
+  {
+    "source": 7,
+    "target": 8,
+    "cost": 5,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.4,
+    "capacity": 20
+  },
+  {
+    "source": 8,
+    "target": 9,
+    "cost": 2,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.55,
+    "capacity": 20
+  },
+  {
+    "source": 9,
+    "target": 10,
+    "cost": 3,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.7,
+    "capacity": 20
+  },
+  {
+    "source": 10,
+    "target": 11,
+    "cost": 4,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.1,
+    "capacity": 20
+  },
+  {
+    "source": 0,
+    "target": 3,
+    "cost": 2,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.1,
+    "capacity": 20
+  },
+  {
+    "source": 3,
+    "target": 6,
+    "cost": 4,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.55,
+    "capacity": 20
+  },
+  {
+    "source": 4,
+    "target": 7,
+    "cost": 2,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.7,
+    "capacity": 20
+  },
+  {
+    "source": 6,
+    "target": 9,
+    "cost": 3,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.25,
+    "capacity": 20
+  },
+  {
+    "source": 8,
+    "target": 11,
+    "cost": 2,
+    "available": true,
+    "failed": false,
+    "vulnerability": 0.55,
+    "capacity": 20
+  }
+]
