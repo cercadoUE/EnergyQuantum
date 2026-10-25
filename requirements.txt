@@ -38,7 +38,7 @@ Pygments==2.21.0
 pylatexenc==2.11
 pyparsing==3.3.3
 pytest==9.1.1
-python-dateutil==3.0.0
+python-dateutil==2.9.0.post0
 python-multipart==0.0.32
 python-pptx==1.0.2
 qiskit==2.6.1
