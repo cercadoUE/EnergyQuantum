@@ -1,0 +1,8 @@
+{
+  "job_id": "dbf241npc3tc739mk9jg",
+  "backend": "ibm_kingston",
+  "shots": 1024,
+  "max_execution_time": 60,
+  "input_hash": "ef550b6221ca29f81f1db18957755a74915529b28030d0f45af02f6ea10b551a",
+  "submitted_utc": "2026-10-25T15:36:38.655915+00:00"
+}

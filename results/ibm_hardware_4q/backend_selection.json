@@ -1,0 +1,17 @@
+{
+  "criteria": "pending jobs, then two-qubit gates, then depth",
+  "candidates": [
+    {
+      "pending": 5,
+      "two_qubit_gates": 18,
+      "depth": 64,
+      "backend": "ibm_fez"
+    },
+    {
+      "pending": 1,
+      "two_qubit_gates": 18,
+      "depth": 64,
+      "backend": "ibm_kingston"
+    }
+  ]
+}

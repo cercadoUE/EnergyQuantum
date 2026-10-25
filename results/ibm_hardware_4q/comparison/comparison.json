@@ -1,0 +1,23 @@
+{
+  "complete": false,
+  "rows": [
+    {
+      "backend": "Aer ideal",
+      "shots": 1024,
+      "expected": 1.0414993767393321,
+      "feasible_fraction": 0.9091796875,
+      "optimum_frequency": 0.4267578125,
+      "best": {
+        "bits": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "objective": 0.45454545454545453
+      },
+      "feasibility_definition": "Two nonempty groups only; no electrical feasibility"
+    }
+  ],
+  "note": "Same logical circuit and parameters; device-specific transpilation. Independent queues. One run per device is not a general ranking."
+}

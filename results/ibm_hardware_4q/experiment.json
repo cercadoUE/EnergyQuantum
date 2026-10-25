@@ -1,0 +1,314 @@
+{
+  "created_utc": "2026-10-25T15:26:52.161459+00:00",
+  "description": "Synthetic network; simulator-trained parameters evaluated on hardware",
+  "data": {
+    "nodes": [
+      {
+        "id": 0,
+        "name": "Tumbes",
+        "demand": 5,
+        "generation": 0,
+        "priority": 1,
+        "type": "Agregado sintético",
+        "position": [
+          0.0,
+          0
+        ],
+        "operational": true
+      },
+      {
+        "id": 1,
+        "name": "Zorritos",
+        "demand": 2,
+        "generation": 0,
+        "priority": 1,
+        "type": "Agregado sintético",
+        "position": [
+          2.0,
+          0
+        ],
+        "operational": true
+      },
+      {
+        "id": 2,
+        "name": "Máncora",
+        "demand": 2,
+        "generation": 0,
+        "priority": 1,
+        "type": "Agregado sintético",
+        "position": [
+          4.0,
+          0
+        ],
+        "operational": true
+      },
+      {
+        "id": 3,
+        "name": "Talara",
+        "demand": 5,
+        "generation": 30,
+        "priority": 1,
+        "type": "Agregado sintético",
+        "position": [
+          0.3,
+          -2
+        ],
+        "operational": true
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1,
+        "cost": 2,
+        "available": true,
+        "failed": false,
+        "vulnerability": 0.1,
+        "capacity": 20
+      },
+      {
+        "source": 1,
+        "target": 2,
+        "cost": 3,
+        "available": true,
+        "failed": false,
+        "vulnerability": 0.25,
+        "capacity": 20
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "cost": 4,
+        "available": true,
+        "failed": false,
+        "vulnerability": 0.4,
+        "capacity": 20
+      },
+      {
+        "source": 0,
+        "target": 3,
+        "cost": 2,
+        "available": true,
+        "failed": false,
+        "vulnerability": 0.1,
+        "capacity": 20
+      }
+    ]
+  },
+  "objective": {
+    "alpha": 1.0,
+    "beta": 3.0
+  },
+  "input_hash": "ef550b6221ca29f81f1db18957755a74915529b28030d0f45af02f6ea10b551a",
+  "exact": {
+    "method": "Exacto",
+    "bits": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "seconds": 0.0013240999542176723,
+    "evaluations": 7,
+    "seed": null,
+    "input_hash": "ef550b6221ca29f81f1db18957755a74915529b28030d0f45af02f6ea10b551a",
+    "cut": 5.0,
+    "imbalance": 0.0,
+    "balance": 0.0,
+    "objective": 0.45454545454545453,
+    "validation": {
+      "feasible": true,
+      "connected": true,
+      "generation_adequate": false,
+      "generation_margins": [
+        -7,
+        23
+      ],
+      "components": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  "aer": {
+    "method": "QAOA",
+    "bits": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "seconds": 5.333221599925309,
+    "evaluations": 37,
+    "seed": 7,
+    "input_hash": "ef550b6221ca29f81f1db18957755a74915529b28030d0f45af02f6ea10b551a",
+    "cut": 5.0,
+    "imbalance": 0.0,
+    "balance": 0.0,
+    "objective": 0.45454545454545453,
+    "validation": {
+      "feasible": true,
+      "connected": true,
+      "generation_adequate": false,
+      "generation_margins": [
+        -7,
+        23
+      ],
+      "components": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "p": 1,
+    "maxiter": 60,
+    "shots": 1024,
+    "optimizer": "COBYLA",
+    "status": "completed",
+    "converged": true,
+    "message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+    "expected": 1.0184609081733402,
+    "sampled_expected": 1.0414993767393321,
+    "feasible_fraction": 0.9091796875,
+    "counts": {
+      "1100": 202,
+      "0011": 235,
+      "1001": 49,
+      "0001": 37,
+      "1101": 44,
+      "1110": 32,
+      "0110": 53,
+      "0111": 54,
+      "1000": 76,
+      "0000": 42,
+      "0010": 50,
+      "1111": 51,
+      "1011": 24,
+      "0101": 40,
+      "0100": 16,
+      "1010": 19
+    },
+    "parameters": [
+      0.979795385408977,
+      2.189329099013955
+    ],
+    "parameter_order": [
+      "beta[0]",
+      "gamma[0]"
+    ],
+    "trace": [
+      1.2174385652486317,
+      1.4782453407408196,
+      1.35237864631571,
+      1.0762577031954355,
+      1.528372341410334,
+      1.3269098406913236,
+      1.0679229625853295,
+      1.0501097627522575,
+      1.0900240722507517,
+      1.1033009493533195,
+      1.0222598026365874,
+      1.0345431567432077,
+      1.0242099505379954,
+      1.0305501264878285,
+      1.0243527977121958,
+      1.0193858226040988,
+      1.0200407547365182,
+      1.0190309994541091,
+      1.0186522028892877,
+      1.018775331388345,
+      1.0184682650787868,
+      1.0186772786159952,
+      1.0184749402311106,
+      1.0184853744202866,
+      1.0184717610479255,
+      1.0184637413294726,
+      1.0184611592163861,
+      1.0184615530173533,
+      1.018461486502773,
+      1.0184613338116857,
+      1.0184610192824852,
+      1.01846124428606,
+      1.0184609810436993,
+      1.0184609317221969,
+      1.0184609421134865,
+      1.0184609081733402,
+      1.0184609258642616
+    ],
+    "qubits": 4,
+    "depth": 7,
+    "gates": {
+      "rzz": 6,
+      "h": 4,
+      "rx": 4
+    },
+    "hamiltonian": [
+      [
+        "IIII",
+        1.3877551020408168
+      ],
+      [
+        "IIZZ",
+        0.21521335807050093
+      ],
+      [
+        "IZIZ",
+        0.30612244897959184
+      ],
+      [
+        "ZIIZ",
+        0.6743970315398887
+      ],
+      [
+        "IZZI",
+        -0.013914656771799622
+      ],
+      [
+        "ZIZI",
+        0.30612244897959184
+      ],
+      [
+        "ZZII",
+        0.12430426716141002
+      ]
+    ],
+    "offset": 1.3877551020408168,
+    "scale": 0.6743970315398887,
+    "time_limit": 60.0,
+    "max_evaluations": 500
+  },
+  "aer_metrics": {
+    "shots": 1024,
+    "expected": 1.0414993767393321,
+    "feasible_fraction": 0.9091796875,
+    "optimum_frequency": 0.4267578125,
+    "best": {
+      "bits": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "objective": 0.45454545454545453
+    },
+    "feasibility_definition": "Two nonempty groups only; no electrical feasibility"
+  },
+  "versions": {
+    "qiskit": "2.6.1",
+    "qiskit-aer": "0.18.0",
+    "qiskit-ibm-runtime": "0.51.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  }
+}
