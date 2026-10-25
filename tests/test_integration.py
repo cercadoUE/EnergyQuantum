@@ -47,7 +47,7 @@ def test_ui_qaoa_export_and_failure():
         app.sidebar.radio[0].set_value(page).run()
         assert not app.exception
     app.sidebar.radio[0].set_value('Simulador de fallas').run()
-    app.multiselect[0].set_value(['1–2','0–3']).run()
+    app.multiselect[0].set_value(['1–2','0–3'])
     app.button[0].click().run()
     assert not app.session_state['runs']
     assert metrics(app.session_state['data'])['components']==2
